@@ -1,0 +1,225 @@
+[
+  {
+    "repo": "rtk-ai/rtk",
+    "title": "A leading `--` is dropped before the tool runs for 19 passthrough commands (`rtk pytest -- -k.py` runs the wrong tests)",
+    "url": "https://github.com/rtk-ai/rtk/issues/4753",
+    "labels": [
+      "bug",
+      "good first issue",
+      "priority:high",
+      "area:cli"
+    ],
+    "comments": 4,
+    "created_at": "2026-10-23T12:43:42Z",
+    "stars": 85050,
+    "language": "Rust"
+  },
+  {
+    "repo": "langgenius/dify",
+    "title": "bump to python 3.14",
+    "url": "https://github.com/langgenius/dify/issues/43768",
+    "labels": [
+      "good first issue"
+    ],
+    "comments": 5,
+    "created_at": "2026-10-09T16:30:53Z",
+    "stars": 159992,
+    "language": "Python"
+  },
+  {
+    "repo": "tldr-pages/tldr",
+    "title": "Documentation request megaissue",
+    "url": "https://github.com/tldr-pages/tldr/issues/24261",
+    "labels": [
+      "help wanted",
+      "good first issue"
+    ],
+    "comments": 1,
+    "created_at": "2026-09-25T08:37:09Z",
+    "stars": 64080,
+    "language": "Markdown"
+  },
+  {
+    "repo": "rtk-ai/rtk",
+    "title": "rewrite: declines env-wrapped (env -u) and sudo-prefixed commands",
+    "url": "https://github.com/rtk-ai/rtk/issues/4099",
+    "labels": [
+      "bug",
+      "good first issue",
+      "area:cli",
+      "priority:medium"
+    ],
+    "comments": 2,
+    "created_at": "2026-09-17T21:31:52Z",
+    "stars": 85050,
+    "language": "Rust"
+  },
+  {
+    "repo": "microsoft/markitdown",
+    "title": "Autonomous Agents, Unite!",
+    "url": "https://github.com/microsoft/markitdown/issues/2386",
+    "labels": [
+      "good first issue"
+    ],
+    "comments": 4,
+    "created_at": "2026-09-04T19:08:05Z",
+    "stars": 192990,
+    "language": "Python"
+  },
+  {
+    "repo": "rtk-ai/rtk",
+    "title": "SECURITY.md references a `security-check.yml` workflow, a `detect-dangerous-patterns.sh` script and six source paths that are all absent from the repository",
+    "url": "https://github.com/rtk-ai/rtk/issues/3423",
+    "labels": [
+      "documentation",
+      "good first issue",
+      "priority:medium",
+      "area:security",
+      "area:docs"
+    ],
+    "comments": 5,
+    "created_at": "2026-08-04T19:19:26Z",
+    "stars": 85050,
+    "language": "Rust"
+  },
+  {
+    "repo": "rtk-ai/rtk",
+    "title": "hook: leaks \"no such file\" stderr when probing absent dependency manifests (go.sum / package-lock.json / Cargo.lock)",
+    "url": "https://github.com/rtk-ai/rtk/issues/2942",
+    "labels": [
+      "bug",
+      "good first issue",
+      "area:cli",
+      "priority:medium"
+    ],
+    "comments": 4,
+    "created_at": "2026-07-11T00:01:33Z",
+    "stars": 85050,
+    "language": "Rust"
+  },
+  {
+    "repo": "penpot/penpot",
+    "title": "Zombie chrome-headless processes created on element export",
+    "url": "https://github.com/penpot/penpot/issues/10339",
+    "labels": [
+      "good first issue",
+      "contribution welcome"
+    ],
+    "comments": 4,
+    "created_at": "2026-06-19T13:05:20Z",
+    "stars": 61870,
+    "language": "Clojure"
+  },
+  {
+    "repo": "shareAI-lab/learn-claude-code",
+    "title": "Visual summary of the agent harness architecture",
+    "url": "https://github.com/shareAI-lab/learn-claude-code/issues/355",
+    "labels": [
+      "good first issue"
+    ],
+    "comments": 0,
+    "created_at": "2026-06-08T22:58:23Z",
+    "stars": 79567,
+    "language": "Python"
+  },
+  {
+    "repo": "farion1231/cc-switch",
+    "title": "建议支持 Skill 文件夹分类管理、优化 Hermes 导入体验及全选/全不选交互",
+    "url": "https://github.com/farion1231/cc-switch/issues/3611",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ],
+    "comments": 2,
+    "created_at": "2026-06-02T14:42:10Z",
+    "stars": 150329,
+    "language": "Rust"
+  },
+  {
+    "repo": "nexu-io/open-design",
+    "title": "Hide the unavailable Ingest source section from the Automations page for now",
+    "url": "https://github.com/nexu-io/open-design/issues/2681",
+    "labels": [
+      "bug",
+      "good first issue",
+      "help wanted"
+    ],
+    "comments": 3,
+    "created_at": "2026-05-22T07:36:11Z",
+    "stars": 104981,
+    "language": "TypeScript"
+  },
+  {
+    "repo": "rtk-ai/rtk",
+    "title": "[rewrite] dotnet test|restore|format should auto-rewrite to rtk dotnet",
+    "url": "https://github.com/rtk-ai/rtk/issues/1830",
+    "labels": [
+      "bug",
+      "good first issue",
+      "area:cli",
+      "priority:medium"
+    ],
+    "comments": 5,
+    "created_at": "2026-05-11T09:43:31Z",
+    "stars": 85050,
+    "language": "Rust"
+  },
+  {
+    "repo": "rtk-ai/rtk",
+    "title": "feat: Extend git subcommand coverage (ls-files, rm, tag)",
+    "url": "https://github.com/rtk-ai/rtk/issues/1526",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "effort-medium",
+      "area:cli",
+      "priority:medium"
+    ],
+    "comments": 4,
+    "created_at": "2026-04-25T18:47:56Z",
+    "stars": 85050,
+    "language": "Rust"
+  },
+  {
+    "repo": "rtk-ai/rtk",
+    "title": "terraform, mix, git, just, fish, kubectl and custom commands to add",
+    "url": "https://github.com/rtk-ai/rtk/issues/1473",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "good first issue",
+      "effort-large",
+      "area:cli",
+      "priority:medium"
+    ],
+    "comments": 1,
+    "created_at": "2026-04-23T09:27:04Z",
+    "stars": 85050,
+    "language": "Rust"
+  },
+  {
+    "repo": "jingyaogong/minimind",
+    "title": "YaRN的疑惑",
+    "url": "https://github.com/jingyaogong/minimind/issues/602",
+    "labels": [
+      "good first issue",
+      "question"
+    ],
+    "comments": 2,
+    "created_at": "2025-12-25T14:58:27Z",
+    "stars": 64652,
+    "language": "Python"
+  },
+  {
+    "repo": "jingyaogong/minimind",
+    "title": "非常感谢大佬的开源项目！我记录了学习过程，为大家提供一个从零开始完整的复现过程记录。再次感谢您的项目，帮助我系统的梳理了一遍大模型相关知识点。",
+    "url": "https://github.com/jingyaogong/minimind/issues/584",
+    "labels": [
+      "good first issue"
+    ],
+    "comments": 3,
+    "created_at": "2025-12-15T08:39:23Z",
+    "stars": 64652,
+    "language": "Python"
+  }
+]
