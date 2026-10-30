@@ -24,7 +24,7 @@ jobs:
       - name: Run scanner
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python find_issues.py
+        run: python -u find_issues.py
 
       - name: Commit results
         run: |
