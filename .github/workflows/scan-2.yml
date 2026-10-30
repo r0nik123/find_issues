@@ -1,10 +1,10 @@
-# Put this file at: .github/workflows/scan.yml in your repo
-name: Find good first issues
+# Put this file at: .github/workflows/scan.yml (replace the old one)
+name: Find contributions
 
 on:
   schedule:
     - cron: "0 6 * * *"   # every day at 06:00 UTC
-  workflow_dispatch:       # lets you run it manually from the Actions tab
+  workflow_dispatch:       # run manually from the Actions tab
 
 permissions:
   contents: write
@@ -12,6 +12,7 @@ permissions:
 jobs:
   scan:
     runs-on: ubuntu-latest
+    timeout-minutes: 180
     steps:
       - uses: actions/checkout@v4
 
@@ -19,17 +20,17 @@ jobs:
         with:
           python-version: "3.12"
 
-      - run: pip install requests
+      - run: pip install requests codespell
 
       - name: Run scanner
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python -u find_issues.py
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: python -u find_contributions.py
 
       - name: Commit results
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
           git add results.md results.json
-          git diff --staged --quiet || git commit -m "Update issues list"
+          git diff --staged --quiet || git commit -m "Update contributions list"
           git push
