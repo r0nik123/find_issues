@@ -32,7 +32,7 @@ import requests
 
 # ======================= settings you can change =======================
 MIN_STARS = 10_000
-MAX_STARS = 50_000
+MAX_STARS = 100_000
 MAX_REPOS = 600  # repos scanned per run (random sample -> different every day)
 ACTIVE_DAYS = 30  # only repos with a push in the last N days
 MAX_ISSUE_AGE_DAYS = 365  # ignore issues older than this
