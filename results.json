@@ -1,225 +1,2482 @@
-[
-  {
-    "repo": "rtk-ai/rtk",
-    "title": "A leading `--` is dropped before the tool runs for 19 passthrough commands (`rtk pytest -- -k.py` runs the wrong tests)",
-    "url": "https://github.com/rtk-ai/rtk/issues/4753",
-    "labels": [
-      "bug",
-      "good first issue",
-      "priority:high",
-      "area:cli"
-    ],
-    "comments": 4,
-    "created_at": "2026-10-23T12:43:42Z",
-    "stars": 85050,
-    "language": "Rust"
-  },
-  {
-    "repo": "langgenius/dify",
-    "title": "bump to python 3.14",
-    "url": "https://github.com/langgenius/dify/issues/43768",
-    "labels": [
-      "good first issue"
-    ],
-    "comments": 5,
-    "created_at": "2026-10-09T16:30:53Z",
-    "stars": 159992,
-    "language": "Python"
-  },
-  {
-    "repo": "tldr-pages/tldr",
-    "title": "Documentation request megaissue",
-    "url": "https://github.com/tldr-pages/tldr/issues/24261",
-    "labels": [
-      "help wanted",
-      "good first issue"
-    ],
-    "comments": 1,
-    "created_at": "2026-09-25T08:37:09Z",
-    "stars": 64080,
-    "language": "Markdown"
-  },
-  {
-    "repo": "rtk-ai/rtk",
-    "title": "rewrite: declines env-wrapped (env -u) and sudo-prefixed commands",
-    "url": "https://github.com/rtk-ai/rtk/issues/4099",
-    "labels": [
-      "bug",
-      "good first issue",
-      "area:cli",
-      "priority:medium"
-    ],
-    "comments": 2,
-    "created_at": "2026-09-17T21:31:52Z",
-    "stars": 85050,
-    "language": "Rust"
-  },
-  {
-    "repo": "microsoft/markitdown",
-    "title": "Autonomous Agents, Unite!",
-    "url": "https://github.com/microsoft/markitdown/issues/2386",
-    "labels": [
-      "good first issue"
-    ],
-    "comments": 4,
-    "created_at": "2026-09-04T19:08:05Z",
-    "stars": 192990,
-    "language": "Python"
-  },
-  {
-    "repo": "rtk-ai/rtk",
-    "title": "SECURITY.md references a `security-check.yml` workflow, a `detect-dangerous-patterns.sh` script and six source paths that are all absent from the repository",
-    "url": "https://github.com/rtk-ai/rtk/issues/3423",
-    "labels": [
-      "documentation",
-      "good first issue",
-      "priority:medium",
-      "area:security",
-      "area:docs"
-    ],
-    "comments": 5,
-    "created_at": "2026-08-04T19:19:26Z",
-    "stars": 85050,
-    "language": "Rust"
-  },
-  {
-    "repo": "rtk-ai/rtk",
-    "title": "hook: leaks \"no such file\" stderr when probing absent dependency manifests (go.sum / package-lock.json / Cargo.lock)",
-    "url": "https://github.com/rtk-ai/rtk/issues/2942",
-    "labels": [
-      "bug",
-      "good first issue",
-      "area:cli",
-      "priority:medium"
-    ],
-    "comments": 4,
-    "created_at": "2026-07-11T00:01:33Z",
-    "stars": 85050,
-    "language": "Rust"
-  },
-  {
-    "repo": "penpot/penpot",
-    "title": "Zombie chrome-headless processes created on element export",
-    "url": "https://github.com/penpot/penpot/issues/10339",
-    "labels": [
-      "good first issue",
-      "contribution welcome"
-    ],
-    "comments": 4,
-    "created_at": "2026-06-19T13:05:20Z",
-    "stars": 61870,
-    "language": "Clojure"
-  },
-  {
-    "repo": "shareAI-lab/learn-claude-code",
-    "title": "Visual summary of the agent harness architecture",
-    "url": "https://github.com/shareAI-lab/learn-claude-code/issues/355",
-    "labels": [
-      "good first issue"
-    ],
-    "comments": 0,
-    "created_at": "2026-06-08T22:58:23Z",
-    "stars": 79567,
-    "language": "Python"
-  },
-  {
-    "repo": "farion1231/cc-switch",
-    "title": "建议支持 Skill 文件夹分类管理、优化 Hermes 导入体验及全选/全不选交互",
-    "url": "https://github.com/farion1231/cc-switch/issues/3611",
-    "labels": [
-      "enhancement",
-      "good first issue"
-    ],
-    "comments": 2,
-    "created_at": "2026-06-02T14:42:10Z",
-    "stars": 150329,
-    "language": "Rust"
-  },
-  {
-    "repo": "nexu-io/open-design",
-    "title": "Hide the unavailable Ingest source section from the Automations page for now",
-    "url": "https://github.com/nexu-io/open-design/issues/2681",
-    "labels": [
-      "bug",
-      "good first issue",
-      "help wanted"
-    ],
-    "comments": 3,
-    "created_at": "2026-05-22T07:36:11Z",
-    "stars": 104981,
-    "language": "TypeScript"
-  },
-  {
-    "repo": "rtk-ai/rtk",
-    "title": "[rewrite] dotnet test|restore|format should auto-rewrite to rtk dotnet",
-    "url": "https://github.com/rtk-ai/rtk/issues/1830",
-    "labels": [
-      "bug",
-      "good first issue",
-      "area:cli",
-      "priority:medium"
-    ],
-    "comments": 5,
-    "created_at": "2026-05-11T09:43:31Z",
-    "stars": 85050,
-    "language": "Rust"
-  },
-  {
-    "repo": "rtk-ai/rtk",
-    "title": "feat: Extend git subcommand coverage (ls-files, rm, tag)",
-    "url": "https://github.com/rtk-ai/rtk/issues/1526",
-    "labels": [
-      "enhancement",
-      "good first issue",
-      "effort-medium",
-      "area:cli",
-      "priority:medium"
-    ],
-    "comments": 4,
-    "created_at": "2026-04-25T18:47:56Z",
-    "stars": 85050,
-    "language": "Rust"
-  },
-  {
-    "repo": "rtk-ai/rtk",
-    "title": "terraform, mix, git, just, fish, kubectl and custom commands to add",
-    "url": "https://github.com/rtk-ai/rtk/issues/1473",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "good first issue",
-      "effort-large",
-      "area:cli",
-      "priority:medium"
-    ],
-    "comments": 1,
-    "created_at": "2026-04-23T09:27:04Z",
-    "stars": 85050,
-    "language": "Rust"
-  },
-  {
-    "repo": "jingyaogong/minimind",
-    "title": "YaRN的疑惑",
-    "url": "https://github.com/jingyaogong/minimind/issues/602",
-    "labels": [
-      "good first issue",
-      "question"
-    ],
-    "comments": 2,
-    "created_at": "2025-12-25T14:58:27Z",
-    "stars": 64652,
-    "language": "Python"
-  },
-  {
-    "repo": "jingyaogong/minimind",
-    "title": "非常感谢大佬的开源项目！我记录了学习过程，为大家提供一个从零开始完整的复现过程记录。再次感谢您的项目，帮助我系统的梳理了一遍大模型相关知识点。",
-    "url": "https://github.com/jingyaogong/minimind/issues/584",
-    "labels": [
-      "good first issue"
-    ],
-    "comments": 3,
-    "created_at": "2025-12-15T08:39:23Z",
-    "stars": 64652,
-    "language": "Python"
-  }
-]
+{
+  "issues": [
+    {
+      "repo": "trycua/cua",
+      "stars": 31391,
+      "language": "Rust",
+      "merge_rate": 100,
+      "median_merge_days": 0.2,
+      "warnings": [],
+      "score": 108,
+      "title": "Docs: Grok Bot oneshot prompt / agent instructions for CUA Spaces",
+      "url": "https://github.com/trycua/cua/issues/4789",
+      "age_days": 24,
+      "comments": 0,
+      "why": [
+        "documentation",
+        "docs/typo-type task",
+        "new"
+      ]
+    },
+    {
+      "repo": "trycua/cua",
+      "stars": 31391,
+      "language": "Rust",
+      "merge_rate": 100,
+      "median_merge_days": 0.2,
+      "warnings": [],
+      "score": 108,
+      "title": "Grok Bot as Space product path (docs today are driver-centric)",
+      "url": "https://github.com/trycua/cua/issues/4787",
+      "age_days": 24,
+      "comments": 0,
+      "why": [
+        "documentation",
+        "docs/typo-type task",
+        "new"
+      ]
+    },
+    {
+      "repo": "RunanywhereAI/runanywhere-sdks",
+      "stars": 10333,
+      "language": "C++",
+      "merge_rate": 100,
+      "median_merge_days": 0.6,
+      "warnings": [],
+      "score": 108,
+      "title": "docs: finish the rcli to wally rename in the remaining in-repo docs",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks/issues/1125",
+      "age_days": 14,
+      "comments": 0,
+      "why": [
+        "docs",
+        "docs/typo-type task",
+        "new"
+      ]
+    },
+    {
+      "repo": "RunanywhereAI/runanywhere-sdks",
+      "stars": 10333,
+      "language": "C++",
+      "merge_rate": 100,
+      "median_merge_days": 0.6,
+      "warnings": [],
+      "score": 108,
+      "title": "docs: keep the SDK README install pins in sync with the registry",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks/issues/1124",
+      "age_days": 14,
+      "comments": 0,
+      "why": [
+        "docs",
+        "docs/typo-type task",
+        "new"
+      ]
+    },
+    {
+      "repo": "RunanywhereAI/runanywhere-sdks",
+      "stars": 10333,
+      "language": "C++",
+      "merge_rate": 100,
+      "median_merge_days": 0.6,
+      "warnings": [],
+      "score": 108,
+      "title": "docs: the error-category contract still describes the old commons mapping",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks/issues/1123",
+      "age_days": 14,
+      "comments": 0,
+      "why": [
+        "p3, core, docs",
+        "docs/typo-type task",
+        "new"
+      ]
+    },
+    {
+      "repo": "RunanywhereAI/runanywhere-sdks",
+      "stars": 10333,
+      "language": "C++",
+      "merge_rate": 100,
+      "median_merge_days": 0.6,
+      "warnings": [],
+      "score": 108,
+      "title": "Structured output: the SDK docs claim grammar-constrained decoding on backends that ignore the grammar",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks/issues/1120",
+      "age_days": 14,
+      "comments": 0,
+      "why": [
+        "core, docs",
+        "docs/typo-type task",
+        "new"
+      ]
+    },
+    {
+      "repo": "floci-io/floci",
+      "stars": 27402,
+      "language": "Java",
+      "merge_rate": 93,
+      "median_merge_days": 0.4,
+      "warnings": [
+        "has AI policy - read CONTRIBUTING"
+      ],
+      "score": 106,
+      "title": "[DOCS] ELBv2: specify NLB TCP/TLS forwarding and security-group/PrivateLink enforcement boundaries",
+      "url": "https://github.com/floci-io/floci/issues/6617",
+      "age_days": 4,
+      "comments": 0,
+      "why": [
+        "documentation, elb",
+        "docs/typo-type task",
+        "new"
+      ]
+    },
+    {
+      "repo": "floci-io/floci",
+      "stars": 27402,
+      "language": "Java",
+      "merge_rate": 93,
+      "median_merge_days": 0.4,
+      "warnings": [
+        "has AI policy - read CONTRIBUTING"
+      ],
+      "score": 106,
+      "title": "[DOCS] S3/CloudFront: add a runnable private-origin example with anonymous-access negative checks",
+      "url": "https://github.com/floci-io/floci/issues/6615",
+      "age_days": 4,
+      "comments": 0,
+      "why": [
+        "documentation, s3, cloudfront",
+        "docs/typo-type task",
+        "new"
+      ]
+    },
+    {
+      "repo": "meshery/meshery",
+      "stars": 12091,
+      "language": "TypeScript",
+      "merge_rate": 86,
+      "median_merge_days": 0.0,
+      "warnings": [],
+      "score": 100,
+      "title": "[Docs] Missing copy-to-clipboard button across standard documentation code blocks (352 blocks across 64 pages)",
+      "url": "https://github.com/meshery/meshery/issues/22425",
+      "age_days": 14,
+      "comments": 1,
+      "why": [
+        "help wanted, area/docs, language/markdown",
+        "docs/typo-type task",
+        "new"
+      ]
+    },
+    {
+      "repo": "sveltejs/kit",
+      "stars": 20886,
+      "language": "JavaScript",
+      "merge_rate": 75,
+      "median_merge_days": 1.0,
+      "warnings": [],
+      "score": 99,
+      "title": "docs: make Svelte examples compatible with strict Twoslash checking",
+      "url": "https://github.com/sveltejs/kit/issues/17280",
+      "age_days": 30,
+      "comments": 0,
+      "why": [
+        "documentation",
+        "docs/typo-type task",
+        "new"
+      ]
+    },
+    {
+      "repo": "elastic/beats",
+      "stars": 12649,
+      "language": "Go",
+      "merge_rate": 83,
+      "median_merge_days": 0.6,
+      "warnings": [],
+      "score": 99,
+      "title": "[docs-patrol] Update Buildkite packaging docs for dra-prep migration",
+      "url": "https://github.com/elastic/beats/issues/53509",
+      "age_days": 30,
+      "comments": 1,
+      "why": [
+        "docs, Team:Elastic-Agent-Data-Plane",
+        "docs/typo-type task",
+        "new"
+      ]
+    },
+    {
+      "repo": "trycua/cua",
+      "stars": 31391,
+      "language": "Rust",
+      "merge_rate": 100,
+      "median_merge_days": 0.2,
+      "warnings": [],
+      "score": 98,
+      "title": "docs(cua-driver): recommend bounded mode for unattended browser use",
+      "url": "https://github.com/trycua/cua/issues/2572",
+      "age_days": 97,
+      "comments": 0,
+      "why": [
+        "documentation",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "trycua/cua",
+      "stars": 31391,
+      "language": "Rust",
+      "merge_rate": 100,
+      "median_merge_days": 0.2,
+      "warnings": [],
+      "score": 98,
+      "title": "cua-driver docs: reconcile screenshot references with the live tool registry",
+      "url": "https://github.com/trycua/cua/issues/2244",
+      "age_days": 107,
+      "comments": 0,
+      "why": [
+        "documentation, rust",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "elastic/beats",
+      "stars": 12649,
+      "language": "Go",
+      "merge_rate": 83,
+      "median_merge_days": 0.6,
+      "warnings": [],
+      "score": 97,
+      "title": "[docs-patrol] Update Kafka auth docs for new validation rules",
+      "url": "https://github.com/elastic/beats/issues/53441",
+      "age_days": 32,
+      "comments": 0,
+      "why": [
+        "docs, Team:Docs",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "elastic/beats",
+      "stars": 12649,
+      "language": "Go",
+      "merge_rate": 83,
+      "median_merge_days": 0.6,
+      "warnings": [],
+      "score": 97,
+      "title": "[docs-patrol] Update Kafka SASL mechanism docs for OAUTHBEARER support",
+      "url": "https://github.com/elastic/beats/issues/52699",
+      "age_days": 72,
+      "comments": 0,
+      "why": [
+        "docs, Team:Docs",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "ankitects/anki",
+      "stars": 32424,
+      "language": "Rust",
+      "merge_rate": 75,
+      "median_merge_days": 9.9,
+      "warnings": [],
+      "score": 94,
+      "title": "Remove \"Compute Minimum Recommended Retention\" from the docs",
+      "url": "https://github.com/ankitects/anki/issues/5843",
+      "age_days": 12,
+      "comments": 0,
+      "why": [
+        "docs, FSRS",
+        "docs/typo-type task",
+        "new"
+      ]
+    },
+    {
+      "repo": "elastic/beats",
+      "stars": 12649,
+      "language": "Go",
+      "merge_rate": 83,
+      "median_merge_days": 0.6,
+      "warnings": [],
+      "score": 94,
+      "title": "[text-auditor] Fix clear grammar errors in journald and testing docs",
+      "url": "https://github.com/elastic/beats/issues/53267",
+      "age_days": 44,
+      "comments": 1,
+      "why": [
+        "docs, Team:Elastic-Agent-Data-Plane",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "elastic/beats",
+      "stars": 12649,
+      "language": "Go",
+      "merge_rate": 83,
+      "median_merge_days": 0.6,
+      "warnings": [],
+      "score": 94,
+      "title": "[docs] ssl curves and ciphers",
+      "url": "https://github.com/elastic/beats/issues/52798",
+      "age_days": 70,
+      "comments": 2,
+      "why": [
+        "docs, Team:Elastic-Agent-Data-Plane",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "Automattic/harper",
+      "stars": 17305,
+      "language": "Rust",
+      "merge_rate": 71,
+      "median_merge_days": 0.1,
+      "warnings": [],
+      "score": 93,
+      "title": "Weir documentation tells how to write tests but not how to run them",
+      "url": "https://github.com/Automattic/harper/issues/4335",
+      "age_days": 53,
+      "comments": 0,
+      "why": [
+        "documentation, weir, testing",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "RunanywhereAI/runanywhere-sdks",
+      "stars": 10333,
+      "language": "C++",
+      "merge_rate": 100,
+      "median_merge_days": 0.6,
+      "warnings": [],
+      "score": 93,
+      "title": "bindings/swift/AGENTS.md: correct the Periphery scan-scope sentence",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks/issues/1084",
+      "age_days": 15,
+      "comments": 0,
+      "why": [
+        "p3, docs, binding:swift",
+        "new"
+      ]
+    },
+    {
+      "repo": "RunanywhereAI/runanywhere-sdks",
+      "stars": 10333,
+      "language": "C++",
+      "merge_rate": 100,
+      "median_merge_days": 0.6,
+      "warnings": [],
+      "score": 93,
+      "title": "scripts/AGENTS.md: document test_agent_skills.py and the run-it-as-CI step",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks/issues/1029",
+      "age_days": 16,
+      "comments": 0,
+      "why": [
+        "docs",
+        "new"
+      ]
+    },
+    {
+      "repo": "beekeeper-studio/beekeeper-studio",
+      "stars": 23821,
+      "language": "TypeScript",
+      "merge_rate": 87,
+      "median_merge_days": 0.1,
+      "warnings": [],
+      "score": 93,
+      "title": "DOCS: Audit of features merged 2026-07-11 → 2026-07-18 missing from docs/",
+      "url": "https://github.com/beekeeper-studio/beekeeper-studio/issues/4505",
+      "age_days": 105,
+      "comments": 0,
+      "why": [
+        "documentation",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "beekeeper-studio/beekeeper-studio",
+      "stars": 23821,
+      "language": "TypeScript",
+      "merge_rate": 87,
+      "median_merge_days": 0.1,
+      "warnings": [],
+      "score": 93,
+      "title": "Docs gaps: features merged 2026-06-15 to 2026-07-11 missing from docs/",
+      "url": "https://github.com/beekeeper-studio/beekeeper-studio/issues/4481",
+      "age_days": 112,
+      "comments": 0,
+      "why": [
+        "documentation",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "beekeeper-studio/beekeeper-studio",
+      "stars": 23821,
+      "language": "TypeScript",
+      "merge_rate": 87,
+      "median_merge_days": 0.1,
+      "warnings": [],
+      "score": 93,
+      "title": "DOCS: Audit of features merged 2026-06-20 → 2026-06-27 missing from docs/",
+      "url": "https://github.com/beekeeper-studio/beekeeper-studio/issues/4438",
+      "age_days": 126,
+      "comments": 0,
+      "why": [
+        "documentation",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "beekeeper-studio/beekeeper-studio",
+      "stars": 23821,
+      "language": "TypeScript",
+      "merge_rate": 87,
+      "median_merge_days": 0.1,
+      "warnings": [],
+      "score": 93,
+      "title": "DOCS: Audit of features merged 2026-05-30 → 2026-06-20 missing from docs/",
+      "url": "https://github.com/beekeeper-studio/beekeeper-studio/issues/4420",
+      "age_days": 133,
+      "comments": 0,
+      "why": [
+        "documentation",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "beekeeper-studio/beekeeper-studio",
+      "stars": 23821,
+      "language": "TypeScript",
+      "merge_rate": 87,
+      "median_merge_days": 0.1,
+      "warnings": [],
+      "score": 93,
+      "title": "DOCS: Audit of features merged 2026-05-23 → 2026-06-06 missing from docs/",
+      "url": "https://github.com/beekeeper-studio/beekeeper-studio/issues/4369",
+      "age_days": 147,
+      "comments": 0,
+      "why": [
+        "documentation",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "beekeeper-studio/beekeeper-studio",
+      "stars": 23821,
+      "language": "TypeScript",
+      "merge_rate": 87,
+      "median_merge_days": 0.1,
+      "warnings": [],
+      "score": 93,
+      "title": "DOCS: Audit of features merged 2026-05-23 → 2026-05-30 missing from docs/",
+      "url": "https://github.com/beekeeper-studio/beekeeper-studio/issues/4328",
+      "age_days": 154,
+      "comments": 0,
+      "why": [
+        "documentation",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "beekeeper-studio/beekeeper-studio",
+      "stars": 23821,
+      "language": "TypeScript",
+      "merge_rate": 87,
+      "median_merge_days": 0.1,
+      "warnings": [],
+      "score": 93,
+      "title": "DOCS: Audit of features merged 2026-04-17 → 2026-05-23 that are missing from docs/",
+      "url": "https://github.com/beekeeper-studio/beekeeper-studio/issues/4299",
+      "age_days": 161,
+      "comments": 0,
+      "why": [
+        "documentation",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "beekeeper-studio/beekeeper-studio",
+      "stars": 23821,
+      "language": "TypeScript",
+      "merge_rate": 87,
+      "median_merge_days": 0.1,
+      "warnings": [],
+      "score": 93,
+      "title": "DOCS: Audit of features merged since the last audit (2026-05-09 → 2026-05-16)",
+      "url": "https://github.com/beekeeper-studio/beekeeper-studio/issues/4274",
+      "age_days": 168,
+      "comments": 0,
+      "why": [
+        "documentation",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "beekeeper-studio/beekeeper-studio",
+      "stars": 23821,
+      "language": "TypeScript",
+      "merge_rate": 87,
+      "median_merge_days": 0.1,
+      "warnings": [],
+      "score": 93,
+      "title": "DOCS: Audit of features merged since the last audit (2026-04-25 → 2026-05-09)",
+      "url": "https://github.com/beekeeper-studio/beekeeper-studio/issues/4235",
+      "age_days": 175,
+      "comments": 0,
+      "why": [
+        "documentation",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "beekeeper-studio/beekeeper-studio",
+      "stars": 23821,
+      "language": "TypeScript",
+      "merge_rate": 87,
+      "median_merge_days": 0.1,
+      "warnings": [],
+      "score": 93,
+      "title": "DOCS: Audit of features merged 2026-04-17 → 2026-05-02 missing from docs/",
+      "url": "https://github.com/beekeeper-studio/beekeeper-studio/issues/4202",
+      "age_days": 182,
+      "comments": 0,
+      "why": [
+        "documentation",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "beekeeper-studio/beekeeper-studio",
+      "stars": 23821,
+      "language": "TypeScript",
+      "merge_rate": 87,
+      "median_merge_days": 0.1,
+      "warnings": [],
+      "score": 93,
+      "title": "DOCS: Audit of features merged 2026-04-17 → 2026-04-24 missing from docs/",
+      "url": "https://github.com/beekeeper-studio/beekeeper-studio/issues/4162",
+      "age_days": 189,
+      "comments": 0,
+      "why": [
+        "documentation",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "beekeeper-studio/beekeeper-studio",
+      "stars": 23821,
+      "language": "TypeScript",
+      "merge_rate": 87,
+      "median_merge_days": 0.1,
+      "warnings": [],
+      "score": 93,
+      "title": "DOCS: Audit of features merged in the last 30 days that are missing from docs/",
+      "url": "https://github.com/beekeeper-studio/beekeeper-studio/issues/4117",
+      "age_days": 196,
+      "comments": 0,
+      "why": [
+        "documentation",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "elastic/beats",
+      "stars": 12649,
+      "language": "Go",
+      "merge_rate": 83,
+      "median_merge_days": 0.6,
+      "warnings": [],
+      "score": 92,
+      "title": "[Docs] Document various ways of event substitution",
+      "url": "https://github.com/elastic/beats/issues/49510",
+      "age_days": 228,
+      "comments": 0,
+      "why": [
+        "docs, Team:Docs",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "Budibase/budibase",
+      "stars": 28373,
+      "language": "TypeScript",
+      "merge_rate": 84,
+      "median_merge_days": 1.4,
+      "warnings": [],
+      "score": 92,
+      "title": "[Docs]: Micro Front-Ends (MFE)",
+      "url": "https://github.com/Budibase/budibase/issues/18819",
+      "age_days": 164,
+      "comments": 0,
+      "why": [
+        "documentation, docs-needed",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "ray-project/ray",
+      "stars": 44172,
+      "language": "Python",
+      "merge_rate": 93,
+      "median_merge_days": 0.8,
+      "warnings": [],
+      "score": 90,
+      "title": "[Data] zero_copy_batch=False doesn't give writable NumPy batches in map_groups and for list columns",
+      "url": "https://github.com/ray-project/ray/issues/67367",
+      "age_days": 7,
+      "comments": 0,
+      "why": [
+        "bug, question, triage",
+        "new"
+      ]
+    },
+    {
+      "repo": "ray-project/ray",
+      "stars": 44172,
+      "language": "Python",
+      "merge_rate": 93,
+      "median_merge_days": 0.8,
+      "warnings": [],
+      "score": 90,
+      "title": "[Data] Validate authentication and TLS configurations for read_hive",
+      "url": "https://github.com/ray-project/ray/issues/67072",
+      "age_days": 15,
+      "comments": 0,
+      "why": [
+        "docs, data, security",
+        "new"
+      ]
+    },
+    {
+      "repo": "ray-project/ray",
+      "stars": 44172,
+      "language": "Python",
+      "merge_rate": 93,
+      "median_merge_days": 0.8,
+      "warnings": [],
+      "score": 90,
+      "title": "[Data] Support task memory metrics on macOS",
+      "url": "https://github.com/ray-project/ray/issues/66729",
+      "age_days": 25,
+      "comments": 0,
+      "why": [
+        "enhancement, triage, usability",
+        "new"
+      ]
+    },
+    {
+      "repo": "sveltejs/kit",
+      "stars": 20886,
+      "language": "JavaScript",
+      "merge_rate": 75,
+      "median_merge_days": 1.0,
+      "warnings": [],
+      "score": 89,
+      "title": "Docs: add more comprehensive error handling patterns for form actions",
+      "url": "https://github.com/sveltejs/kit/issues/15854",
+      "age_days": 168,
+      "comments": 0,
+      "why": [
+        "documentation",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "ankitects/anki",
+      "stars": 32424,
+      "language": "Rust",
+      "merge_rate": 75,
+      "median_merge_days": 9.9,
+      "warnings": [],
+      "score": 89,
+      "title": "Update documentation of Review Sort Order",
+      "url": "https://github.com/ankitects/anki/issues/5511",
+      "age_days": 58,
+      "comments": 0,
+      "why": [
+        "docs",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "ankitects/anki",
+      "stars": 32424,
+      "language": "Rust",
+      "merge_rate": 75,
+      "median_merge_days": 9.9,
+      "warnings": [],
+      "score": 89,
+      "title": "Implement print/offline support for the Mintlify docs website",
+      "url": "https://github.com/ankitects/anki/issues/5478",
+      "age_days": 64,
+      "comments": 0,
+      "why": [
+        "docs",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "ankitects/anki",
+      "stars": 32424,
+      "language": "Rust",
+      "merge_rate": 75,
+      "median_merge_days": 9.9,
+      "warnings": [],
+      "score": 89,
+      "title": "Add images to the docs?",
+      "url": "https://github.com/ankitects/anki/issues/5477",
+      "age_days": 64,
+      "comments": 0,
+      "why": [
+        "docs",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "elastic/beats",
+      "stars": 12649,
+      "language": "Go",
+      "merge_rate": 83,
+      "median_merge_days": 0.6,
+      "warnings": [],
+      "score": 89,
+      "title": "[docs-patrol] Update Metricbeat docs after removing `system.hostfs` config setting",
+      "url": "https://github.com/elastic/beats/issues/52335",
+      "age_days": 92,
+      "comments": 1,
+      "why": [
+        "docs, needs_team",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "elastic/beats",
+      "stars": 12649,
+      "language": "Go",
+      "merge_rate": 83,
+      "median_merge_days": 0.6,
+      "warnings": [],
+      "score": 89,
+      "title": "[docs-patrol] Update docs for filestream read_until_eof reference YAML and metadata retry validation",
+      "url": "https://github.com/elastic/beats/issues/51217",
+      "age_days": 140,
+      "comments": 1,
+      "why": [
+        "docs, needs_team",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "elastic/beats",
+      "stars": 12649,
+      "language": "Go",
+      "merge_rate": 83,
+      "median_merge_days": 0.6,
+      "warnings": [],
+      "score": 89,
+      "title": "[docs-patrol] Document `use_minimal_state` for Filebeat entityanalytics `azure-ad` provider",
+      "url": "https://github.com/elastic/beats/issues/51010",
+      "age_days": 154,
+      "comments": 1,
+      "why": [
+        "docs, needs_team",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "elastic/beats",
+      "stars": 12649,
+      "language": "Go",
+      "merge_rate": 83,
+      "median_merge_days": 0.6,
+      "warnings": [],
+      "score": 89,
+      "title": "[docs-patrol] Update streaming input docs for websocket reconnect and url_program behavior",
+      "url": "https://github.com/elastic/beats/issues/50479",
+      "age_days": 179,
+      "comments": 1,
+      "why": [
+        "docs, needs_team",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "elastic/beats",
+      "stars": 12649,
+      "language": "Go",
+      "merge_rate": 83,
+      "median_merge_days": 0.6,
+      "warnings": [],
+      "score": 89,
+      "title": "[docs-patrol] Update Filebeat streaming input docs for CrowdStrike 429 retry behavior",
+      "url": "https://github.com/elastic/beats/issues/49886",
+      "age_days": 211,
+      "comments": 1,
+      "why": [
+        "docs, needs_team",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "AmazingAng/WTF-Solidity",
+      "stars": 14067,
+      "language": "Solidity",
+      "merge_rate": 83,
+      "median_merge_days": 0.8,
+      "warnings": [],
+      "score": 89,
+      "title": "[Doc] Solidity 103 Chapter 3 page displays English content instead of Chinese",
+      "url": "https://github.com/AmazingAng/WTF-Solidity/issues/903",
+      "age_days": 158,
+      "comments": 1,
+      "why": [
+        "documentation",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "actualbudget/actual",
+      "stars": 29878,
+      "language": "TypeScript",
+      "merge_rate": 65,
+      "median_merge_days": 6.5,
+      "warnings": [],
+      "score": 88,
+      "title": "[Docs] - Lent & Borrow tracking",
+      "url": "https://github.com/actualbudget/actual/issues/9376",
+      "age_days": 0,
+      "comments": 1,
+      "why": [
+        "documentation",
+        "docs/typo-type task",
+        "new"
+      ]
+    },
+    {
+      "repo": "trycua/cua",
+      "stars": 31391,
+      "language": "Rust",
+      "merge_rate": 100,
+      "median_merge_days": 0.2,
+      "warnings": [],
+      "score": 88,
+      "title": "Document the existing-profile CDP route: --remote-debugging-port is blocked on the default user-data-dir",
+      "url": "https://github.com/trycua/cua/issues/2916",
+      "age_days": 86,
+      "comments": 0,
+      "why": [
+        "documentation"
+      ]
+    },
+    {
+      "repo": "ray-project/ray",
+      "stars": 44172,
+      "language": "Python",
+      "merge_rate": 93,
+      "median_merge_days": 0.8,
+      "warnings": [],
+      "score": 87,
+      "title": "[Data] repartition() warns that shuffle is ignored before rejecting the same argument",
+      "url": "https://github.com/ray-project/ray/issues/67604",
+      "age_days": 0,
+      "comments": 1,
+      "why": [
+        "usability, docs, data",
+        "new"
+      ]
+    },
+    {
+      "repo": "ray-project/ray",
+      "stars": 44172,
+      "language": "Python",
+      "merge_rate": 93,
+      "median_merge_days": 0.8,
+      "warnings": [],
+      "score": 87,
+      "title": "[Data] Should train_test_split(shuffle=False) / split_at_indices keep row order by default?",
+      "url": "https://github.com/ray-project/ray/issues/67181",
+      "age_days": 11,
+      "comments": 1,
+      "why": [
+        "enhancement, triage, usability",
+        "new"
+      ]
+    },
+    {
+      "repo": "sveltejs/kit",
+      "stars": 20886,
+      "language": "JavaScript",
+      "merge_rate": 75,
+      "median_merge_days": 1.0,
+      "warnings": [],
+      "score": 86,
+      "title": "docs: improve remote functions page",
+      "url": "https://github.com/sveltejs/kit/issues/15909",
+      "age_days": 159,
+      "comments": 3,
+      "why": [
+        "documentation",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "sveltejs/kit",
+      "stars": 20886,
+      "language": "JavaScript",
+      "merge_rate": 75,
+      "median_merge_days": 1.0,
+      "warnings": [],
+      "score": 86,
+      "title": "docs: add clarification for SSR behavior of <svelte:boundary> pending snippet with remote functions",
+      "url": "https://github.com/sveltejs/kit/issues/15719",
+      "age_days": 197,
+      "comments": 2,
+      "why": [
+        "documentation",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "ray-project/ray",
+      "stars": 44172,
+      "language": "Python",
+      "merge_rate": 93,
+      "median_merge_days": 0.8,
+      "warnings": [],
+      "score": 85,
+      "title": "[Data] CUDA allocations on DGX Spark (unified memory) are not reflected in `average_max_uss_per_task`",
+      "url": "https://github.com/ray-project/ray/issues/66335",
+      "age_days": 40,
+      "comments": 0,
+      "why": [
+        "bug, triage, usability"
+      ]
+    },
+    {
+      "repo": "Automattic/harper",
+      "stars": 17305,
+      "language": "Rust",
+      "merge_rate": 71,
+      "median_merge_days": 0.1,
+      "warnings": [],
+      "score": 85,
+      "title": "Docs: Add an intro for how to use `harper.js` inside a Chrome extension",
+      "url": "https://github.com/Automattic/harper/issues/3628",
+      "age_days": 143,
+      "comments": 2,
+      "why": [
+        "documentation, help wanted, good first issue",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "NVIDIA/Megatron-LM",
+      "stars": 18303,
+      "language": "Python",
+      "merge_rate": 85,
+      "median_merge_days": 6.3,
+      "warnings": [],
+      "score": 85,
+      "title": "[Design Doc] HybridModel 1F1B Overlap Support",
+      "url": "https://github.com/NVIDIA/Megatron-LM/issues/5854",
+      "age_days": 106,
+      "comments": 1,
+      "why": [
+        "module: training, In Progress, documentation",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "NVIDIA/Megatron-LM",
+      "stars": 18303,
+      "language": "Python",
+      "merge_rate": 85,
+      "median_merge_days": 6.3,
+      "warnings": [],
+      "score": 85,
+      "title": "[docs] Add a \"configuration errors\" troubleshooting page",
+      "url": "https://github.com/NVIDIA/Megatron-LM/issues/5766",
+      "age_days": 110,
+      "comments": 2,
+      "why": [
+        "good first issue, documentation",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "NVIDIA/Megatron-LM",
+      "stars": 18303,
+      "language": "Python",
+      "merge_rate": 85,
+      "median_merge_days": 6.3,
+      "warnings": [],
+      "score": 85,
+      "title": "[Design Doc] HybridModel - Next Gen Model Class",
+      "url": "https://github.com/NVIDIA/Megatron-LM/issues/4620",
+      "age_days": 179,
+      "comments": 1,
+      "why": [
+        "module: training, documentation",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "clauderic/dnd-kit",
+      "stars": 17769,
+      "language": "TypeScript",
+      "merge_rate": 85,
+      "median_merge_days": 12.7,
+      "warnings": [],
+      "score": 85,
+      "title": "Copy Button not Working  in the docs (React).",
+      "url": "https://github.com/clauderic/dnd-kit/issues/2122",
+      "age_days": 84,
+      "comments": 1,
+      "why": [
+        "documentation, triage:done",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "qgis/QGIS",
+      "stars": 14745,
+      "language": "C++",
+      "merge_rate": 75,
+      "median_merge_days": 6.6,
+      "warnings": [],
+      "score": 84,
+      "title": "Virtual methods overriden in QgsGeos are missing in PyQGIS API docs",
+      "url": "https://github.com/qgis/QGIS/issues/66110",
+      "age_days": 170,
+      "comments": 0,
+      "why": [
+        "API, Documentation, PyQGIS",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "trycua/cua",
+      "stars": 31391,
+      "language": "Rust",
+      "merge_rate": 100,
+      "median_merge_days": 0.2,
+      "warnings": [],
+      "score": 83,
+      "title": "Publish cua-driver skill to ClawHub",
+      "url": "https://github.com/trycua/cua/issues/2264",
+      "age_days": 106,
+      "comments": 0,
+      "why": [
+        "documentation, enhancement, rust"
+      ]
+    },
+    {
+      "repo": "OpenWhispr/openwhispr",
+      "stars": 10421,
+      "language": "JavaScript",
+      "merge_rate": 58,
+      "median_merge_days": 7.2,
+      "warnings": [],
+      "score": 83,
+      "title": "Windows key listener: leftover messages, docs and an unused IPC channel after #2005",
+      "url": "https://github.com/OpenWhispr/openwhispr/issues/2242",
+      "age_days": 43,
+      "comments": 0,
+      "why": [
+        "documentation, Windows",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "ray-project/ray",
+      "stars": 44172,
+      "language": "Python",
+      "merge_rate": 93,
+      "median_merge_days": 0.8,
+      "warnings": [],
+      "score": 82,
+      "title": "[Data] Plan to deprecate built-in ClickHouse datasource in favor of community-maintained ray-clickhouse",
+      "url": "https://github.com/ray-project/ray/issues/66309",
+      "age_days": 42,
+      "comments": 2,
+      "why": [
+        "docs, data, tech-debt"
+      ]
+    },
+    {
+      "repo": "Pumpkin-MC/Pumpkin",
+      "stars": 12762,
+      "language": "Rust",
+      "merge_rate": 76,
+      "median_merge_days": 4.2,
+      "warnings": [
+        "has AI policy - read CONTRIBUTING"
+      ],
+      "score": 82,
+      "title": "Tracking: Codebase Docs",
+      "url": "https://github.com/Pumpkin-MC/Pumpkin/issues/1482",
+      "age_days": 264,
+      "comments": 6,
+      "why": [
+        "documentation, enhancement",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "actualbudget/actual",
+      "stars": 29878,
+      "language": "TypeScript",
+      "merge_rate": 65,
+      "median_merge_days": 6.5,
+      "warnings": [],
+      "score": 81,
+      "title": "[Docs] - Error in systemd setup configuration",
+      "url": "https://github.com/actualbudget/actual/issues/6171",
+      "age_days": 347,
+      "comments": 0,
+      "why": [
+        "documentation",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "shipshapecode/shepherd",
+      "stars": 13833,
+      "language": "JavaScript",
+      "merge_rate": 52,
+      "median_merge_days": 3.7,
+      "warnings": [],
+      "score": 81,
+      "title": "Docs: rendering framework components as step content, and why DOM injection belongs in when.show",
+      "url": "https://github.com/shipshapecode/shepherd/issues/3479",
+      "age_days": 78,
+      "comments": 0,
+      "why": [
+        "documentation",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "dolthub/dolt",
+      "stars": 24781,
+      "language": "Go",
+      "merge_rate": 59,
+      "median_merge_days": 0.4,
+      "warnings": [],
+      "score": 81,
+      "title": "docs: Production deployment guide - includes macOS launchd, not just Linux",
+      "url": "https://github.com/dolthub/dolt/issues/11225",
+      "age_days": 135,
+      "comments": 1,
+      "why": [
+        "documentation, enhancement, sql server",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "NodeBB/NodeBB",
+      "stars": 15246,
+      "language": "JavaScript",
+      "merge_rate": 61,
+      "median_merge_days": 0.0,
+      "warnings": [],
+      "score": 81,
+      "title": "Update and improve documentation",
+      "url": "https://github.com/NodeBB/NodeBB/issues/13825",
+      "age_days": 324,
+      "comments": 1,
+      "why": [
+        "enhancement, documentation",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "prestodb/presto",
+      "stars": 16763,
+      "language": "Java",
+      "merge_rate": 62,
+      "median_merge_days": 3.6,
+      "warnings": [],
+      "score": 80,
+      "title": "docs: Add information for ``service-inventory.uri`` config for disaggregated coordinator minimum setup",
+      "url": "https://github.com/prestodb/presto/issues/26509",
+      "age_days": 363,
+      "comments": 0,
+      "why": [
+        "docs",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "Automattic/harper",
+      "stars": 17305,
+      "language": "Rust",
+      "merge_rate": 71,
+      "median_merge_days": 0.1,
+      "warnings": [],
+      "score": 80,
+      "title": "Export POS (part of speech) metadata APIs from `harper-core` to `harper.js`",
+      "url": "https://github.com/Automattic/harper/issues/4688",
+      "age_days": 5,
+      "comments": 1,
+      "why": [
+        "documentation, enhancement, harper.js",
+        "new"
+      ]
+    },
+    {
+      "repo": "clauderic/dnd-kit",
+      "stars": 17769,
+      "language": "TypeScript",
+      "merge_rate": 85,
+      "median_merge_days": 12.7,
+      "warnings": [],
+      "score": 80,
+      "title": "[Feature Request] Agent Skills documentation",
+      "url": "https://github.com/clauderic/dnd-kit/issues/2047",
+      "age_days": 172,
+      "comments": 2,
+      "why": [
+        "documentation, feature request, triage:done",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "clauderic/dnd-kit",
+      "stars": 17769,
+      "language": "TypeScript",
+      "merge_rate": 85,
+      "median_merge_days": 12.7,
+      "warnings": [],
+      "score": 80,
+      "title": "Possible error in event documentation for DragDropProvider (typescript)",
+      "url": "https://github.com/clauderic/dnd-kit/issues/1895",
+      "age_days": 256,
+      "comments": 4,
+      "why": [
+        "documentation, types, react",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "RunanywhereAI/runanywhere-sdks",
+      "stars": 10333,
+      "language": "C++",
+      "merge_rate": 100,
+      "median_merge_days": 0.6,
+      "warnings": [],
+      "score": 80,
+      "title": "tool_calling.cpp: add invalid-UTF-8 regression coverage for both Pythonic entry points",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks/issues/1021",
+      "age_days": 16,
+      "comments": 1,
+      "why": [
+        "p3, core, good-first-issue",
+        "new"
+      ]
+    },
+    {
+      "repo": "AutoMQ/automq",
+      "stars": 10919,
+      "language": "Java",
+      "merge_rate": 55,
+      "median_merge_days": 0.5,
+      "warnings": [],
+      "score": 79,
+      "title": "General Feedback on AutoMQ Documentation and Getting Started Experience",
+      "url": "https://github.com/AutoMQ/automq/issues/3133",
+      "age_days": 300,
+      "comments": 4,
+      "why": [
+        "documentation",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "mlflow/mlflow",
+      "stars": 28604,
+      "language": "Python",
+      "merge_rate": 68,
+      "median_merge_days": 0.0,
+      "warnings": [],
+      "score": 79,
+      "title": "[FR] MCP Gateway support — Proxy MCP tool calls through AI Gateway with governance and observability",
+      "url": "https://github.com/mlflow/mlflow/issues/27127",
+      "age_days": 5,
+      "comments": 4,
+      "why": [
+        "enhancement, area/docs, area/uiux",
+        "new"
+      ]
+    },
+    {
+      "repo": "mlflow/mlflow",
+      "stars": 28604,
+      "language": "Python",
+      "merge_rate": 68,
+      "median_merge_days": 0.0,
+      "warnings": [],
+      "score": 79,
+      "title": "[FR] Agreement statistics between LLM judges and human labels (kappa, alpha, confusion matrix)",
+      "url": "https://github.com/mlflow/mlflow/issues/27117",
+      "age_days": 5,
+      "comments": 3,
+      "why": [
+        "enhancement, area/docs, area/evaluation",
+        "new"
+      ]
+    },
+    {
+      "repo": "mlflow/mlflow",
+      "stars": 28604,
+      "language": "Python",
+      "merge_rate": 68,
+      "median_merge_days": 0.0,
+      "warnings": [],
+      "score": 79,
+      "title": "[FR] compare_evaluations: non-regression gate and multiple-comparison correction",
+      "url": "https://github.com/mlflow/mlflow/issues/27116",
+      "age_days": 5,
+      "comments": 5,
+      "why": [
+        "enhancement, area/docs, area/evaluation",
+        "new"
+      ]
+    },
+    {
+      "repo": "mlflow/mlflow",
+      "stars": 28604,
+      "language": "Python",
+      "merge_rate": 68,
+      "median_merge_days": 0.0,
+      "warnings": [],
+      "score": 79,
+      "title": "[FR] Add a tracking server readiness endpoint that checks backend database availability",
+      "url": "https://github.com/mlflow/mlflow/issues/26333",
+      "age_days": 29,
+      "comments": 1,
+      "why": [
+        "enhancement, area/docs, Acknowledged",
+        "new"
+      ]
+    },
+    {
+      "repo": "tursodatabase/turso",
+      "stars": 25102,
+      "language": "Rust",
+      "merge_rate": 96,
+      "median_merge_days": 0.1,
+      "warnings": [
+        "has AI policy - read CONTRIBUTING"
+      ],
+      "score": 79,
+      "title": "Kotlin Multiplatform compatibility and official tutorial request",
+      "url": "https://github.com/tursodatabase/turso/issues/6069",
+      "age_days": 223,
+      "comments": 1,
+      "why": [
+        "documentation, bindings/java"
+      ]
+    },
+    {
+      "repo": "devicons/devicon",
+      "stars": 11866,
+      "language": "CSS",
+      "merge_rate": 100,
+      "median_merge_days": 3.7,
+      "warnings": [],
+      "score": 78,
+      "title": "[ICON REQUEST]: prisma update",
+      "url": "https://github.com/devicons/devicon/issues/2818",
+      "age_days": 1,
+      "comments": 0,
+      "why": [
+        "request:icon, good first issue",
+        "new"
+      ]
+    },
+    {
+      "repo": "NVIDIA/Megatron-LM",
+      "stars": 18303,
+      "language": "Python",
+      "merge_rate": 85,
+      "median_merge_days": 6.3,
+      "warnings": [],
+      "score": 78,
+      "title": "Megatron-LM Monthly Activity Report — August 2026",
+      "url": "https://github.com/NVIDIA/Megatron-LM/issues/7006",
+      "age_days": 60,
+      "comments": 0,
+      "why": [
+        "duplicate, documentation"
+      ]
+    },
+    {
+      "repo": "NVIDIA/Megatron-LM",
+      "stars": 18303,
+      "language": "Python",
+      "merge_rate": 85,
+      "median_merge_days": 6.3,
+      "warnings": [],
+      "score": 78,
+      "title": "Megatron-LM Monthly Activity Report — August 2026 (Final, through August 31, 2026)",
+      "url": "https://github.com/NVIDIA/Megatron-LM/issues/6921",
+      "age_days": 65,
+      "comments": 0,
+      "why": [
+        "documentation"
+      ]
+    },
+    {
+      "repo": "Gathin23/cleanyourtv",
+      "stars": 47197,
+      "language": "Python",
+      "merge_rate": 93,
+      "median_merge_days": 0.3,
+      "warnings": [],
+      "score": 78,
+      "title": "[TCL] Modelo 40S65A (Android version 9)",
+      "url": "https://github.com/Gathin23/cleanyourtv/issues/1862",
+      "age_days": 5,
+      "comments": 1,
+      "why": [
+        "good first issue, tv-list, help wanted",
+        "new"
+      ]
+    },
+    {
+      "repo": "Gathin23/cleanyourtv",
+      "stars": 47197,
+      "language": "Python",
+      "merge_rate": 93,
+      "median_merge_days": 0.3,
+      "warnings": [],
+      "score": 78,
+      "title": "[Device Support] Toshiba Android TV 11 (shandao / Vestel OEM)",
+      "url": "https://github.com/Gathin23/cleanyourtv/issues/1829",
+      "age_days": 5,
+      "comments": 1,
+      "why": [
+        "good first issue, tv-support, help wanted",
+        "new"
+      ]
+    },
+    {
+      "repo": "Gathin23/cleanyourtv",
+      "stars": 47197,
+      "language": "Python",
+      "merge_rate": 93,
+      "median_merge_days": 0.3,
+      "warnings": [],
+      "score": 78,
+      "title": "SkyworthBox Xiaopai P3（Android 10）",
+      "url": "https://github.com/Gathin23/cleanyourtv/issues/1659",
+      "age_days": 5,
+      "comments": 1,
+      "why": [
+        "good first issue, tv-list, tv-support",
+        "new"
+      ]
+    },
+    {
+      "repo": "Gathin23/cleanyourtv",
+      "stars": 47197,
+      "language": "Python",
+      "merge_rate": 93,
+      "median_merge_days": 0.3,
+      "warnings": [],
+      "score": 78,
+      "title": "Device report: Hotack / Allwinner Android 11 Projector (ADT-3 / D08)",
+      "url": "https://github.com/Gathin23/cleanyourtv/issues/1576",
+      "age_days": 6,
+      "comments": 1,
+      "why": [
+        "good first issue, tv-support, help wanted",
+        "new"
+      ]
+    },
+    {
+      "repo": "Gathin23/cleanyourtv",
+      "stars": 47197,
+      "language": "Python",
+      "merge_rate": 93,
+      "median_merge_days": 0.3,
+      "warnings": [],
+      "score": 78,
+      "title": "Show us what you built",
+      "url": "https://github.com/Gathin23/cleanyourtv/issues/102",
+      "age_days": 12,
+      "comments": 4,
+      "why": [
+        "good first issue, showcase",
+        "new"
+      ]
+    },
+    {
+      "repo": "prestodb/presto",
+      "stars": 16763,
+      "language": "Java",
+      "merge_rate": 62,
+      "median_merge_days": 3.6,
+      "warnings": [],
+      "score": 77,
+      "title": "docs: Document struct field access",
+      "url": "https://github.com/prestodb/presto/issues/26993",
+      "age_days": 283,
+      "comments": 2,
+      "why": [
+        "docs, feature request",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "prestodb/presto",
+      "stars": 16763,
+      "language": "Java",
+      "merge_rate": 62,
+      "median_merge_days": 3.6,
+      "warnings": [],
+      "score": 77,
+      "title": "docs: Separate java worker only session properties",
+      "url": "https://github.com/prestodb/presto/issues/26641",
+      "age_days": 347,
+      "comments": 4,
+      "why": [
+        "docs, usage",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "MHSanaei/3x-ui",
+      "stars": 48972,
+      "language": "Go",
+      "merge_rate": 63,
+      "median_merge_days": 0.5,
+      "warnings": [],
+      "score": 77,
+      "title": "[Bug]: اعمال نشدن اسم host برای کانفیگ برای لینک اشتراک",
+      "url": "https://github.com/MHSanaei/3x-ui/issues/7027",
+      "age_days": 1,
+      "comments": 2,
+      "why": [
+        "documentation",
+        "new"
+      ]
+    },
+    {
+      "repo": "MHSanaei/3x-ui",
+      "stars": 48972,
+      "language": "Go",
+      "merge_rate": 63,
+      "median_merge_days": 0.5,
+      "warnings": [],
+      "score": 77,
+      "title": "[Bug]: Remote panel update via mTLS node fails with HTTP 403 error",
+      "url": "https://github.com/MHSanaei/3x-ui/issues/6953",
+      "age_days": 4,
+      "comments": 3,
+      "why": [
+        "documentation",
+        "new"
+      ]
+    },
+    {
+      "repo": "cli/cli",
+      "stars": 46815,
+      "language": "Go",
+      "merge_rate": 47,
+      "median_merge_days": 0.9,
+      "warnings": [],
+      "score": 76,
+      "title": "Expand telemetry documentation to include sufficient information for informed policy decisions",
+      "url": "https://github.com/cli/cli/issues/13263",
+      "age_days": 191,
+      "comments": 1,
+      "why": [
+        "enhancement, docs, stale",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "devicons/devicon",
+      "stars": 11866,
+      "language": "CSS",
+      "merge_rate": 100,
+      "median_merge_days": 3.7,
+      "warnings": [],
+      "score": 75,
+      "title": "[ICON REQUEST]: vlang (plain icon should be reworked)",
+      "url": "https://github.com/devicons/devicon/issues/2782",
+      "age_days": 3,
+      "comments": 1,
+      "why": [
+        "request:icon, good first issue",
+        "new"
+      ]
+    },
+    {
+      "repo": "devicons/devicon",
+      "stars": 11866,
+      "language": "CSS",
+      "merge_rate": 100,
+      "median_merge_days": 3.7,
+      "warnings": [],
+      "score": 75,
+      "title": "[ICON REQUEST]: haxe (plain icon should be improved)",
+      "url": "https://github.com/devicons/devicon/issues/2772",
+      "age_days": 6,
+      "comments": 1,
+      "why": [
+        "request:icon, good first issue",
+        "new"
+      ]
+    },
+    {
+      "repo": "Automattic/harper",
+      "stars": 17305,
+      "language": "Rust",
+      "merge_rate": 71,
+      "median_merge_days": 0.1,
+      "warnings": [],
+      "score": 75,
+      "title": "The `OneOfMany` linter preference type doesn't seem to be documented anywhere",
+      "url": "https://github.com/Automattic/harper/issues/4210",
+      "age_days": 68,
+      "comments": 2,
+      "why": [
+        "documentation, good first issue, harper-core"
+      ]
+    },
+    {
+      "repo": "sveltejs/kit",
+      "stars": 20886,
+      "language": "JavaScript",
+      "merge_rate": 75,
+      "median_merge_days": 1.0,
+      "warnings": [],
+      "score": 74,
+      "title": "Load function failure behaviour",
+      "url": "https://github.com/sveltejs/kit/issues/15219",
+      "age_days": 275,
+      "comments": 0,
+      "why": [
+        "documentation"
+      ]
+    },
+    {
+      "repo": "ankitects/anki",
+      "stars": 32424,
+      "language": "Rust",
+      "merge_rate": 75,
+      "median_merge_days": 9.9,
+      "warnings": [],
+      "score": 74,
+      "title": "Document the behavior of `ANKI_API_HOST=0.0.0.0`",
+      "url": "https://github.com/ankitects/anki/issues/5512",
+      "age_days": 58,
+      "comments": 0,
+      "why": [
+        "docs"
+      ]
+    },
+    {
+      "repo": "ankitects/anki",
+      "stars": 32424,
+      "language": "Rust",
+      "merge_rate": 75,
+      "median_merge_days": 9.9,
+      "warnings": [],
+      "score": 74,
+      "title": "Add a brief explanation of the versioning scheme",
+      "url": "https://github.com/ankitects/anki/issues/5476",
+      "age_days": 64,
+      "comments": 0,
+      "why": [
+        "docs"
+      ]
+    },
+    {
+      "repo": "mlflow/mlflow",
+      "stars": 28604,
+      "language": "Python",
+      "merge_rate": 68,
+      "median_merge_days": 0.0,
+      "warnings": [],
+      "score": 74,
+      "title": "[FR] Support TypeSafe Jev evaluators in the AI Gateway, SDK, and Judges UI",
+      "url": "https://github.com/mlflow/mlflow/issues/26045",
+      "age_days": 39,
+      "comments": 1,
+      "why": [
+        "enhancement, area/docs, area/uiux"
+      ]
+    }
+  ],
+  "readme_typos": [
+    {
+      "repo": "authelia/authelia",
+      "stars": 29460,
+      "language": "Go",
+      "merge_rate": 100,
+      "median_merge_days": 0.2,
+      "warnings": [],
+      "score": 50,
+      "typos": [
+        {
+          "line": 389,
+          "word": "FO",
+          "fix": "OF, FOR, TO, DO, GO"
+        },
+        {
+          "line": 389,
+          "word": "FO",
+          "fix": "OF, FOR, TO, DO, GO"
+        }
+      ]
+    },
+    {
+      "repo": "trycua/cua",
+      "stars": 31391,
+      "language": "Rust",
+      "merge_rate": 100,
+      "median_merge_days": 0.2,
+      "warnings": [],
+      "score": 50,
+      "typos": [
+        {
+          "line": 235,
+          "word": "som",
+          "fix": "some"
+        }
+      ]
+    },
+    {
+      "repo": "RunanywhereAI/runanywhere-sdks",
+      "stars": 10333,
+      "language": "C++",
+      "merge_rate": 100,
+      "median_merge_days": 0.6,
+      "warnings": [],
+      "score": 50,
+      "typos": [
+        {
+          "line": 504,
+          "word": "LaMa",
+          "fix": "llama"
+        }
+      ]
+    },
+    {
+      "repo": "recommenders-team/recommenders",
+      "stars": 21973,
+      "language": "Python",
+      "merge_rate": 100,
+      "median_merge_days": 2.2,
+      "warnings": [],
+      "score": 50,
+      "typos": [
+        {
+          "line": 94,
+          "word": "ALS",
+          "fix": "ALSO"
+        },
+        {
+          "line": 138,
+          "word": "ALS",
+          "fix": "ALSO"
+        },
+        {
+          "line": 142,
+          "word": "ALS",
+          "fix": "ALSO"
+        }
+      ]
+    },
+    {
+      "repo": "be5invis/Iosevka",
+      "stars": 23195,
+      "language": "JavaScript",
+      "merge_rate": 100,
+      "median_merge_days": 0.4,
+      "warnings": [],
+      "score": 50,
+      "typos": [
+        {
+          "line": 52,
+          "word": "punctuations",
+          "fix": "punctuation, punctuation's"
+        },
+        {
+          "line": 61,
+          "word": "Vai",
+          "fix": "Via, Vie"
+        }
+      ]
+    },
+    {
+      "repo": "JetBrains/compose-multiplatform",
+      "stars": 19459,
+      "language": "Kotlin",
+      "merge_rate": 95,
+      "median_merge_days": 0.6,
+      "warnings": [],
+      "score": 48,
+      "typos": [
+        {
+          "line": 82,
+          "word": "Contibution",
+          "fix": "Contribution"
+        }
+      ]
+    },
+    {
+      "repo": "colmap/colmap",
+      "stars": 13112,
+      "language": "C++",
+      "merge_rate": 91,
+      "median_merge_days": 1.8,
+      "warnings": [],
+      "score": 47,
+      "typos": [
+        {
+          "line": 126,
+          "word": "thirdparty",
+          "fix": "third party, third-party"
+        }
+      ]
+    },
+    {
+      "repo": "ccxt/ccxt",
+      "stars": 44637,
+      "language": "Python",
+      "merge_rate": 90,
+      "median_merge_days": 0.9,
+      "warnings": [],
+      "score": 47,
+      "typos": [
+        {
+          "line": 1103,
+          "word": "varibales",
+          "fix": "variables"
+        }
+      ]
+    },
+    {
+      "repo": "caronc/apprise",
+      "stars": 17685,
+      "language": "Python",
+      "merge_rate": 92,
+      "median_merge_days": 0.9,
+      "warnings": [],
+      "score": 47,
+      "typos": [
+        {
+          "line": 182,
+          "word": "pasword",
+          "fix": "password"
+        },
+        {
+          "line": 782,
+          "word": "optionaly",
+          "fix": "optionally"
+        },
+        {
+          "line": 789,
+          "word": "peristent",
+          "fix": "persistent"
+        },
+        {
+          "line": 826,
+          "word": "commited",
+          "fix": "committed"
+        }
+      ]
+    },
+    {
+      "repo": "simplex-chat/simplex-chat",
+      "stars": 19618,
+      "language": "Haskell",
+      "merge_rate": 90,
+      "median_merge_days": 0.2,
+      "warnings": [],
+      "score": 46,
+      "typos": [
+        {
+          "line": 361,
+          "word": "re-using",
+          "fix": "reusing"
+        }
+      ]
+    },
+    {
+      "repo": "Jackett/Jackett",
+      "stars": 16300,
+      "language": "C#",
+      "merge_rate": 87,
+      "median_merge_days": 0.0,
+      "warnings": [],
+      "score": 45,
+      "typos": [
+        {
+          "line": 407,
+          "word": "HDA",
+          "fix": "HAD"
+        },
+        {
+          "line": 613,
+          "word": "TE",
+          "fix": "THE, BE, WE, TO"
+        },
+        {
+          "line": 637,
+          "word": "TORK",
+          "fix": "TORQUE"
+        }
+      ]
+    },
+    {
+      "repo": "sogou/workflow",
+      "stars": 14425,
+      "language": "C++",
+      "merge_rate": 87,
+      "median_merge_days": 0.2,
+      "warnings": [],
+      "score": 45,
+      "typos": [
+        {
+          "line": 114,
+          "word": "build-in",
+          "fix": "built-in"
+        }
+      ]
+    },
+    {
+      "repo": "meshery/meshery",
+      "stars": 12091,
+      "language": "TypeScript",
+      "merge_rate": 86,
+      "median_merge_days": 0.0,
+      "warnings": [],
+      "score": 45,
+      "typos": [
+        {
+          "line": 233,
+          "word": "aks",
+          "fix": "ask"
+        },
+        {
+          "line": 233,
+          "word": "aks",
+          "fix": "ask"
+        },
+        {
+          "line": 233,
+          "word": "aks",
+          "fix": "ask"
+        }
+      ]
+    },
+    {
+      "repo": "Tencent/WeKnora",
+      "stars": 36095,
+      "language": "Go",
+      "merge_rate": 97,
+      "median_merge_days": 3.8,
+      "warnings": [],
+      "score": 44,
+      "typos": [
+        {
+          "line": 328,
+          "word": "ROUGE",
+          "fix": "ROGUE"
+        }
+      ]
+    },
+    {
+      "repo": "novuhq/novu",
+      "stars": 40240,
+      "language": "TypeScript",
+      "merge_rate": 83,
+      "median_merge_days": 0.1,
+      "warnings": [],
+      "score": 44,
+      "typos": [
+        {
+          "line": 71,
+          "word": "ACI",
+          "fix": "ACPI"
+        },
+        {
+          "line": 81,
+          "word": "ACI",
+          "fix": "ACPI"
+        },
+        {
+          "line": 99,
+          "word": "ACI",
+          "fix": "ACPI"
+        },
+        {
+          "line": 103,
+          "word": "ACI",
+          "fix": "ACPI"
+        },
+        {
+          "line": 114,
+          "word": "ACI",
+          "fix": "ACPI"
+        },
+        {
+          "line": 115,
+          "word": "ACI",
+          "fix": "ACPI"
+        },
+        {
+          "line": 184,
+          "word": "Eazy",
+          "fix": "Easy"
+        },
+        {
+          "line": 288,
+          "word": "beatiful",
+          "fix": "beautiful"
+        }
+      ]
+    },
+    {
+      "repo": "deepspeedai/DeepSpeed",
+      "stars": 43278,
+      "language": "Python",
+      "merge_rate": 96,
+      "median_merge_days": 6.0,
+      "warnings": [],
+      "score": 43,
+      "typos": [
+        {
+          "line": 246,
+          "word": "Youn",
+          "fix": "Your, You, Young"
+        },
+        {
+          "line": 252,
+          "word": "Youn",
+          "fix": "Your, You, Young"
+        },
+        {
+          "line": 254,
+          "word": "Youn",
+          "fix": "Your, You, Young"
+        },
+        {
+          "line": 256,
+          "word": "Youn",
+          "fix": "Your, You, Young"
+        }
+      ]
+    },
+    {
+      "repo": "sandboxie-plus/Sandboxie",
+      "stars": 19837,
+      "language": "C++",
+      "merge_rate": 76,
+      "median_merge_days": 0.3,
+      "warnings": [],
+      "score": 42,
+      "typos": [
+        {
+          "line": 137,
+          "word": "typpos",
+          "fix": "typos"
+        }
+      ]
+    },
+    {
+      "repo": "nginx-proxy/nginx-proxy",
+      "stars": 19935,
+      "language": "Python",
+      "merge_rate": 77,
+      "median_merge_days": 0.4,
+      "warnings": [],
+      "score": 42,
+      "typos": [
+        {
+          "line": 60,
+          "word": "suported",
+          "fix": "supported"
+        }
+      ]
+    },
+    {
+      "repo": "studyzy/imewlconverter",
+      "stars": 10493,
+      "language": "C#",
+      "merge_rate": 79,
+      "median_merge_days": 0.5,
+      "warnings": [],
+      "score": 42,
+      "typos": [
+        {
+          "line": 75,
+          "word": "Rime",
+          "fix": "Rhyme"
+        },
+        {
+          "line": 75,
+          "word": "Rime",
+          "fix": "Rhyme"
+        },
+        {
+          "line": 155,
+          "word": "Rime",
+          "fix": "Rhyme"
+        },
+        {
+          "line": 184,
+          "word": "Rime",
+          "fix": "Rhyme"
+        }
+      ]
+    },
+    {
+      "repo": "alirezarezvani/claude-skills",
+      "stars": 29045,
+      "language": "Python",
+      "merge_rate": 75,
+      "median_merge_days": 0.3,
+      "warnings": [],
+      "score": 41,
+      "typos": [
+        {
+          "line": 5,
+          "word": "COO",
+          "fix": "COUP"
+        },
+        {
+          "line": 172,
+          "word": "COO",
+          "fix": "COUP"
+        }
+      ]
+    },
+    {
+      "repo": "APIJSON/APIJSON",
+      "stars": 18394,
+      "language": "Java",
+      "merge_rate": 71,
+      "median_merge_days": 0.9,
+      "warnings": [],
+      "score": 40,
+      "typos": [
+        {
+          "line": 110,
+          "word": "dosen't",
+          "fix": "doesn't"
+        },
+        {
+          "line": 349,
+          "word": "Contributers",
+          "fix": "Contributors"
+        },
+        {
+          "line": 350,
+          "word": "Contributers",
+          "fix": "Contributors"
+        },
+        {
+          "line": 368,
+          "word": "contributers",
+          "fix": "contributors"
+        },
+        {
+          "line": 386,
+          "word": "everytime",
+          "fix": "every time"
+        },
+        {
+          "line": 474,
+          "word": "dependencie",
+          "fix": "dependency"
+        }
+      ]
+    },
+    {
+      "repo": "JustVugg/colibri",
+      "stars": 45259,
+      "language": "C",
+      "merge_rate": 64,
+      "median_merge_days": 0.4,
+      "warnings": [],
+      "score": 38,
+      "typos": [
+        {
+          "line": 766,
+          "word": "ANS",
+          "fix": "AND"
+        }
+      ]
+    },
+    {
+      "repo": "BtbN/FFmpeg-Builds",
+      "stars": 11905,
+      "language": "Shell",
+      "merge_rate": 63,
+      "median_merge_days": 0.6,
+      "warnings": [],
+      "score": 37,
+      "typos": [
+        {
+          "line": 5,
+          "word": "targetting",
+          "fix": "targeting"
+        },
+        {
+          "line": 8,
+          "word": "targetting",
+          "fix": "targeting"
+        }
+      ]
+    },
+    {
+      "repo": "HeyPuter/puter",
+      "stars": 44037,
+      "language": "TypeScript",
+      "merge_rate": 64,
+      "median_merge_days": 2.9,
+      "warnings": [],
+      "score": 37,
+      "typos": [
+        {
+          "line": 130,
+          "word": "te",
+          "fix": "the, be, we, to"
+        }
+      ]
+    },
+    {
+      "repo": "doitsujin/dxvk",
+      "stars": 18398,
+      "language": "C++",
+      "merge_rate": 60,
+      "median_merge_days": 0.1,
+      "warnings": [],
+      "score": 36,
+      "typos": [
+        {
+          "line": 95,
+          "word": "seperator",
+          "fix": "separator"
+        }
+      ]
+    },
+    {
+      "repo": "typesense/typesense",
+      "stars": 27067,
+      "language": "C++",
+      "merge_rate": 67,
+      "median_merge_days": 3.9,
+      "warnings": [],
+      "score": 33,
+      "typos": [
+        {
+          "line": 295,
+          "word": "scaleable",
+          "fix": "scalable"
+        }
+      ]
+    },
+    {
+      "repo": "academic/awesome-datascience",
+      "stars": 30254,
+      "language": "",
+      "merge_rate": 43,
+      "median_merge_days": 0.7,
+      "warnings": [],
+      "score": 30,
+      "typos": [
+        {
+          "line": 161,
+          "word": "EHR",
+          "fix": "HER"
+        },
+        {
+          "line": 295,
+          "word": "bu",
+          "fix": "by, be, but, bug, bun, bud, buy, bum"
+        },
+        {
+          "line": 351,
+          "word": "Hierchical",
+          "fix": "Hierarchical"
+        },
+        {
+          "line": 595,
+          "word": "sav",
+          "fix": "save"
+        },
+        {
+          "line": 618,
+          "word": "Nervana",
+          "fix": "Nirvana"
+        },
+        {
+          "line": 660,
+          "word": "Probabalistic",
+          "fix": "Probabilistic"
+        }
+      ]
+    },
+    {
+      "repo": "ppy/osu",
+      "stars": 19354,
+      "language": "C#",
+      "merge_rate": 57,
+      "median_merge_days": 4.1,
+      "warnings": [
+        "has AI policy - read CONTRIBUTING"
+      ],
+      "score": 30,
+      "typos": [
+        {
+          "line": 2,
+          "word": "lazer",
+          "fix": "laser"
+        },
+        {
+          "line": 15,
+          "word": "lazer",
+          "fix": "laser"
+        },
+        {
+          "line": 23,
+          "word": "lazer",
+          "fix": "laser"
+        }
+      ]
+    },
+    {
+      "repo": "latent-spaces/brag",
+      "stars": 19681,
+      "language": "Python",
+      "merge_rate": 53,
+      "median_merge_days": 5.7,
+      "warnings": [],
+      "score": 29,
+      "typos": [
+        {
+          "line": 147,
+          "word": "ende",
+          "fix": "end"
+        },
+        {
+          "line": 147,
+          "word": "ende",
+          "fix": "end"
+        }
+      ]
+    },
+    {
+      "repo": "fortra/impacket",
+      "stars": 16209,
+      "language": "Python",
+      "merge_rate": 68,
+      "median_merge_days": 19.7,
+      "warnings": [],
+      "score": 29,
+      "typos": [
+        {
+          "line": 31,
+          "word": "LSAT",
+          "fix": "LAST, SLAT, SAT"
+        }
+      ]
+    },
+    {
+      "repo": "shipshapecode/shepherd",
+      "stars": 13833,
+      "language": "JavaScript",
+      "merge_rate": 52,
+      "median_merge_days": 3.7,
+      "warnings": [],
+      "score": 28,
+      "typos": [
+        {
+          "line": 103,
+          "word": "interative",
+          "fix": "interactive, iterative"
+        }
+      ]
+    },
+    {
+      "repo": "tirth8205/code-review-graph",
+      "stars": 32516,
+      "language": "Python",
+      "merge_rate": 57,
+      "median_merge_days": 13.8,
+      "warnings": [],
+      "score": 25,
+      "typos": [
+        {
+          "line": 632,
+          "word": "iTerm",
+          "fix": "term, item, intern"
+        }
+      ]
+    },
+    {
+      "repo": "heartcombo/devise",
+      "stars": 24357,
+      "language": "Ruby",
+      "merge_rate": 60,
+      "median_merge_days": 46.9,
+      "warnings": [],
+      "score": 21,
+      "typos": [
+        {
+          "line": 17,
+          "word": "Rememberable",
+          "fix": "Memorable"
+        },
+        {
+          "line": 17,
+          "word": "Rememberable",
+          "fix": "Memorable"
+        }
+      ]
+    },
+    {
+      "repo": "react-native-maps/react-native-maps",
+      "stars": 16014,
+      "language": "TypeScript",
+      "merge_rate": 45,
+      "median_merge_days": 77.8,
+      "warnings": [],
+      "score": 16,
+      "typos": [
+        {
+          "line": 220,
+          "word": "usefull",
+          "fix": "useful"
+        },
+        {
+          "line": 523,
+          "word": "informations",
+          "fix": "information"
+        }
+      ]
+    },
+    {
+      "repo": "VoltAgent/voltagent",
+      "stars": 10904,
+      "language": "TypeScript",
+      "merge_rate": 47,
+      "median_merge_days": 36.4,
+      "warnings": [],
+      "score": 16,
+      "typos": [
+        {
+          "line": 285,
+          "word": "dashboar",
+          "fix": "dashboard"
+        }
+      ]
+    }
+  ]
+}
