@@ -4,7 +4,8 @@ Smart contribution finder
 Scans active GitHub repos with 10k-50k stars and finds small changes that a
 maintainer is likely to accept:
 
-  1. Open, unclaimed issues labeled docs / typo / good first issue / help wanted
+  1. Open, unclaimed issues opened in the last month, labeled good first issue /
+     docs / typo / help wanted. Good first issues are always listed first.
   2. Typos in the README (found with codespell) - ready-made small PRs
 
 Every repo is scored by how friendly it is to outside contributors:
@@ -32,10 +33,10 @@ import requests
 
 # ======================= settings you can change =======================
 MIN_STARS = 10_000
-MAX_STARS = 100_000
+MAX_STARS = 70_000
 MAX_REPOS = 600  # repos scanned per run (random sample -> different every day)
 ACTIVE_DAYS = 30  # only repos with a push in the last N days
-MAX_ISSUE_AGE_DAYS = 365  # ignore issues older than this
+MAX_ISSUE_AGE_DAYS = 30  # only issues opened in the last N days
 MAX_COMMENTS = 6  # issues with many comments are usually taken or complicated
 MIN_MERGE_RATE = 0.4  # skip repos that merge fewer than 40% of outside PRs
 TOP_ISSUES = 100  # how many issues to show in results
@@ -56,8 +57,11 @@ LABEL_FILTER = [
     "good first issue",
     "Good First Issue",
     "good-first-issue",
+    "Good first issue",
+    "good first issue :+1:",
     "first-timers-only",
     "beginner",
+    "starter",
     "easy",
     "help wanted",
     "Help Wanted",
@@ -70,11 +74,30 @@ TITLE_BONUS = re.compile(
     re.I,
 )
 
+# A comment (or the issue body) saying someone is taking or already took the issue.
 CLAIM = re.compile(
-    r"(i('d| would) (like|love) to (work|take|help|contribute)|can i (work|take|pick)|"
-    r"assign (it|this|me)|i('ll| will) (work|take|pick|submit|open)|working on (it|this)|"
-    r"i('m| am) on it|may i (work|take)|please assign|i('ve| have) (opened|submitted) a pr)",
+    r"(i('d| would) (like|love|want) to (work|take|help|contribute|tackle|fix|try)|"
+    r"i want to (work|take|fix|tackle|try)|happy to (work|submit|open|send|fix)|"
+    r"(can|could|may) i (work|take|pick|try|tackle|fix|get|be assigned)|"
+    r"assign (it|this|me)|please assign|"
+    r"i('ll| will) (work|take|pick|submit|open|send|create|fix|tackle|try)|"
+    r"i can (work|take|pick|fix|tackle)|let me (work|take|try|fix|handle)|"
+    r"working on (it|this)|i('m| am) (on it|working|interested|taking)|"
+    r"i('ve| have) (opened|submitted|created|raised|sent) a (pr|pull request)|"
+    r"is (this|it|anyone|someone) (still )?(available|open|taken|working)|"
+    r"^\s*/(assign|take|claim)\b)",
+    re.I | re.M,
+)
+
+# Labels meaning someone is already on it.
+TAKEN_LABEL = re.compile(
+    r"in[ -]?progress|\bassigned|claimed|\bwip\b|has[ -]?pr|pr[ -]?(open|exists|submitted)|"
+    r"\btaken\b|work[ -]in[ -]progress",
     re.I,
+)
+
+GOOD_FIRST = re.compile(
+    r"good[ -]?first|first[ -]?timers?|beginner|starter|newcomer|\beasy\b", re.I
 )
 
 NO_TRIVIAL = re.compile(
@@ -213,19 +236,24 @@ fragment R on Repository {
                orderBy: {field: UPDATED_AT, direction: DESC}) {
     nodes { merged createdAt mergedAt authorAssociation }
   }
-  issues(first: 15, states: OPEN, labels: $labels,
+  issues(first: 25, states: OPEN, labels: $labels,
          orderBy: {field: CREATED_AT, direction: DESC}) {
     nodes {
       title
       url
       createdAt
+      body
       assignees { totalCount }
-      labels(first: 8) { nodes { name } }
-      comments(last: 5) { totalCount nodes { body } }
-      timelineItems(last: 5, itemTypes: [CROSS_REFERENCED_EVENT, CONNECTED_EVENT]) {
+      linkedBranches(first: 1) { totalCount }
+      closedByPullRequestsReferences(first: 1) { totalCount }
+      labels(first: 10) { nodes { name } }
+      comments(last: 10) { totalCount nodes { body } }
+      timelineItems(last: 10, itemTypes: [CROSS_REFERENCED_EVENT, CONNECTED_EVENT]) {
         nodes {
           __typename
-          ... on CrossReferencedEvent { source { __typename } }
+          ... on CrossReferencedEvent {
+            source { __typename ... on PullRequest { state } }
+          }
         }
       }
     }
@@ -300,35 +328,37 @@ def friendliness(repo):
 def label_score(names):
     best = 0
     for n in (x.lower() for x in names):
-        if "typo" in n:
-            best = max(best, 35)
-        elif "doc" in n:
-            best = max(best, 30)
-        elif "first-timers" in n or "first timers" in n:
+        if GOOD_FIRST.search(n):
+            best = max(best, 40)
+        elif "typo" in n:
             best = max(best, 25)
-        elif any(
-            k in n for k in ("good first", "good-first", "beginner", "easy", "starter")
-        ):
+        elif "doc" in n:
             best = max(best, 20)
         elif "help wanted" in n or "help-wanted" in n:
             best = max(best, 12)
     return best
 
 
-def is_taken(issue):
-    if (issue.get("assignees") or {}).get("totalCount", 0) > 0:
+def is_taken(issue, labels):
+    """True if anyone is assigned, linked a branch/PR, or said they're on it."""
+    for field in ("assignees", "linkedBranches", "closedByPullRequestsReferences"):
+        if (issue.get(field) or {}).get("totalCount", 0) > 0:
+            return True
+    if any(TAKEN_LABEL.search(l) for l in labels):
         return True
     for ev in (issue.get("timelineItems") or {}).get("nodes") or []:
         if not ev:
             continue
         if ev.get("__typename") == "ConnectedEvent":
             return True
-        if (ev.get("source") or {}).get("__typename") == "PullRequest":
+        source = ev.get("source") or {}
+        # A closed (unmerged) PR means the attempt was abandoned -> free again
+        if source.get("__typename") == "PullRequest" and source.get("state") != "CLOSED":
             return True
-    for c in (issue.get("comments") or {}).get("nodes") or []:
-        if c and CLAIM.search(c.get("body") or ""):
-            return True
-    return False
+    texts = [issue.get("body") or ""] + [
+        c.get("body") or "" for c in (issue.get("comments") or {}).get("nodes") or [] if c
+    ]
+    return any(CLAIM.search(t) for t in texts)
 
 
 def good_issues(repo, friend):
@@ -338,21 +368,23 @@ def good_issues(repo, friend):
             continue
         age = (NOW - parse_time(issue["createdAt"])).days
         n_comments = (issue.get("comments") or {}).get("totalCount", 0)
-        if age > MAX_ISSUE_AGE_DAYS or n_comments > MAX_COMMENTS or is_taken(issue):
+        if age > MAX_ISSUE_AGE_DAYS or n_comments > MAX_COMMENTS:
             continue
         labels = [
             l["name"] for l in (issue.get("labels") or {}).get("nodes") or [] if l
         ]
-        ls = label_score(labels)
+        if is_taken(issue, labels):
+            continue
+        good_first = any(GOOD_FIRST.search(l) for l in labels)
         why = []
-        score = ls + friend["score"]
+        score = label_score(labels) + friend["score"]
         if TITLE_BONUS.search(issue["title"]):
-            score += 15
-            why.append("docs/typo-type task")
-        if age <= 30:
             score += 10
-            why.append("new")
-        elif age <= 90:
+            why.append("docs/typo-type task")
+        if age <= 7:
+            score += 10
+            why.append("this week")
+        elif age <= 14:
             score += 5
         if n_comments == 0:
             score += 3
@@ -360,6 +392,7 @@ def good_issues(repo, friend):
         out.append(
             {
                 "score": round(score),
+                "good_first_issue": good_first,
                 "title": issue["title"],
                 "url": issue["url"],
                 "age_days": age,
@@ -474,7 +507,7 @@ def main():
                         {**base, "score": round(friend["score"]), "typos": typos}
                     )
 
-    issues.sort(key=lambda x: x["score"], reverse=True)
+    issues.sort(key=lambda x: (x["good_first_issue"], x["score"]), reverse=True)
     typo_fixes.sort(key=lambda x: x["score"], reverse=True)
     issues, typo_fixes = issues[:TOP_ISSUES], typo_fixes[:TOP_TYPOS]
 
@@ -501,7 +534,10 @@ def main():
             "and the typical days until merge.\n\n"
         )
 
-        f.write(f"## Unclaimed issues ({len(issues)})\n\n")
+        f.write(
+            f"## Unclaimed issues from the last {MAX_ISSUE_AGE_DAYS} days ({len(issues)})\n\n"
+        )
+        f.write("⭐ = good first issue (always listed first)\n\n")
         f.write(
             "| Score | Repo | Stars | Lang | Merge info | Issue | Why | Warnings |\n"
         )
@@ -509,7 +545,8 @@ def main():
         for x in issues:
             f.write(
                 f"| {x['score']} | {x['repo']} | {x['stars']:,} | {esc(x['language'])} | "
-                f"{merge_info(x)} | [{esc(x['title'][:70])}]({x['url']}) | "
+                f"{merge_info(x)} | {'⭐ ' if x['good_first_issue'] else ''}"
+                f"[{esc(x['title'][:70])}]({x['url']}) | "
                 f"{esc('; '.join(x['why']))} | {esc(', '.join(x['warnings']))} |\n"
             )
 
