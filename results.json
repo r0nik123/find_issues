@@ -1,43 +1,61 @@
 {
   "issues": [
     {
-      "repo": "FreeCAD/FreeCAD",
-      "stars": 35208,
-      "language": "C++",
-      "merge_rate": 76,
-      "median_merge_days": 0.3,
-      "warnings": [],
-      "score": 95,
-      "good_first_issue": true,
-      "title": "BIM: ArchCovering should show parametric patterns on top and bottom faces",
-      "url": "https://github.com/FreeCAD/FreeCAD/issues/34159",
-      "age_days": 0,
-      "comments": 0,
-      "why": [
-        "Mod: BIM, Good first issue",
-        "this week"
-      ]
-    },
-    {
       "repo": "Gathin23/cleanyourtv",
-      "stars": 53608,
+      "stars": 54298,
       "language": "Python",
-      "merge_rate": 70,
-      "median_merge_days": 0.5,
+      "merge_rate": 83,
+      "median_merge_days": 0.4,
       "warnings": [],
-      "score": 84,
+      "score": 89,
       "good_first_issue": true,
       "title": "SkyworthBox Xiaopai P3（Android 10）",
       "url": "https://github.com/Gathin23/cleanyourtv/issues/1659",
-      "age_days": 12,
+      "age_days": 13,
       "comments": 1,
       "why": [
         "good first issue, tv-list, tv-support"
       ]
     },
     {
+      "repo": "ueberdosis/tiptap",
+      "stars": 38986,
+      "language": "TypeScript",
+      "merge_rate": 82,
+      "median_merge_days": 3.1,
+      "warnings": [
+        "has AI policy - read CONTRIBUTING"
+      ],
+      "score": 84,
+      "good_first_issue": true,
+      "title": "Backport #8329 (reuse the inverted mapping in getChangedRanges) to v3",
+      "url": "https://github.com/ueberdosis/tiptap/issues/8621",
+      "age_days": 11,
+      "comments": 1,
+      "why": [
+        "good first issue, area: core, complexity: easy"
+      ]
+    },
+    {
+      "repo": "Gathin23/cleanyourtv",
+      "stars": 54298,
+      "language": "Python",
+      "merge_rate": 83,
+      "median_merge_days": 0.4,
+      "warnings": [],
+      "score": 84,
+      "good_first_issue": true,
+      "title": "Show us what you built",
+      "url": "https://github.com/Gathin23/cleanyourtv/issues/102",
+      "age_days": 20,
+      "comments": 4,
+      "why": [
+        "good first issue, showcase"
+      ]
+    },
+    {
       "repo": "medusajs/medusa",
-      "stars": 37122,
+      "stars": 37129,
       "language": "TypeScript",
       "merge_rate": 80,
       "median_merge_days": 0.0,
@@ -48,89 +66,92 @@
       "good_first_issue": true,
       "title": "[Bug]: `@medusajs/test-utils`: get-port@5 interval keeps each HTTP integration test file's Jest context alive (when PORT is not set)",
       "url": "https://github.com/medusajs/medusa/issues/17221",
-      "age_days": 28,
+      "age_days": 29,
       "comments": 3,
       "why": [
         "good first issue, type: bug, requires-team"
       ]
     },
     {
-      "repo": "FreeCAD/FreeCAD",
-      "stars": 35208,
-      "language": "C++",
-      "merge_rate": 76,
-      "median_merge_days": 0.3,
+      "repo": "mattermost/mattermost",
+      "stars": 39558,
+      "language": "TypeScript",
+      "merge_rate": 88,
+      "median_merge_days": 1.4,
       "warnings": [],
-      "score": 82,
-      "good_first_issue": true,
-      "title": "Preferences dialogue window partially inaccessible with VoiceOver Screen reader for MacOS",
-      "url": "https://github.com/FreeCAD/FreeCAD/issues/33413",
-      "age_days": 27,
-      "comments": 5,
+      "score": 86,
+      "good_first_issue": false,
+      "title": "[Docs]: Linux Desktop installation doc uses wrong CLI option for rpm upgrade",
+      "url": "https://github.com/mattermost/mattermost/issues/39585",
+      "age_days": 6,
+      "comments": 1,
       "why": [
-        "Mod: Core, Status: Needs confirmation, Good first issue"
+        "kind/documentation",
+        "docs/typo-type task",
+        "this week"
       ]
     },
     {
-      "repo": "Gathin23/cleanyourtv",
-      "stars": 53608,
-      "language": "Python",
-      "merge_rate": 70,
-      "median_merge_days": 0.5,
-      "warnings": [],
-      "score": 80,
-      "good_first_issue": true,
-      "title": "Show us what you built",
-      "url": "https://github.com/Gathin23/cleanyourtv/issues/102",
-      "age_days": 19,
-      "comments": 4,
-      "why": [
-        "good first issue, showcase"
-      ]
-    },
-    {
-      "repo": "floci-io/floci",
-      "stars": 30958,
+      "repo": "keycloak/keycloak",
+      "stars": 37752,
       "language": "Java",
-      "merge_rate": 96,
-      "median_merge_days": 0.4,
+      "merge_rate": 97,
+      "median_merge_days": 2.7,
       "warnings": [
         "has AI policy - read CONTRIBUTING"
       ],
-      "score": 92,
+      "score": 81,
       "good_first_issue": false,
-      "title": "[DOCS] The mounted Docker socket is root on the host: add a security note and a tested rootless Docker setup",
-      "url": "https://github.com/floci-io/floci/issues/7687",
-      "age_days": 0,
-      "comments": 0,
+      "title": "Ineffective \"Valid post logout redirect URIs\" in SAML Client GUI; misleading documentation.",
+      "url": "https://github.com/keycloak/keycloak/issues/54563",
+      "age_days": 5,
+      "comments": 2,
       "why": [
-        "documentation, docker",
+        "kind/bug, area/admin/ui, help wanted",
         "docs/typo-type task",
         "this week"
       ]
     },
     {
-      "repo": "upstash/context7",
-      "stars": 64310,
-      "language": "TypeScript",
-      "merge_rate": 76,
-      "median_merge_days": 4.0,
+      "repo": "filamentphp/filament",
+      "stars": 32452,
+      "language": "PHP",
+      "merge_rate": 88,
+      "median_merge_days": 0.7,
       "warnings": [],
-      "score": 80,
+      "score": 79,
       "good_first_issue": false,
-      "title": "[Docs]: https://coregame.sh/wiki/documentation/",
-      "url": "https://github.com/upstash/context7/issues/3706",
-      "age_days": 0,
+      "title": "Document composable record pages better / improve API",
+      "url": "https://github.com/filamentphp/filament/issues/20958",
+      "age_days": 2,
       "comments": 0,
       "why": [
         "documentation",
-        "docs/typo-type task",
         "this week"
+      ]
+    },
+    {
+      "repo": "keycloak/keycloak",
+      "stars": 37752,
+      "language": "Java",
+      "merge_rate": 97,
+      "median_merge_days": 2.7,
+      "warnings": [
+        "has AI policy - read CONTRIBUTING"
+      ],
+      "score": 77,
+      "good_first_issue": false,
+      "title": "Validate and document encrypted Keycloak clustering with Istio STRICT mTLS",
+      "url": "https://github.com/keycloak/keycloak/issues/54495",
+      "age_days": 8,
+      "comments": 0,
+      "why": [
+        "kind/enhancement, area/docs, area/infinispan"
       ]
     },
     {
       "repo": "elastic/logstash",
-      "stars": 14972,
+      "stars": 14973,
       "language": "Java",
       "merge_rate": 96,
       "median_merge_days": 0.0,
@@ -139,121 +160,49 @@
       "good_first_issue": false,
       "title": "Using Logstash with Elastic Integrations should assert Elastic Agent requirements more strongly",
       "url": "https://github.com/elastic/logstash/issues/19754",
-      "age_days": 9,
+      "age_days": 10,
       "comments": 0,
       "why": [
         "docs, status:needs-triage"
       ]
     },
     {
-      "repo": "ophub/amlogic-s9xxx-armbian",
-      "stars": 10273,
-      "language": "Shell",
-      "merge_rate": 80,
-      "median_merge_days": 0.2,
+      "repo": "ultralytics/ultralytics",
+      "stars": 63210,
+      "language": "Python",
+      "merge_rate": 100,
+      "median_merge_days": 0.5,
       "warnings": [],
-      "score": 73,
+      "score": 70,
       "good_first_issue": false,
-      "title": "分享：RK(瑞芯微)板子 和AI Agent协作适配Armbian(dts)的skill",
-      "url": "https://github.com/ophub/amlogic-s9xxx-armbian/issues/3765",
-      "age_days": 0,
-      "comments": 3,
+      "title": "Guidance requested: experimental YOLO26n-pose IMX500 export works, but shows a substantial accuracy drop",
+      "url": "https://github.com/ultralytics/ultralytics/issues/26751",
+      "age_days": 21,
+      "comments": 4,
       "why": [
-        "documentation, essence",
-        "this week"
+        "documentation, question, exports"
       ]
     },
     {
-      "repo": "ophub/amlogic-s9xxx-armbian",
-      "stars": 10273,
-      "language": "Shell",
-      "merge_rate": 80,
-      "median_merge_days": 0.2,
+      "repo": "llvm/llvm-project",
+      "stars": 41365,
+      "language": "LLVM",
+      "merge_rate": 86,
+      "median_merge_days": 0.6,
       "warnings": [],
-      "score": 73,
+      "score": 68,
       "good_first_issue": false,
-      "title": "请求适配 朝歌Z93A 云电脑（主板丝印 MK054）",
-      "url": "https://github.com/ophub/amlogic-s9xxx-armbian/issues/3762",
-      "age_days": 1,
-      "comments": 2,
-      "why": [
-        "documentation, support, new box",
-        "this week"
-      ]
-    },
-    {
-      "repo": "ophub/amlogic-s9xxx-armbian",
-      "stars": 10273,
-      "language": "Shell",
-      "merge_rate": 80,
-      "median_merge_days": 0.2,
-      "warnings": [],
-      "score": 73,
-      "good_first_issue": false,
-      "title": "请求更新 R66S / OECT 内核，修复 CVE-2026-98432 安全漏洞",
-      "url": "https://github.com/ophub/amlogic-s9xxx-armbian/issues/3757",
-      "age_days": 5,
-      "comments": 6,
-      "why": [
-        "documentation, support",
-        "this week"
-      ]
-    },
-    {
-      "repo": "ophub/amlogic-s9xxx-armbian",
-      "stars": 10273,
-      "language": "Shell",
-      "merge_rate": 80,
-      "median_merge_days": 0.2,
-      "warnings": [],
-      "score": 71,
-      "good_first_issue": false,
-      "title": "H96 Pro+  （蓝色 PCB）  3G内存识别2G内存，修改 DTB 后可正常识别 3GB",
-      "url": "https://github.com/ophub/amlogic-s9xxx-armbian/issues/3747",
-      "age_days": 12,
+      "title": "[LangRef] Document !call_target metadata",
+      "url": "https://github.com/llvm/llvm-project/issues/233319",
+      "age_days": 20,
       "comments": 0,
       "why": [
-        "documentation"
-      ]
-    },
-    {
-      "repo": "AlexsJones/llmfit",
-      "stars": 38734,
-      "language": "Rust",
-      "merge_rate": 59,
-      "median_merge_days": 1.5,
-      "warnings": [],
-      "score": 66,
-      "good_first_issue": false,
-      "title": "[Docs]: winget install",
-      "url": "https://github.com/AlexsJones/llmfit/issues/1168",
-      "age_days": 18,
-      "comments": 1,
-      "why": [
-        "documentation",
-        "docs/typo-type task"
-      ]
-    },
-    {
-      "repo": "CherryHQ/cherry-studio",
-      "stars": 53315,
-      "language": "TypeScript",
-      "merge_rate": 89,
-      "median_merge_days": 7.0,
-      "warnings": [],
-      "score": 66,
-      "good_first_issue": false,
-      "title": "[Feature]: Document the MCP tool-approval guarantees (exact arguments, no auto-retry) as a contract",
-      "url": "https://github.com/CherryHQ/cherry-studio/issues/23157",
-      "age_days": 8,
-      "comments": 2,
-      "why": [
-        "p3, docs, mcp"
+        "documentation, llvm"
       ]
     },
     {
       "repo": "MHSanaei/3x-ui",
-      "stars": 49470,
+      "stars": 49530,
       "language": "Go",
       "merge_rate": 87,
       "median_merge_days": 6.0,
@@ -262,165 +211,567 @@
       "good_first_issue": false,
       "title": "[Bug]: Remote panel update via mTLS node fails with HTTP 403 error",
       "url": "https://github.com/MHSanaei/3x-ui/issues/6953",
-      "age_days": 12,
+      "age_days": 13,
       "comments": 3,
       "why": [
         "documentation"
       ]
     },
     {
-      "repo": "wasp-lang/wasp",
-      "stars": 18796,
-      "language": "TypeScript",
-      "merge_rate": 62,
-      "median_merge_days": 0.0,
-      "warnings": [
-        "has AI policy - read CONTRIBUTING"
-      ],
-      "score": 65,
-      "good_first_issue": false,
-      "title": "Place for community contributed Wasp resources",
-      "url": "https://github.com/wasp-lang/wasp/issues/5195",
-      "age_days": 8,
-      "comments": 0,
-      "why": [
-        "documentation"
-      ]
-    },
-    {
-      "repo": "ophub/amlogic-s9xxx-armbian",
-      "stars": 10273,
-      "language": "Shell",
-      "merge_rate": 80,
-      "median_merge_days": 0.2,
-      "warnings": [],
-      "score": 63,
-      "good_first_issue": false,
-      "title": "meson S905L3 系列 UWE5621 已经成功驱动",
-      "url": "https://github.com/ophub/amlogic-s9xxx-armbian/issues/3727",
-      "age_days": 16,
-      "comments": 2,
-      "why": [
-        "documentation, support"
-      ]
-    },
-    {
-      "repo": "borgbackup/borg",
-      "stars": 13913,
+      "repo": "Gathin23/cleanyourtv",
+      "stars": 54298,
       "language": "Python",
-      "merge_rate": 100,
-      "median_merge_days": 0.2,
-      "warnings": [
-        "has AI policy - read CONTRIBUTING"
-      ],
-      "score": 62,
-      "good_first_issue": false,
-      "title": "Speaker wanted: first Belgium Proxmox Community Day, 3 Feb 2027, right after FOSDEM",
-      "url": "https://github.com/borgbackup/borg/issues/10531",
-      "age_days": 23,
-      "comments": 1,
-      "why": [
-        "help wanted, community"
-      ]
-    },
-    {
-      "repo": "floci-io/floci",
-      "stars": 30958,
-      "language": "Java",
-      "merge_rate": 96,
+      "merge_rate": 83,
       "median_merge_days": 0.4,
-      "warnings": [
-        "has AI policy - read CONTRIBUTING"
-      ],
+      "warnings": [],
       "score": 61,
       "good_first_issue": false,
-      "title": "[BUG] iam, sts: seven answers that may not match AWS, each needing one capture to settle",
-      "url": "https://github.com/floci-io/floci/issues/6042",
-      "age_days": 18,
-      "comments": 3,
+      "title": "Soft Brick NOVA 32\" CVTE Hi3751V350, Android 14  stuck on boot logo after disabling com.cvte.tv.launcher.space + power outage",
+      "url": "https://github.com/Gathin23/cleanyourtv/issues/2516",
+      "age_days": 10,
+      "comments": 5,
       "why": [
-        "bug, help wanted, iam"
+        "bug, help wanted"
+      ]
+    },
+    {
+      "repo": "Gathin23/cleanyourtv",
+      "stars": 54298,
+      "language": "Python",
+      "merge_rate": 83,
+      "median_merge_days": 0.4,
+      "warnings": [],
+      "score": 61,
+      "good_first_issue": false,
+      "title": "[TV] BenQ E65-730 (reports as AI PONT, Changhong; Android 11)",
+      "url": "https://github.com/Gathin23/cleanyourtv/issues/2473",
+      "age_days": 10,
+      "comments": 1,
+      "why": [
+        "tv-list, help wanted"
+      ]
+    },
+    {
+      "repo": "Gathin23/cleanyourtv",
+      "stars": 54298,
+      "language": "Python",
+      "merge_rate": 83,
+      "median_merge_days": 0.4,
+      "warnings": [],
+      "score": 61,
+      "good_first_issue": false,
+      "title": "Croma Ultra HD TV CREL043UGC024601 Android 11",
+      "url": "https://github.com/Gathin23/cleanyourtv/issues/2391",
+      "age_days": 11,
+      "comments": 2,
+      "why": [
+        "tv-list, help wanted"
+      ]
+    },
+    {
+      "repo": "Gathin23/cleanyourtv",
+      "stars": 54298,
+      "language": "Python",
+      "merge_rate": 83,
+      "median_merge_days": 0.4,
+      "warnings": [],
+      "score": 61,
+      "good_first_issue": false,
+      "title": "TV support: eSTREAM4K Orion",
+      "url": "https://github.com/Gathin23/cleanyourtv/issues/2312",
+      "age_days": 11,
+      "comments": 1,
+      "why": [
+        "tv-list, help wanted"
+      ]
+    },
+    {
+      "repo": "Gathin23/cleanyourtv",
+      "stars": 54298,
+      "language": "Python",
+      "merge_rate": 83,
+      "median_merge_days": 0.4,
+      "warnings": [],
+      "score": 61,
+      "good_first_issue": false,
+      "title": "[Device Report] Verified TiVo Stream 4K (SEI400TV, Android 12 build SC.1272) Launcher Handover & Key Remapping",
+      "url": "https://github.com/Gathin23/cleanyourtv/issues/2045",
+      "age_days": 12,
+      "comments": 2,
+      "why": [
+        "tv-list, help wanted"
       ]
     },
     {
       "repo": "CherryHQ/cherry-studio",
-      "stars": 53315,
+      "stars": 53334,
       "language": "TypeScript",
-      "merge_rate": 89,
-      "median_merge_days": 7.0,
+      "merge_rate": 56,
+      "median_merge_days": 2.4,
       "warnings": [],
-      "score": 61,
+      "score": 60,
+      "good_first_issue": false,
+      "title": "[Feature]: Document the MCP tool-approval guarantees (exact arguments, no auto-retry) as a contract",
+      "url": "https://github.com/CherryHQ/cherry-studio/issues/23157",
+      "age_days": 9,
+      "comments": 2,
+      "why": [
+        "p3, docs, mcp"
+      ]
+    },
+    {
+      "repo": "erlang/otp",
+      "stars": 12357,
+      "language": "Erlang",
+      "merge_rate": 86,
+      "median_merge_days": 4.9,
+      "warnings": [],
+      "score": 55,
+      "good_first_issue": false,
+      "title": "asn1: a decoded unknown CHOICE alternative ({asn1_ExtAlt, Bytes}) cannot be encoded",
+      "url": "https://github.com/erlang/otp/issues/11936",
+      "age_days": 17,
+      "comments": 0,
+      "why": [
+        "team:VM, help wanted"
+      ]
+    },
+    {
+      "repo": "erlang/otp",
+      "stars": 12357,
+      "language": "Erlang",
+      "merge_rate": 86,
+      "median_merge_days": 4.9,
+      "warnings": [],
+      "score": 55,
+      "good_first_issue": false,
+      "title": "asn1: compiling fails with system_limit when a nested component path exceeds 255 characters",
+      "url": "https://github.com/erlang/otp/issues/11935",
+      "age_days": 17,
+      "comments": 0,
+      "why": [
+        "team:VM, help wanted"
+      ]
+    },
+    {
+      "repo": "erlang/otp",
+      "stars": 12357,
+      "language": "Erlang",
+      "merge_rate": 86,
+      "median_merge_days": 4.9,
+      "warnings": [],
+      "score": 55,
+      "good_first_issue": false,
+      "title": "asn1: PER and UPER with maps omit an extension addition group whose components are all OPTIONAL",
+      "url": "https://github.com/erlang/otp/issues/11934",
+      "age_days": 17,
+      "comments": 0,
+      "why": [
+        "team:VM, help wanted"
+      ]
+    },
+    {
+      "repo": "erlang/otp",
+      "stars": 12357,
+      "language": "Erlang",
+      "merge_rate": 86,
+      "median_merge_days": 4.9,
+      "warnings": [],
+      "score": 55,
+      "good_first_issue": false,
+      "title": "asn1: a REAL component equal to its DEFAULT is always encoded",
+      "url": "https://github.com/erlang/otp/issues/11887",
+      "age_days": 21,
+      "comments": 0,
+      "why": [
+        "team:VM, help wanted"
+      ]
+    },
+    {
+      "repo": "erlang/otp",
+      "stars": 12357,
+      "language": "Erlang",
+      "merge_rate": 86,
+      "median_merge_days": 4.9,
+      "warnings": [],
+      "score": 55,
+      "good_first_issue": false,
+      "title": "asn1: PER encodes a DEFAULT extension addition whose value equals the default",
+      "url": "https://github.com/erlang/otp/issues/11886",
+      "age_days": 21,
+      "comments": 0,
+      "why": [
+        "team:VM, help wanted"
+      ]
+    },
+    {
+      "repo": "erlang/otp",
+      "stars": 12357,
+      "language": "Erlang",
+      "merge_rate": 86,
+      "median_merge_days": 4.9,
+      "warnings": [],
+      "score": 55,
+      "good_first_issue": false,
+      "title": "asn1: BER code for a component relation constraint inside a CHOICE uses an unbound ObjFun",
+      "url": "https://github.com/erlang/otp/issues/11885",
+      "age_days": 21,
+      "comments": 0,
+      "why": [
+        "team:VM, help wanted"
+      ]
+    },
+    {
+      "repo": "erlang/otp",
+      "stars": 12357,
+      "language": "Erlang",
+      "merge_rate": 86,
+      "median_merge_days": 4.9,
+      "warnings": [],
+      "score": 55,
+      "good_first_issue": false,
+      "title": "asn1: BER table dispatch emits no row when the type is reached through an object field",
+      "url": "https://github.com/erlang/otp/issues/11884",
+      "age_days": 21,
+      "comments": 0,
+      "why": [
+        "team:VM, help wanted"
+      ]
+    },
+    {
+      "repo": "erlang/otp",
+      "stars": 12357,
+      "language": "Erlang",
+      "merge_rate": 86,
+      "median_merge_days": 4.9,
+      "warnings": [],
+      "score": 55,
+      "good_first_issue": false,
+      "title": "asn1: a permitted-alphabet range over NumericString or PrintableString includes code points that are not characters of the type",
+      "url": "https://github.com/erlang/otp/issues/11883",
+      "age_days": 21,
+      "comments": 0,
+      "why": [
+        "team:VM, help wanted"
+      ]
+    },
+    {
+      "repo": "erlang/otp",
+      "stars": 12357,
+      "language": "Erlang",
+      "merge_rate": 86,
+      "median_merge_days": 4.9,
+      "warnings": [],
+      "score": 55,
+      "good_first_issue": false,
+      "title": "asn1: a value set reference used as a type causes an internal badrecord error",
+      "url": "https://github.com/erlang/otp/issues/11882",
+      "age_days": 21,
+      "comments": 0,
+      "why": [
+        "team:VM, help wanted"
+      ]
+    },
+    {
+      "repo": "erlang/otp",
+      "stars": 12357,
+      "language": "Erlang",
+      "merge_rate": 86,
+      "median_merge_days": 4.9,
+      "warnings": [],
+      "score": 55,
+      "good_first_issue": false,
+      "title": "asn1: a value set used as a constraint loses the constraints of its governing type for PER",
+      "url": "https://github.com/erlang/otp/issues/11881",
+      "age_days": 21,
+      "comments": 0,
+      "why": [
+        "team:VM, help wanted"
+      ]
+    },
+    {
+      "repo": "erlang/otp",
+      "stars": 12357,
+      "language": "Erlang",
+      "merge_rate": 86,
+      "median_merge_days": 4.9,
+      "warnings": [],
+      "score": 55,
+      "good_first_issue": false,
+      "title": "asn1: an extension marker after a contained subtype drops the contained type's SIZE and the extension bit for PER",
+      "url": "https://github.com/erlang/otp/issues/11880",
+      "age_days": 21,
+      "comments": 0,
+      "why": [
+        "team:VM, help wanted"
+      ]
+    },
+    {
+      "repo": "erlang/otp",
+      "stars": 12357,
+      "language": "Erlang",
+      "merge_rate": 86,
+      "median_merge_days": 4.9,
+      "warnings": [],
+      "score": 55,
+      "good_first_issue": false,
+      "title": "asn1: a tagged type whose Type is itself a tagged type is rejected with a syntax error",
+      "url": "https://github.com/erlang/otp/issues/11879",
+      "age_days": 21,
+      "comments": 0,
+      "why": [
+        "team:VM, help wanted"
+      ]
+    },
+    {
+      "repo": "erlang/otp",
+      "stars": 12357,
+      "language": "Erlang",
+      "merge_rate": 86,
+      "median_merge_days": 4.9,
+      "warnings": [],
+      "score": 55,
+      "good_first_issue": false,
+      "title": "asn1: automatic tagging is suppressed by tags that come from COMPONENTS OF",
+      "url": "https://github.com/erlang/otp/issues/11878",
+      "age_days": 21,
+      "comments": 0,
+      "why": [
+        "team:VM, help wanted"
+      ]
+    },
+    {
+      "repo": "erlang/otp",
+      "stars": 12357,
+      "language": "Erlang",
+      "merge_rate": 86,
+      "median_merge_days": 4.9,
+      "warnings": [],
+      "score": 55,
+      "good_first_issue": false,
+      "title": "asn1: PER and UPER number the alternatives of a CHOICE in textual order, not in canonical tag order",
+      "url": "https://github.com/erlang/otp/issues/11877",
+      "age_days": 21,
+      "comments": 0,
+      "why": [
+        "team:VM, help wanted"
+      ]
+    },
+    {
+      "repo": "erlang/otp",
+      "stars": 12357,
+      "language": "Erlang",
+      "merge_rate": 86,
+      "median_merge_days": 4.9,
+      "warnings": [],
+      "score": 55,
+      "good_first_issue": false,
+      "title": "asn1: BER cannot encode a value in which an extension addition group is absent",
+      "url": "https://github.com/erlang/otp/issues/11876",
+      "age_days": 21,
+      "comments": 0,
+      "why": [
+        "team:VM, help wanted"
+      ]
+    },
+    {
+      "repo": "erlang/otp",
+      "stars": 12357,
+      "language": "Erlang",
+      "merge_rate": 86,
+      "median_merge_days": 4.9,
+      "warnings": [],
+      "score": 55,
+      "good_first_issue": false,
+      "title": "asn1: PER encodes a SET with a second root component list as if an extension addition were present",
+      "url": "https://github.com/erlang/otp/issues/11875",
+      "age_days": 21,
+      "comments": 0,
+      "why": [
+        "team:VM, help wanted"
+      ]
+    },
+    {
+      "repo": "erlang/otp",
+      "stars": 12357,
+      "language": "Erlang",
+      "merge_rate": 86,
+      "median_merge_days": 4.9,
+      "warnings": [],
+      "score": 55,
+      "good_first_issue": false,
+      "title": "asn1: EXCEPT and ALL EXCEPT in a SIZE constraint cause internal errors",
+      "url": "https://github.com/erlang/otp/issues/11874",
+      "age_days": 21,
+      "comments": 0,
+      "why": [
+        "team:VM, help wanted"
+      ]
+    },
+    {
+      "repo": "erlang/otp",
+      "stars": 12357,
+      "language": "Erlang",
+      "merge_rate": 86,
+      "median_merge_days": 4.9,
+      "warnings": [],
+      "score": 55,
+      "good_first_issue": false,
+      "title": "asn1: a SIZE constraint applied to a reference to a SEQUENCE OF type is ignored for PER",
+      "url": "https://github.com/erlang/otp/issues/11873",
+      "age_days": 21,
+      "comments": 0,
+      "why": [
+        "team:VM, help wanted"
+      ]
+    },
+    {
+      "repo": "erlang/otp",
+      "stars": 12357,
+      "language": "Erlang",
+      "merge_rate": 86,
+      "median_merge_days": 4.9,
+      "warnings": [],
+      "score": 55,
+      "good_first_issue": false,
+      "title": "asn1: FROM with a contained alphabet type causes an internal case_clause error",
+      "url": "https://github.com/erlang/otp/issues/11870",
+      "age_days": 21,
+      "comments": 0,
+      "why": [
+        "team:VM, help wanted"
+      ]
+    },
+    {
+      "repo": "erlang/otp",
+      "stars": 12357,
+      "language": "Erlang",
+      "merge_rate": 86,
+      "median_merge_days": 4.9,
+      "warnings": [],
+      "score": 55,
+      "good_first_issue": false,
+      "title": "asn1: MIN and MAX endpoints in a permitted alphabet cause an internal error or a reversed-range error",
+      "url": "https://github.com/erlang/otp/issues/11869",
+      "age_days": 21,
+      "comments": 0,
+      "why": [
+        "team:VM, help wanted"
+      ]
+    },
+    {
+      "repo": "erlang/otp",
+      "stars": 12357,
+      "language": "Erlang",
+      "merge_rate": 86,
+      "median_merge_days": 4.9,
+      "warnings": [],
+      "score": 55,
+      "good_first_issue": false,
+      "title": "asn1: open character endpoints in a permitted alphabet are rejected as illegal integer values",
+      "url": "https://github.com/erlang/otp/issues/11868",
+      "age_days": 21,
+      "comments": 0,
+      "why": [
+        "team:VM, help wanted"
+      ]
+    },
+    {
+      "repo": "erlang/otp",
+      "stars": 12357,
+      "language": "Erlang",
+      "merge_rate": 86,
+      "median_merge_days": 4.9,
+      "warnings": [],
+      "score": 55,
+      "good_first_issue": false,
+      "title": "asn1: a value-set parameter used as a constraint causes an internal case_clause error",
+      "url": "https://github.com/erlang/otp/issues/11867",
+      "age_days": 21,
+      "comments": 0,
+      "why": [
+        "team:VM, help wanted"
+      ]
+    },
+    {
+      "repo": "CherryHQ/cherry-studio",
+      "stars": 53334,
+      "language": "TypeScript",
+      "merge_rate": 56,
+      "median_merge_days": 2.4,
+      "warnings": [],
+      "score": 55,
       "good_first_issue": false,
       "title": "[Task]: Own the follow-up queue in main-process memory so delivery does not depend on an open window",
       "url": "https://github.com/CherryHQ/cherry-studio/issues/22824",
-      "age_days": 10,
+      "age_days": 11,
       "comments": 0,
       "why": [
         "help wanted, Dev Team, agent"
       ]
     },
     {
-      "repo": "CherryHQ/cherry-studio",
-      "stars": 53315,
-      "language": "TypeScript",
-      "merge_rate": 89,
-      "median_merge_days": 7.0,
-      "warnings": [],
-      "score": 58,
-      "good_first_issue": false,
-      "title": "[Discussion]: About Agent Deletion",
-      "url": "https://github.com/CherryHQ/cherry-studio/issues/22567",
-      "age_days": 14,
-      "comments": 3,
-      "why": [
-        "help wanted, discussion"
-      ]
-    },
-    {
-      "repo": "nesquena/hermes-webui",
-      "stars": 19429,
+      "repo": "ray-project/ray",
+      "stars": 44235,
       "language": "Python",
-      "merge_rate": 67,
-      "median_merge_days": 4.7,
+      "merge_rate": 56,
+      "median_merge_days": 6.9,
       "warnings": [],
-      "score": 58,
+      "score": 54,
       "good_first_issue": false,
-      "title": "Publish the tested Hermes Agent revision and runtime for each stable WebUI release",
-      "url": "https://github.com/nesquena/hermes-webui/issues/8542",
-      "age_days": 11,
+      "title": "[Data] repartition() warns that shuffle is ignored before rejecting the same argument",
+      "url": "https://github.com/ray-project/ray/issues/67604",
+      "age_days": 8,
       "comments": 1,
       "why": [
-        "documentation, enhancement"
+        "usability, docs, data"
+      ]
+    },
+    {
+      "repo": "erlang/otp",
+      "stars": 12357,
+      "language": "Erlang",
+      "merge_rate": 86,
+      "median_merge_days": 4.9,
+      "warnings": [],
+      "score": 52,
+      "good_first_issue": false,
+      "title": "asn1: a quadruple value of BMPString or UTF8String is kept as four characters",
+      "url": "https://github.com/erlang/otp/issues/11872",
+      "age_days": 21,
+      "comments": 2,
+      "why": [
+        "team:VM, help wanted"
+      ]
+    },
+    {
+      "repo": "erlang/otp",
+      "stars": 12357,
+      "language": "Erlang",
+      "merge_rate": 86,
+      "median_merge_days": 4.9,
+      "warnings": [],
+      "score": 52,
+      "good_first_issue": false,
+      "title": "asn1: a default tag on an untagged dummy reference is applied implicitly under IMPLICIT TAGS",
+      "url": "https://github.com/erlang/otp/issues/11871",
+      "age_days": 21,
+      "comments": 2,
+      "why": [
+        "team:VM, help wanted"
       ]
     },
     {
       "repo": "CherryHQ/cherry-studio",
-      "stars": 53315,
+      "stars": 53334,
       "language": "TypeScript",
-      "merge_rate": 89,
-      "median_merge_days": 7.0,
+      "merge_rate": 56,
+      "median_merge_days": 2.4,
       "warnings": [],
-      "score": 56,
+      "score": 50,
       "good_first_issue": false,
       "title": "[Discussion]:",
       "url": "https://github.com/CherryHQ/cherry-studio/issues/21391",
-      "age_days": 29,
-      "comments": 0,
-      "why": [
-        "help wanted, discussion"
-      ]
-    },
-    {
-      "repo": "CherryHQ/cherry-studio",
-      "stars": 53315,
-      "language": "TypeScript",
-      "merge_rate": 89,
-      "median_merge_days": 7.0,
-      "warnings": [],
-      "score": 56,
-      "good_first_issue": false,
-      "title": "[Discussion]: How to make cherry automatically connect to codex",
-      "url": "https://github.com/CherryHQ/cherry-studio/issues/21368",
       "age_days": 30,
       "comments": 0,
       "why": [
@@ -428,102 +779,34 @@
       ]
     },
     {
-      "repo": "Gathin23/cleanyourtv",
-      "stars": 53608,
-      "language": "Python",
-      "merge_rate": 70,
-      "median_merge_days": 0.5,
+      "repo": "CherryHQ/cherry-studio",
+      "stars": 53334,
+      "language": "TypeScript",
+      "merge_rate": 56,
+      "median_merge_days": 2.4,
       "warnings": [],
-      "score": 56,
+      "score": 47,
       "good_first_issue": false,
-      "title": "Soft Brick NOVA 32\" CVTE Hi3751V350, Android 14  stuck on boot logo after disabling com.cvte.tv.launcher.space + power outage",
-      "url": "https://github.com/Gathin23/cleanyourtv/issues/2516",
-      "age_days": 9,
+      "title": "[Discussion]: About Agent Deletion",
+      "url": "https://github.com/CherryHQ/cherry-studio/issues/22567",
+      "age_days": 15,
       "comments": 3,
       "why": [
-        "bug, help wanted"
-      ]
-    },
-    {
-      "repo": "Gathin23/cleanyourtv",
-      "stars": 53608,
-      "language": "Python",
-      "merge_rate": 70,
-      "median_merge_days": 0.5,
-      "warnings": [],
-      "score": 56,
-      "good_first_issue": false,
-      "title": "[TV] BenQ E65-730 (reports as AI PONT, Changhong; Android 11)",
-      "url": "https://github.com/Gathin23/cleanyourtv/issues/2473",
-      "age_days": 9,
-      "comments": 1,
-      "why": [
-        "tv-list, help wanted"
-      ]
-    },
-    {
-      "repo": "Gathin23/cleanyourtv",
-      "stars": 53608,
-      "language": "Python",
-      "merge_rate": 70,
-      "median_merge_days": 0.5,
-      "warnings": [],
-      "score": 56,
-      "good_first_issue": false,
-      "title": "Croma Ultra HD TV CREL043UGC024601 Android 11",
-      "url": "https://github.com/Gathin23/cleanyourtv/issues/2391",
-      "age_days": 10,
-      "comments": 2,
-      "why": [
-        "tv-list, help wanted"
-      ]
-    },
-    {
-      "repo": "Gathin23/cleanyourtv",
-      "stars": 53608,
-      "language": "Python",
-      "merge_rate": 70,
-      "median_merge_days": 0.5,
-      "warnings": [],
-      "score": 56,
-      "good_first_issue": false,
-      "title": "TV support: eSTREAM4K Orion",
-      "url": "https://github.com/Gathin23/cleanyourtv/issues/2312",
-      "age_days": 10,
-      "comments": 1,
-      "why": [
-        "tv-list, help wanted"
-      ]
-    },
-    {
-      "repo": "Gathin23/cleanyourtv",
-      "stars": 53608,
-      "language": "Python",
-      "merge_rate": 70,
-      "median_merge_days": 0.5,
-      "warnings": [],
-      "score": 56,
-      "good_first_issue": false,
-      "title": "[Device Report] Verified TiVo Stream 4K (SEI400TV, Android 12 build SC.1272) Launcher Handover & Key Remapping",
-      "url": "https://github.com/Gathin23/cleanyourtv/issues/2045",
-      "age_days": 11,
-      "comments": 2,
-      "why": [
-        "tv-list, help wanted"
+        "help wanted, discussion"
       ]
     },
     {
       "repo": "CherryHQ/cherry-studio",
-      "stars": 53315,
+      "stars": 53334,
       "language": "TypeScript",
-      "merge_rate": 89,
-      "median_merge_days": 7.0,
+      "merge_rate": 56,
+      "median_merge_days": 2.4,
       "warnings": [],
-      "score": 53,
+      "score": 47,
       "good_first_issue": false,
       "title": "[Discussion]: Data stored via WebDAV before v2.0 cannot be restored",
       "url": "https://github.com/CherryHQ/cherry-studio/issues/22026",
-      "age_days": 18,
+      "age_days": 19,
       "comments": 1,
       "why": [
         "p1, help wanted, duplicate"
@@ -531,16 +814,16 @@
     },
     {
       "repo": "CherryHQ/cherry-studio",
-      "stars": 53315,
+      "stars": 53334,
       "language": "TypeScript",
-      "merge_rate": 89,
-      "median_merge_days": 7.0,
+      "merge_rate": 56,
+      "median_merge_days": 2.4,
       "warnings": [],
-      "score": 53,
+      "score": 47,
       "good_first_issue": false,
       "title": "[Discussion]: 数据库自动备份与独立恢复模式设计",
       "url": "https://github.com/CherryHQ/cherry-studio/issues/21663",
-      "age_days": 24,
+      "age_days": 25,
       "comments": 1,
       "why": [
         "p3, help wanted, discussion"
@@ -548,16 +831,16 @@
     },
     {
       "repo": "CherryHQ/cherry-studio",
-      "stars": 53315,
+      "stars": 53334,
       "language": "TypeScript",
-      "merge_rate": 89,
-      "median_merge_days": 7.0,
+      "merge_rate": 56,
+      "median_merge_days": 2.4,
       "warnings": [],
-      "score": 53,
+      "score": 47,
       "good_first_issue": false,
       "title": "[Discussion]: MCP Tool Results Cannot Be Returned to Model",
       "url": "https://github.com/CherryHQ/cherry-studio/issues/21590",
-      "age_days": 25,
+      "age_days": 26,
       "comments": 1,
       "why": [
         "help wanted, windows, discussion"
@@ -565,16 +848,16 @@
     },
     {
       "repo": "CherryHQ/cherry-studio",
-      "stars": 53315,
+      "stars": 53334,
       "language": "TypeScript",
-      "merge_rate": 89,
-      "median_merge_days": 7.0,
+      "merge_rate": 56,
+      "median_merge_days": 2.4,
       "warnings": [],
-      "score": 53,
+      "score": 47,
       "good_first_issue": false,
       "title": "[Discussion]: How do I delete an Agent? There's no specific delete entry point",
       "url": "https://github.com/CherryHQ/cherry-studio/issues/21447",
-      "age_days": 28,
+      "age_days": 29,
       "comments": 4,
       "why": [
         "p3, help wanted, discussion"
@@ -582,97 +865,49 @@
     },
     {
       "repo": "CherryHQ/cherry-studio",
-      "stars": 53315,
+      "stars": 53334,
       "language": "TypeScript",
-      "merge_rate": 89,
-      "median_merge_days": 7.0,
+      "merge_rate": 56,
+      "median_merge_days": 2.4,
       "warnings": [],
-      "score": 53,
+      "score": 47,
       "good_first_issue": false,
       "title": "[Discussion]: nutstore/webdav backup and restore",
       "url": "https://github.com/CherryHQ/cherry-studio/issues/21388",
-      "age_days": 29,
+      "age_days": 30,
       "comments": 3,
       "why": [
         "help wanted, discussion"
-      ]
-    },
-    {
-      "repo": "AprilNEA/OpenLogi",
-      "stars": 25302,
-      "language": "Rust",
-      "merge_rate": 47,
-      "median_merge_days": 0.0,
-      "warnings": [],
-      "score": 46,
-      "good_first_issue": false,
-      "title": "[Bug]: 0x8081 fn 5 (setRangeRgbZones) only checks the first range in its reply",
-      "url": "https://github.com/AprilNEA/OpenLogi/issues/1949",
-      "age_days": 17,
-      "comments": 0,
-      "why": [
-        "type: bug, help wanted, area: hidpp"
-      ]
-    },
-    {
-      "repo": "AprilNEA/OpenLogi",
-      "stars": 25302,
-      "language": "Rust",
-      "merge_rate": 47,
-      "median_merge_days": 0.0,
-      "warnings": [],
-      "score": 43,
-      "good_first_issue": false,
-      "title": "macOS virtual HID keyboard: hardware checks still open after 0.8.16",
-      "url": "https://github.com/AprilNEA/OpenLogi/issues/1990",
-      "age_days": 15,
-      "comments": 5,
-      "why": [
-        "help wanted, platform: macos, needs: decision"
       ]
     }
   ],
   "readme_typos": [
     {
-      "repo": "spmallick/learnopencv",
-      "stars": 23237,
-      "language": "Jupyter Notebook",
+      "repo": "scala/scala",
+      "stars": 14539,
+      "language": "Scala",
       "merge_rate": 100,
-      "median_merge_days": 0.0,
-      "warnings": [],
+      "median_merge_days": 0.3,
+      "warnings": [
+        "has AI policy - read CONTRIBUTING"
+      ],
       "score": 50,
       "typos": [
         {
-          "line": 198,
-          "word": "Sratch",
-          "fix": "Scratch, Snatch, Starch"
+          "line": 43,
+          "word": "Som",
+          "fix": "Some"
         },
         {
-          "line": 235,
-          "word": "fo",
-          "fix": "of, for, to, do, go"
-        }
-      ]
-    },
-    {
-      "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 57440,
-      "language": "Python",
-      "merge_rate": 100,
-      "median_merge_days": 0.0,
-      "warnings": [],
-      "score": 50,
-      "typos": [
-        {
-          "line": 337,
-          "word": "feautring",
-          "fix": "featuring"
+          "line": 211,
+          "word": "ususal",
+          "fix": "usual"
         }
       ]
     },
     {
       "repo": "authelia/authelia",
-      "stars": 29584,
+      "stars": 29592,
       "language": "Go",
       "merge_rate": 100,
       "median_merge_days": 0.1,
@@ -692,212 +927,252 @@
       ]
     },
     {
-      "repo": "timschneeb/awesome-shizuku",
-      "stars": 10741,
-      "language": "Python",
-      "merge_rate": 97,
-      "median_merge_days": 0.4,
+      "repo": "JustVugg/colibri",
+      "stars": 48894,
+      "language": "C",
+      "merge_rate": 96,
+      "median_merge_days": 0.9,
       "warnings": [],
       "score": 49,
       "typos": [
         {
-          "line": 618,
-          "word": "HiLight",
-          "fix": "highlight"
+          "line": 885,
+          "word": "ANS",
+          "fix": "AND"
         }
       ]
     },
     {
-      "repo": "microsoft/mcp-for-beginners",
-      "stars": 17620,
-      "language": "Jupyter Notebook",
-      "merge_rate": 97,
-      "median_merge_days": 2.4,
+      "repo": "windmill-labs/windmill",
+      "stars": 18467,
+      "language": "Rust",
+      "merge_rate": 94,
+      "median_merge_days": 0.1,
       "warnings": [],
-      "score": 49,
+      "score": 48,
       "typos": [
-        {
-          "line": 27,
-          "word": "te",
-          "fix": "the, be, we, to"
-        }
-      ]
-    },
-    {
-      "repo": "goreleaser/goreleaser",
-      "stars": 16141,
-      "language": "Go",
-      "merge_rate": 91,
-      "median_merge_days": 1.3,
-      "warnings": [],
-      "score": 47,
-      "typos": [
-        {
-          "line": 94,
-          "word": "conet",
-          "fix": "connect"
-        },
-        {
-          "line": 94,
-          "word": "conet",
-          "fix": "connect"
-        }
-      ]
-    },
-    {
-      "repo": "ghostty-org/ghostty",
-      "stars": 63793,
-      "language": "Zig",
-      "merge_rate": 92,
-      "median_merge_days": 0.0,
-      "warnings": [],
-      "score": 47,
-      "typos": [
-        {
-          "line": 108,
-          "word": "iTerm",
-          "fix": "term, item, intern"
-        }
-      ]
-    },
-    {
-      "repo": "SigmaHQ/sigma",
-      "stars": 11424,
-      "language": "Python",
-      "merge_rate": 100,
-      "median_merge_days": 5.3,
-      "warnings": [],
-      "score": 45,
-      "typos": [
-        {
-          "line": 47,
-          "word": "Convertor",
-          "fix": "Converter"
-        }
-      ]
-    },
-    {
-      "repo": "serverless/serverless",
-      "stars": 46932,
-      "language": "JavaScript",
-      "merge_rate": 83,
-      "median_merge_days": 0.0,
-      "warnings": [],
-      "score": 44,
-      "typos": [
-        {
-          "line": 176,
-          "word": "recieving",
-          "fix": "receiving"
-        },
-        {
-          "line": 398,
-          "word": "capabilites",
-          "fix": "capabilities"
-        }
-      ]
-    },
-    {
-      "repo": "HKUDS/DeepTutor",
-      "stars": 56205,
-      "language": "Python",
-      "merge_rate": 97,
-      "median_merge_days": 4.7,
-      "warnings": [],
-      "score": 44,
-      "typos": [
-        {
-          "line": 55,
-          "word": "Dito",
-          "fix": "Ditto"
-        },
-        {
-          "line": 419,
-          "word": "Dito",
-          "fix": "Ditto"
-        },
-        {
-          "line": 430,
-          "word": "Dito",
-          "fix": "Ditto"
-        },
-        {
-          "line": 433,
-          "word": "Dito",
-          "fix": "Ditto"
-        }
-      ]
-    },
-    {
-      "repo": "didi/DoKit",
-      "stars": 20413,
-      "language": "Java",
-      "merge_rate": 83,
-      "median_merge_days": 0.0,
-      "warnings": [],
-      "score": 44,
-      "typos": [
-        {
-          "line": 27,
-          "word": "didi",
-          "fix": "did"
-        },
-        {
-          "line": 146,
-          "word": "didi",
-          "fix": "did"
-        },
-        {
-          "line": 154,
-          "word": "didi",
-          "fix": "did"
-        },
-        {
-          "line": 297,
-          "word": "didi",
-          "fix": "did"
-        },
-        {
-          "line": 299,
-          "word": "didi",
-          "fix": "did"
-        },
-        {
-          "line": 301,
-          "word": "didi",
-          "fix": "did"
-        },
-        {
-          "line": 303,
-          "word": "didi",
-          "fix": "did"
-        },
         {
           "line": 305,
-          "word": "didi",
-          "fix": "did"
+          "word": "overriden",
+          "fix": "overridden"
         }
       ]
     },
     {
-      "repo": "PHPMailer/PHPMailer",
-      "stars": 22346,
-      "language": "PHP",
-      "merge_rate": 80,
-      "median_merge_days": 0.3,
+      "repo": "JetBrains/compose-multiplatform",
+      "stars": 19471,
+      "language": "Kotlin",
+      "merge_rate": 95,
+      "median_merge_days": 0.6,
       "warnings": [],
-      "score": 43,
+      "score": 48,
       "typos": [
         {
-          "line": 143,
+          "line": 82,
+          "word": "Contibution",
+          "fix": "Contribution"
+        }
+      ]
+    },
+    {
+      "repo": "microsoft/garnet",
+      "stars": 12082,
+      "language": "C#",
+      "merge_rate": 96,
+      "median_merge_days": 0.8,
+      "warnings": [],
+      "score": 48,
+      "typos": [
+        {
+          "line": 26,
+          "word": "Hart",
+          "fix": "Heart, Harm"
+        }
+      ]
+    },
+    {
+      "repo": "ryanburgess/engineer-manager",
+      "stars": 10737,
+      "language": "JavaScript",
+      "merge_rate": 93,
+      "median_merge_days": 0.9,
+      "warnings": [],
+      "score": 48,
+      "typos": [
+        {
+          "line": 129,
+          "word": "enviornment",
+          "fix": "environment"
+        },
+        {
+          "line": 284,
+          "word": "aritcle",
+          "fix": "article"
+        },
+        {
+          "line": 288,
+          "word": "practial",
+          "fix": "practical"
+        }
+      ]
+    },
+    {
+      "repo": "AlDanial/cloc",
+      "stars": 23648,
+      "language": "Perl",
+      "merge_rate": 93,
+      "median_merge_days": 0.4,
+      "warnings": [],
+      "score": 48,
+      "typos": [
+        {
+          "line": 221,
+          "word": "Tye",
+          "fix": "Type, Tie"
+        }
+      ]
+    },
+    {
+      "repo": "T8RIN/ImageToolbox",
+      "stars": 15477,
+      "language": "Kotlin",
+      "merge_rate": 93,
+      "median_merge_days": 0.0,
+      "warnings": [],
+      "score": 47,
+      "typos": [
+        {
+          "line": 1687,
+          "word": "BLoCs",
+          "fix": "blocks"
+        }
+      ]
+    },
+    {
+      "repo": "simplex-chat/simplex-chat",
+      "stars": 19661,
+      "language": "Haskell",
+      "merge_rate": 89,
+      "median_merge_days": 0.3,
+      "warnings": [],
+      "score": 46,
+      "typos": [
+        {
+          "line": 361,
           "word": "re-using",
           "fix": "reusing"
         }
       ]
     },
     {
+      "repo": "spencermountain/compromise",
+      "stars": 12172,
+      "language": "JavaScript",
+      "merge_rate": 86,
+      "median_merge_days": 1.4,
+      "warnings": [],
+      "score": 45,
+      "typos": [
+        {
+          "line": 872,
+          "word": "Suh",
+          "fix": "Such"
+        }
+      ]
+    },
+    {
+      "repo": "walkinglabs/learn-harness-engineering",
+      "stars": 23617,
+      "language": "TypeScript",
+      "merge_rate": 87,
+      "median_merge_days": 2.7,
+      "warnings": [],
+      "score": 45,
+      "typos": [
+        {
+          "line": 523,
+          "word": "tham",
+          "fix": "than"
+        }
+      ]
+    },
+    {
+      "repo": "Jackett/Jackett",
+      "stars": 16331,
+      "language": "C#",
+      "merge_rate": 80,
+      "median_merge_days": 0.0,
+      "warnings": [],
+      "score": 43,
+      "typos": [
+        {
+          "line": 409,
+          "word": "HDA",
+          "fix": "HAD"
+        },
+        {
+          "line": 616,
+          "word": "TE",
+          "fix": "THE, BE, WE, TO"
+        },
+        {
+          "line": 640,
+          "word": "TORK",
+          "fix": "TORQUE"
+        }
+      ]
+    },
+    {
+      "repo": "analysis-tools-dev/static-analysis",
+      "stars": 14875,
+      "language": "Rust",
+      "merge_rate": 80,
+      "median_merge_days": 0.9,
+      "warnings": [
+        "has AI policy - read CONTRIBUTING"
+      ],
+      "score": 43,
+      "typos": [
+        {
+          "line": 760,
+          "word": "errorprone",
+          "fix": "error-prone"
+        },
+        {
+          "line": 778,
+          "word": "errorprone",
+          "fix": "error-prone"
+        },
+        {
+          "line": 1480,
+          "word": "checkin",
+          "fix": "checking, check in"
+        },
+        {
+          "line": 1907,
+          "word": "punctuations",
+          "fix": "punctuation, punctuation's"
+        },
+        {
+          "line": 1957,
+          "word": "Synopsys",
+          "fix": "Synopsis"
+        },
+        {
+          "line": 1985,
+          "word": "Fallow",
+          "fix": "Follow"
+        },
+        {
+          "line": 1985,
+          "word": "fallow",
+          "fix": "follow"
+        }
+      ]
+    },
+    {
       "repo": "fullstorydev/grpcurl",
-      "stars": 12873,
+      "stars": 12876,
       "language": "Go",
       "merge_rate": 78,
       "median_merge_days": 0.5,
@@ -912,86 +1187,8 @@
       ]
     },
     {
-      "repo": "hashicorp/terraform",
-      "stars": 50155,
-      "language": "Go",
-      "merge_rate": 78,
-      "median_merge_days": 0.7,
-      "warnings": [
-        "has AI policy - read CONTRIBUTING"
-      ],
-      "score": 42,
-      "typos": [
-        {
-          "line": 15,
-          "word": "re-used",
-          "fix": "reused"
-        }
-      ]
-    },
-    {
-      "repo": "heroiclabs/nakama",
-      "stars": 13683,
-      "language": "Go",
-      "merge_rate": 76,
-      "median_merge_days": 0.7,
-      "warnings": [],
-      "score": 42,
-      "typos": [
-        {
-          "line": 120,
-          "word": "maintainance",
-          "fix": "maintenance"
-        }
-      ]
-    },
-    {
-      "repo": "sass/sass",
-      "stars": 15372,
-      "language": "TypeScript",
-      "merge_rate": 90,
-      "median_merge_days": 4.0,
-      "warnings": [
-        "has AI policy - read CONTRIBUTING"
-      ],
-      "score": 42,
-      "typos": [
-        {
-          "line": 104,
-          "word": "implementor",
-          "fix": "implementer"
-        }
-      ]
-    },
-    {
-      "repo": "birobirobiro/awesome-shadcn-ui",
-      "stars": 20778,
-      "language": "TypeScript",
-      "merge_rate": 92,
-      "median_merge_days": 5.4,
-      "warnings": [],
-      "score": 42,
-      "typos": [
-        {
-          "line": 102,
-          "word": "Dragable",
-          "fix": "Draggable"
-        },
-        {
-          "line": 129,
-          "word": "maily",
-          "fix": "mainly"
-        },
-        {
-          "line": 531,
-          "word": "exisitng",
-          "fix": "existing"
-        }
-      ]
-    },
-    {
       "repo": "sandboxie-plus/Sandboxie",
-      "stars": 19885,
+      "stars": 19899,
       "language": "C++",
       "merge_rate": 76,
       "median_merge_days": 0.3,
@@ -1006,59 +1203,36 @@
       ]
     },
     {
-      "repo": "OpenAPITools/openapi-generator",
-      "stars": 26849,
-      "language": "Java",
-      "merge_rate": 88,
-      "median_merge_days": 3.4,
-      "warnings": [],
+      "repo": "x64dbg/x64dbg",
+      "stars": 50240,
+      "language": "C++",
+      "merge_rate": 74,
+      "median_merge_days": 1.3,
+      "warnings": [
+        "has AI policy - read CONTRIBUTING"
+      ],
       "score": 41,
       "typos": [
         {
-          "line": 103,
-          "word": "Vertx",
-          "fix": "Vertex"
+          "line": 91,
+          "word": "Artic",
+          "fix": "Arctic"
         },
         {
-          "line": 712,
-          "word": "freee",
-          "fix": "free"
-        },
-        {
-          "line": 712,
-          "word": "freee",
-          "fix": "free"
-        },
-        {
-          "line": 905,
-          "word": "Laso",
-          "fix": "Also, Lasso"
-        },
-        {
-          "line": 921,
-          "word": "Laso",
-          "fix": "Also, Lasso"
-        },
-        {
-          "line": 1075,
-          "word": "Vertx",
-          "fix": "Vertex"
-        },
-        {
-          "line": 1179,
-          "word": "Vertx",
-          "fix": "Vertex"
+          "line": 122,
+          "word": "Artic",
+          "fix": "Arctic"
         }
       ]
     },
     {
       "repo": "go-chi/chi",
-      "stars": 23062,
+      "stars": 23061,
       "language": "Go",
-      "merge_rate": 70,
+      "merge_rate": 73,
       "median_merge_days": 0.4,
       "warnings": [],
-      "score": 40,
+      "score": 41,
       "typos": [
         {
           "line": 9,
@@ -1068,26 +1242,42 @@
       ]
     },
     {
-      "repo": "eigent-ai/eigent",
-      "stars": 15759,
-      "language": "TypeScript",
-      "merge_rate": 72,
-      "median_merge_days": 0.0,
+      "repo": "fastfetch-cli/fastfetch",
+      "stars": 25302,
+      "language": "C",
+      "merge_rate": 68,
+      "median_merge_days": 0.3,
+      "warnings": [],
+      "score": 39,
+      "typos": [
+        {
+          "line": 264,
+          "word": "iTerm",
+          "fix": "term, item, intern"
+        }
+      ]
+    },
+    {
+      "repo": "Mintplex-Labs/anything-llm",
+      "stars": 68063,
+      "language": "JavaScript",
+      "merge_rate": 67,
+      "median_merge_days": 0.4,
       "warnings": [
         "has AI policy - read CONTRIBUTING"
       ],
-      "score": 40,
+      "score": 38,
       "typos": [
         {
-          "line": 358,
-          "word": "seperator",
-          "fix": "separator"
+          "line": 283,
+          "word": "expierence",
+          "fix": "experience"
         }
       ]
     },
     {
       "repo": "Imbad0202/academic-research-skills",
-      "stars": 55702,
+      "stars": 55811,
       "language": "Python",
       "merge_rate": 67,
       "median_merge_days": 0.2,
@@ -1115,7 +1305,7 @@
     },
     {
       "repo": "subframe7536/maple-font",
-      "stars": 29693,
+      "stars": 29703,
       "language": "Python",
       "merge_rate": 64,
       "median_merge_days": 0.0,
@@ -1130,170 +1320,152 @@
       ]
     },
     {
-      "repo": "PX4/PX4-Autopilot",
-      "stars": 12977,
-      "language": "C++",
-      "merge_rate": 62,
-      "median_merge_days": 1.0,
-      "warnings": [
-        "has AI policy - read CONTRIBUTING"
-      ],
-      "score": 37,
-      "typos": [
-        {
-          "line": 36,
-          "word": "SITL",
-          "fix": "STILL"
-        }
-      ]
-    },
-    {
-      "repo": "wasp-lang/wasp",
-      "stars": 18796,
-      "language": "TypeScript",
-      "merge_rate": 62,
-      "median_merge_days": 0.0,
-      "warnings": [
-        "has AI policy - read CONTRIBUTING"
-      ],
-      "score": 37,
-      "typos": [
-        {
-          "line": 37,
-          "word": "pplication",
-          "fix": "application"
-        }
-      ]
-    },
-    {
-      "repo": "TecharoHQ/anubis",
-      "stars": 24001,
+      "repo": "podman-container-tools/podman",
+      "stars": 33203,
       "language": "Go",
-      "merge_rate": 60,
-      "median_merge_days": 0.2,
+      "merge_rate": 79,
+      "median_merge_days": 4.2,
+      "warnings": [],
+      "score": 38,
+      "typos": [
+        {
+          "line": 108,
+          "word": "passt",
+          "fix": "past, passed"
+        },
+        {
+          "line": 108,
+          "word": "passt",
+          "fix": "past, passed"
+        }
+      ]
+    },
+    {
+      "repo": "FFmpeg-Builds/FFmpeg-Builds",
+      "stars": 11954,
+      "language": "Shell",
+      "merge_rate": 63,
+      "median_merge_days": 0.6,
+      "warnings": [],
+      "score": 37,
+      "typos": [
+        {
+          "line": 5,
+          "word": "targetting",
+          "fix": "targeting"
+        },
+        {
+          "line": 8,
+          "word": "targetting",
+          "fix": "targeting"
+        }
+      ]
+    },
+    {
+      "repo": "greatghoul/remote-working",
+      "stars": 11816,
+      "language": "Ruby",
+      "merge_rate": 63,
+      "median_merge_days": 0.7,
+      "warnings": [],
+      "score": 37,
+      "typos": [
+        {
+          "line": 94,
+          "word": "SME",
+          "fix": "SAME, SEME, SOME, SMS"
+        }
+      ]
+    },
+    {
+      "repo": "yuliskov/SmartTube",
+      "stars": 36091,
+      "language": "Java",
+      "merge_rate": 63,
+      "median_merge_days": 1.5,
+      "warnings": [],
+      "score": 37,
+      "typos": [
+        {
+          "line": 208,
+          "word": "firsth",
+          "fix": "first"
+        },
+        {
+          "line": 231,
+          "word": "firsth",
+          "fix": "first"
+        }
+      ]
+    },
+    {
+      "repo": "VoltAgent/awesome-openclaw-skills",
+      "stars": 53618,
+      "language": "",
+      "merge_rate": 73,
+      "median_merge_days": 4.4,
       "warnings": [],
       "score": 36,
       "typos": [
         {
-          "line": 83,
-          "word": "embeDD",
-          "fix": "embed"
+          "line": 764,
+          "word": "ceaser",
+          "fix": "caesar"
+        },
+        {
+          "line": 764,
+          "word": "Ceaser",
+          "fix": "Caesar"
+        },
+        {
+          "line": 824,
+          "word": "VOR",
+          "fix": "FOR"
         }
       ]
     },
     {
-      "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 36946,
-      "language": "",
-      "merge_rate": 57,
-      "median_merge_days": 2.1,
+      "repo": "bpftrace/bpftrace",
+      "stars": 10414,
+      "language": "C++",
+      "merge_rate": 59,
+      "median_merge_days": 0.1,
+      "warnings": [],
+      "score": 36,
+      "typos": [
+        {
+          "line": 18,
+          "word": "respository",
+          "fix": "repository"
+        }
+      ]
+    },
+    {
+      "repo": "easydiffusion/easydiffusion",
+      "stars": 10475,
+      "language": "JavaScript",
+      "merge_rate": 71,
+      "median_merge_days": 7.2,
       "warnings": [],
       "score": 35,
       "typos": [
         {
-          "line": 229,
-          "word": "TestNG",
-          "fix": "testing"
-        },
-        {
-          "line": 1247,
-          "word": "SOM",
-          "fix": "SOME"
-        },
-        {
-          "line": 1855,
-          "word": "Chisle",
-          "fix": "Chisel"
-        }
-      ]
-    },
-    {
-      "repo": "oxnr/awesome-bigdata",
-      "stars": 14719,
-      "language": "",
-      "merge_rate": 70,
-      "median_merge_days": 9.9,
-      "warnings": [],
-      "score": 34,
-      "typos": [
-        {
-          "line": 294,
-          "word": "witho",
-          "fix": "with"
-        },
-        {
-          "line": 426,
-          "word": "persistance",
-          "fix": "persistence"
-        },
-        {
-          "line": 680,
-          "word": "anlytics",
-          "fix": "analytics"
-        },
-        {
-          "line": 833,
-          "word": "Simplied",
-          "fix": "Simplified, Implied"
-        }
-      ]
-    },
-    {
-      "repo": "yjs/yjs",
-      "stars": 23031,
-      "language": "JavaScript",
-      "merge_rate": 52,
-      "median_merge_days": 0.5,
-      "warnings": [],
-      "score": 33,
-      "typos": [
-        {
-          "line": 64,
-          "word": "Relm",
-          "fix": "Realm, Elm, Helm, Ream, Rem"
-        },
-        {
-          "line": 64,
-          "word": "relm",
-          "fix": "realm, elm, helm, ream, rem"
-        },
-        {
-          "line": 95,
-          "word": "groupe",
-          "fix": "grouped, group"
-        },
-        {
-          "line": 1382,
-          "word": "OT",
-          "fix": "TO, OF, OR, NOT, IT"
-        },
-        {
-          "line": 1383,
-          "word": "OT",
-          "fix": "TO, OF, OR, NOT, IT"
-        },
-        {
-          "line": 1386,
-          "word": "OT",
-          "fix": "TO, OF, OR, NOT, IT"
-        },
-        {
-          "line": 1387,
-          "word": "OT",
-          "fix": "TO, OF, OR, NOT, IT"
+          "line": 28,
+          "word": "Atleast",
+          "fix": "At least"
         }
       ]
     },
     {
       "repo": "ggml-org/whisper.cpp",
-      "stars": 54990,
+      "stars": 55010,
       "language": "C++",
-      "merge_rate": 64,
-      "median_merge_days": 6.7,
+      "merge_rate": 68,
+      "median_merge_days": 6.2,
       "warnings": [
         "has AI policy - read CONTRIBUTING"
       ],
-      "score": 32,
+      "score": 34,
       "typos": [
         {
           "line": 180,
@@ -1328,104 +1500,168 @@
       ]
     },
     {
-      "repo": "SnailSploit/Claude-Red",
-      "stars": 10465,
-      "language": "Python",
-      "merge_rate": 58,
-      "median_merge_days": 9.7,
+      "repo": "swagger-api/swagger-codegen",
+      "stars": 17797,
+      "language": "Mustache",
+      "merge_rate": 54,
+      "median_merge_days": 0.0,
+      "warnings": [],
+      "score": 34,
+      "typos": [
+        {
+          "line": 29,
+          "word": "Vertx",
+          "fix": "Vertex"
+        }
+      ]
+    },
+    {
+      "repo": "Netflix/zuul",
+      "stars": 14097,
+      "language": "Java",
+      "merge_rate": 63,
+      "median_merge_days": 6.1,
+      "warnings": [],
+      "score": 32,
+      "typos": [
+        {
+          "line": 75,
+          "word": "instea",
+          "fix": "instead"
+        }
+      ]
+    },
+    {
+      "repo": "windingwind/zotero-pdf-translate",
+      "stars": 12247,
+      "language": "TypeScript",
+      "merge_rate": 63,
+      "median_merge_days": 3.2,
+      "warnings": [],
+      "score": 32,
+      "typos": [
+        {
+          "line": 267,
+          "word": "tanslation",
+          "fix": "translation"
+        }
+      ]
+    },
+    {
+      "repo": "typesense/typesense",
+      "stars": 27100,
+      "language": "C++",
+      "merge_rate": 63,
+      "median_merge_days": 3.7,
+      "warnings": [],
+      "score": 32,
+      "typos": [
+        {
+          "line": 295,
+          "word": "scaleable",
+          "fix": "scalable"
+        }
+      ]
+    },
+    {
+      "repo": "phpredis/phpredis",
+      "stars": 10218,
+      "language": "C",
+      "merge_rate": 50,
+      "median_merge_days": 0.3,
+      "warnings": [],
+      "score": 32,
+      "typos": [
+        {
+          "line": 2420,
+          "word": "sMove",
+          "fix": "move"
+        },
+        {
+          "line": 2420,
+          "word": "smove",
+          "fix": "move"
+        },
+        {
+          "line": 2665,
+          "word": "sMove",
+          "fix": "move"
+        }
+      ]
+    },
+    {
+      "repo": "thibmaek/awesome-raspberry-pi",
+      "stars": 17091,
+      "language": "Shell",
+      "merge_rate": 76,
+      "median_merge_days": 27.0,
+      "warnings": [],
+      "score": 32,
+      "typos": [
+        {
+          "line": 204,
+          "word": "Maschine",
+          "fix": "Machine"
+        }
+      ]
+    },
+    {
+      "repo": "Predidit/Kazumi",
+      "stars": 41630,
+      "language": "Dart",
+      "merge_rate": 47,
+      "median_merge_days": 1.5,
+      "warnings": [],
+      "score": 31,
+      "typos": [
+        {
+          "line": 186,
+          "word": "certficate",
+          "fix": "certificate"
+        }
+      ]
+    },
+    {
+      "repo": "coollabsio/coolify",
+      "stars": 65779,
+      "language": "PHP",
+      "merge_rate": 75,
+      "median_merge_days": 23.6,
       "warnings": [
         "has AI policy - read CONTRIBUTING"
       ],
-      "score": 30,
+      "score": 31,
       "typos": [
         {
-          "line": 82,
-          "word": "OT",
-          "fix": "TO, OF, OR, NOT, IT"
+          "line": 99,
+          "word": "Comit",
+          "fix": "Commit"
         },
         {
-          "line": 120,
-          "word": "TE",
-          "fix": "THE, BE, WE, TO"
+          "line": 99,
+          "word": "comit",
+          "fix": "commit"
         },
         {
-          "line": 120,
-          "word": "TE",
-          "fix": "THE, BE, WE, TO"
-        },
-        {
-          "line": 187,
-          "word": "OT",
-          "fix": "TO, OF, OR, NOT, IT"
+          "line": 148,
+          "word": "Puls",
+          "fix": "Pulse, Plus"
         }
       ]
     },
     {
-      "repo": "RVC-Boss/GPT-SoVITS",
-      "stars": 64471,
-      "language": "Python",
-      "merge_rate": 57,
-      "median_merge_days": 5.2,
+      "repo": "prometheus/node_exporter",
+      "stars": 13907,
+      "language": "Go",
+      "merge_rate": 58,
+      "median_merge_days": 3.9,
       "warnings": [],
       "score": 30,
       "typos": [
         {
-          "line": 275,
-          "word": "optinal",
-          "fix": "optional"
-        }
-      ]
-    },
-    {
-      "repo": "huggingface/pytorch-image-models",
-      "stars": 37266,
-      "language": "Python",
-      "merge_rate": 41,
-      "median_merge_days": 0.8,
-      "warnings": [],
-      "score": 29,
-      "typos": [
-        {
-          "line": 195,
-          "word": "wee",
-          "fix": "we"
-        },
-        {
-          "line": 223,
-          "word": "inherting",
-          "fix": "inheriting"
-        }
-      ]
-    },
-    {
-      "repo": "shelljs/shelljs",
-      "stars": 14401,
-      "language": "JavaScript",
-      "merge_rate": 59,
-      "median_merge_days": 14.7,
-      "warnings": [],
-      "score": 26,
-      "typos": [
-        {
-          "line": 226,
-          "word": "comamnd",
-          "fix": "command"
-        }
-      ]
-    },
-    {
-      "repo": "remoteintech/remote-jobs",
-      "stars": 41089,
-      "language": "JavaScript",
-      "merge_rate": 56,
-      "median_merge_days": 16.8,
-      "warnings": [],
-      "score": 25,
-      "typos": [
-        {
-          "line": 25,
-          "word": "Lene",
-          "fix": "Lens"
+          "line": 93,
+          "word": "faild",
+          "fix": "failed"
         }
       ]
     },
@@ -1446,62 +1682,39 @@
       ]
     },
     {
-      "repo": "pipecat-ai/pipecat",
-      "stars": 17109,
-      "language": "Python",
-      "merge_rate": 47,
-      "median_merge_days": 13.7,
-      "warnings": [
-        "has AI policy - read CONTRIBUTING"
-      ],
-      "score": 21,
-      "typos": [
-        {
-          "line": 94,
-          "word": "Rime",
-          "fix": "Rhyme"
-        },
-        {
-          "line": 94,
-          "word": "rime",
-          "fix": "rhyme"
-        }
-      ]
-    },
-    {
-      "repo": "antirez/ds4",
-      "stars": 24259,
-      "language": "C",
+      "repo": "SerenityOS/serenity",
+      "stars": 33949,
+      "language": "C++",
       "merge_rate": 40,
-      "median_merge_days": 25.8,
+      "median_merge_days": 12.2,
       "warnings": [],
       "score": 19,
       "typos": [
         {
-          "line": 40,
-          "word": "paralellism",
-          "fix": "parallelism"
-        },
-        {
-          "line": 77,
-          "word": "Similiarly",
-          "fix": "Similarly"
+          "line": 29,
+          "word": "pre-emptive",
+          "fix": "preemptive"
         }
       ]
     },
     {
-      "repo": "NVIDIA/cutlass",
-      "stars": 10706,
-      "language": "C++",
-      "merge_rate": 42,
-      "median_merge_days": 41.8,
+      "repo": "react-native-maps/react-native-maps",
+      "stars": 16015,
+      "language": "TypeScript",
+      "merge_rate": 45,
+      "median_merge_days": 77.8,
       "warnings": [],
-      "score": 15,
+      "score": 16,
       "typos": [
         {
-          "line": 164,
-          "word": "deveop",
-          "fix": "develop"
+          "line": 220,
+          "word": "usefull",
+          "fix": "useful"
+        },
+        {
+          "line": 523,
+          "word": "informations",
+          "fix": "information"
         }
       ]
     }
