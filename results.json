@@ -1,166 +1,127 @@
 {
   "issues": [
     {
-      "repo": "fosrl/pangolin",
-      "stars": 23881,
+      "repo": "upstash/context7",
+      "stars": 65172,
       "language": "TypeScript",
-      "merge_rate": 60,
-      "median_merge_days": 2.6,
-      "warnings": [],
-      "score": 86,
-      "good_first_issue": true,
-      "title": "Allow DNS Delegation (NS) mode for the first/base domain",
-      "url": "https://github.com/fosrl/pangolin/issues/4135",
-      "age_days": 1,
-      "comments": 5,
-      "why": [
-        "good first issue, help wanted",
-        "this week"
-      ]
-    },
-    {
-      "repo": "uutils/coreutils",
-      "stars": 24394,
-      "language": "Rust",
-      "merge_rate": 57,
-      "median_merge_days": 2.1,
-      "warnings": [
-        "has AI policy - read CONTRIBUTING"
-      ],
-      "score": 85,
-      "good_first_issue": true,
-      "title": "ls, du, chmod, chown, chgrp: an entry removed during traversal is reported as an error",
-      "url": "https://github.com/uutils/coreutils/issues/16644",
-      "age_days": 1,
-      "comments": 1,
-      "why": [
-        "U - du, U - ls, U - chown",
-        "this week"
-      ]
-    },
-    {
-      "repo": "uutils/coreutils",
-      "stars": 24394,
-      "language": "Rust",
-      "merge_rate": 57,
-      "median_merge_days": 2.1,
-      "warnings": [
-        "has AI policy - read CONTRIBUTING"
-      ],
-      "score": 80,
-      "good_first_issue": true,
-      "title": "mktemp: strip OS error from error messages",
-      "url": "https://github.com/uutils/coreutils/issues/16349",
-      "age_days": 8,
-      "comments": 1,
-      "why": [
-        "U - mktemp, good first issue"
-      ]
-    },
-    {
-      "repo": "avante-corp/avante.nvim",
-      "stars": 18205,
-      "language": "Lua",
-      "merge_rate": 60,
-      "median_merge_days": 0.2,
-      "warnings": [],
-      "score": 79,
-      "good_first_issue": true,
-      "title": "structured configuration for password retreival",
-      "url": "https://github.com/avante-corp/avante.nvim/issues/3323",
-      "age_days": 30,
-      "comments": 0,
-      "why": [
-        "enhancement, good first issue"
-      ]
-    },
-    {
-      "repo": "puckeditor/puck",
-      "stars": 13738,
-      "language": "TypeScript",
-      "merge_rate": 62,
+      "merge_rate": 77,
       "median_merge_days": 0.8,
       "warnings": [],
-      "score": 80,
+      "score": 85,
       "good_first_issue": false,
-      "title": "RootData has incorrect docs",
-      "url": "https://github.com/puckeditor/puck/issues/1917",
+      "title": "[Docs]: Website score 3 below threshold 9",
+      "url": "https://github.com/upstash/context7/issues/3857",
       "age_days": 2,
       "comments": 0,
       "why": [
-        "ready, type: docs",
+        "documentation",
         "docs/typo-type task",
         "this week"
       ]
     },
     {
-      "repo": "open-gsd/gsd-core",
-      "stars": 11701,
-      "language": "JavaScript",
-      "merge_rate": 100,
-      "median_merge_days": 29.4,
+      "repo": "upstash/context7",
+      "stars": 65172,
+      "language": "TypeScript",
+      "merge_rate": 77,
+      "median_merge_days": 0.8,
       "warnings": [],
-      "score": 80,
+      "score": 85,
       "good_first_issue": false,
-      "title": "docs(verifier): define verification independence as context and model, and state what an advisor session does to it",
-      "url": "https://github.com/open-gsd/gsd-core/issues/6207",
-      "age_days": 4,
-      "comments": 1,
+      "title": "[Docs]: Autodesk Vault is failing and keeping other versions from being indexed",
+      "url": "https://github.com/upstash/context7/issues/3799",
+      "age_days": 7,
+      "comments": 0,
       "why": [
-        "documentation, approved-enhancement",
+        "documentation",
         "docs/typo-type task",
         "this week"
       ]
     },
     {
-      "repo": "open-gsd/gsd-core",
-      "stars": 11701,
-      "language": "JavaScript",
-      "merge_rate": 100,
-      "median_merge_days": 29.4,
-      "warnings": [],
-      "score": 80,
-      "good_first_issue": false,
-      "title": "docs(model-profiles): advisor section is outdated and omits cost, accounting and off-switch caveats",
-      "url": "https://github.com/open-gsd/gsd-core/issues/6205",
-      "age_days": 4,
-      "comments": 1,
-      "why": [
-        "bug, documentation, confirmed-bug",
-        "docs/typo-type task",
-        "this week"
-      ]
-    },
-    {
-      "repo": "open-gsd/gsd-core",
-      "stars": 11701,
-      "language": "JavaScript",
-      "merge_rate": 100,
-      "median_merge_days": 29.4,
-      "warnings": [],
-      "score": 80,
-      "good_first_issue": false,
-      "title": "docs: recommend auto mode instead of `--dangerously-skip-permissions` in the guide and tutorials",
-      "url": "https://github.com/open-gsd/gsd-core/issues/6160",
-      "age_days": 6,
-      "comments": 1,
-      "why": [
-        "documentation, approved-enhancement",
-        "docs/typo-type task",
-        "this week"
-      ]
-    },
-    {
-      "repo": "Arize-ai/phoenix",
-      "stars": 12356,
+      "repo": "scipy/scipy",
+      "stars": 15228,
       "language": "Python",
-      "merge_rate": 83,
-      "median_merge_days": 0.2,
+      "merge_rate": 77,
+      "median_merge_days": 1.3,
       "warnings": [],
-      "score": 77,
+      "score": 82,
       "good_first_issue": false,
-      "title": "docs: Weekly docs gap audit — 2026-10-21",
-      "url": "https://github.com/Arize-ai/phoenix/issues/17092",
+      "title": "DOC: savgol_filter deriv error depends heavily on window_length, and no guidance exists on choosing it",
+      "url": "https://github.com/scipy/scipy/issues/26738",
+      "age_days": 3,
+      "comments": 1,
+      "why": [
+        "scipy.signal, Documentation",
+        "docs/typo-type task",
+        "this week"
+      ]
+    },
+    {
+      "repo": "CopilotKit/CopilotKit",
+      "stars": 38841,
+      "language": "TypeScript",
+      "merge_rate": 87,
+      "median_merge_days": 0.1,
+      "warnings": [],
+      "score": 80,
+      "good_first_issue": false,
+      "title": "📚 Documentation: Self-hosting docs name \"Team Self-hosted\", which the public pricing page doesn't list",
+      "url": "https://github.com/CopilotKit/CopilotKit/issues/8283",
+      "age_days": 10,
+      "comments": 1,
+      "why": [
+        "documentation",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "lidge-jun/opencodex",
+      "stars": 18682,
+      "language": "TypeScript",
+      "merge_rate": 89,
+      "median_merge_days": 5.2,
+      "warnings": [],
+      "score": 74,
+      "good_first_issue": false,
+      "title": "Native compaction items across a model-only change are not documented, and the source comments and observed behaviour differ",
+      "url": "https://github.com/lidge-jun/opencodex/issues/8961",
+      "age_days": 0,
+      "comments": 0,
+      "why": [
+        "documentation",
+        "this week"
+      ]
+    },
+    {
+      "repo": "saltstack/salt",
+      "stars": 15763,
+      "language": "Python",
+      "merge_rate": 85,
+      "median_merge_days": 3.5,
+      "warnings": [],
+      "score": 73,
+      "good_first_issue": false,
+      "title": "[DOCS] Consolidated documentation backlog tracker (81 items, 14 themes)",
+      "url": "https://github.com/saltstack/salt/issues/70585",
+      "age_days": 23,
+      "comments": 0,
+      "why": [
+        "documentation",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "hydra-ecosystem/hydra",
+      "stars": 10757,
+      "language": "Python",
+      "merge_rate": 57,
+      "median_merge_days": 0.9,
+      "warnings": [],
+      "score": 68,
+      "good_first_issue": false,
+      "title": "[Documentation] Explain config loading using a virtual filesystem perspective",
+      "url": "https://github.com/hydra-ecosystem/hydra/issues/3575",
       "age_days": 28,
       "comments": 0,
       "why": [
@@ -169,265 +130,17 @@
       ]
     },
     {
-      "repo": "systemd/systemd",
-      "stars": 17048,
-      "language": "C",
-      "merge_rate": 92,
-      "median_merge_days": 0.9,
-      "warnings": [],
-      "score": 75,
-      "good_first_issue": false,
-      "title": "`systemd.socket` manpage does not make it obvious `ListenFIFO=` sockets cannot be restarted without `RemoveOnStop=yes`",
-      "url": "https://github.com/systemd/systemd/issues/44711",
-      "age_days": 11,
-      "comments": 0,
-      "why": [
-        "documentation, pid1"
-      ]
-    },
-    {
-      "repo": "argoproj/argo-workflows",
-      "stars": 17107,
-      "language": "Go",
-      "merge_rate": 84,
-      "median_merge_days": 0.1,
-      "warnings": [],
-      "score": 74,
-      "good_first_issue": false,
-      "title": "docs: fixes left over from the docs style pass",
-      "url": "https://github.com/argoproj/argo-workflows/issues/17417",
-      "age_days": 15,
-      "comments": 1,
-      "why": [
-        "area/docs",
-        "docs/typo-type task"
-      ]
-    },
-    {
-      "repo": "Arize-ai/phoenix",
-      "stars": 12356,
-      "language": "Python",
-      "merge_rate": 83,
-      "median_merge_days": 0.2,
-      "warnings": [],
-      "score": 74,
-      "good_first_issue": false,
-      "title": "Make the site LLM-friendly with llms.txt and Markdown pages",
-      "url": "https://github.com/Arize-ai/phoenix/issues/18032",
-      "age_days": 1,
-      "comments": 1,
-      "why": [
-        "documentation, enhancement, size:S",
-        "this week"
-      ]
-    },
-    {
-      "repo": "OthmanAdi/planning-with-files",
-      "stars": 28140,
-      "language": "Shell",
+      "repo": "CherryHQ/cherry-studio",
+      "stars": 53692,
+      "language": "TypeScript",
       "merge_rate": 86,
-      "median_merge_days": 2.4,
-      "warnings": [],
-      "score": 73,
-      "good_first_issue": false,
-      "title": "SKILL.md is about 10k tokens: Claude Code keeps the first 5,000 after compaction, and three documented mechanisms no longer exist",
-      "url": "https://github.com/OthmanAdi/planning-with-files/issues/380",
-      "age_days": 8,
-      "comments": 0,
-      "why": [
-        "documentation, enhancement"
-      ]
-    },
-    {
-      "repo": "tangency-labs/solidcraft",
-      "stars": 17219,
-      "language": "Rust",
-      "merge_rate": 71,
-      "median_merge_days": 0.4,
-      "warnings": [],
-      "score": 70,
-      "good_first_issue": false,
-      "title": "A certified deviation bound for traced intersection curves (docs/ssi.md section 9), so the local-operation gate can bound the growth of their edges",
-      "url": "https://github.com/tangency-labs/solidcraft/issues/13630",
-      "age_days": 10,
-      "comments": 0,
-      "why": [
-        "help wanted, needs-triage",
-        "docs/typo-type task"
-      ]
-    },
-    {
-      "repo": "tldr-pages/tldr",
-      "stars": 64255,
-      "language": "Markdown",
-      "merge_rate": 88,
-      "median_merge_days": 0.7,
-      "warnings": [
-        "has AI policy - read CONTRIBUTING"
-      ],
-      "score": 69,
-      "good_first_issue": false,
-      "title": "Let's document: flatpak",
-      "url": "https://github.com/tldr-pages/tldr/issues/24946",
-      "age_days": 19,
-      "comments": 0,
-      "why": [
-        "new command, help wanted, let's document"
-      ]
-    },
-    {
-      "repo": "OpenCTI-Platform/opencti",
-      "stars": 10400,
-      "language": "TypeScript",
-      "merge_rate": 57,
-      "median_merge_days": 0.0,
-      "warnings": [],
-      "score": 68,
-      "good_first_issue": false,
-      "title": "docs(integration-manager): document the native Podman orchestrator of xtm-composer",
-      "url": "https://github.com/OpenCTI-Platform/opencti/issues/19234",
-      "age_days": 26,
-      "comments": 0,
-      "why": [
-        "filigran team, documentation",
-        "docs/typo-type task"
-      ]
-    },
-    {
-      "repo": "OpenCTI-Platform/opencti",
-      "stars": 10400,
-      "language": "TypeScript",
-      "merge_rate": 57,
-      "median_merge_days": 0.0,
-      "warnings": [],
-      "score": 68,
-      "good_first_issue": false,
-      "title": "docs(deployment): document Podman and rootless installation",
-      "url": "https://github.com/OpenCTI-Platform/opencti/issues/19233",
-      "age_days": 26,
-      "comments": 0,
-      "why": [
-        "filigran team, documentation",
-        "docs/typo-type task"
-      ]
-    },
-    {
-      "repo": "brave/brave-browser",
-      "stars": 24254,
-      "language": "",
-      "merge_rate": 76,
-      "median_merge_days": 0.0,
+      "median_merge_days": 2.3,
       "warnings": [],
       "score": 67,
       "good_first_issue": false,
-      "title": "CR 158 - Sync internal page formatting issue, content is shrunk vertically",
-      "url": "https://github.com/brave/brave-browser/issues/61926",
-      "age_days": 2,
-      "comments": 0,
-      "why": [
-        "help wanted, feature/user-interface, feature/sync",
-        "this week"
-      ]
-    },
-    {
-      "repo": "tldr-pages/tldr",
-      "stars": 64255,
-      "language": "Markdown",
-      "merge_rate": 88,
-      "median_merge_days": 0.7,
-      "warnings": [
-        "has AI policy - read CONTRIBUTING"
-      ],
-      "score": 66,
-      "good_first_issue": false,
-      "title": "Let's document: PeaZip",
-      "url": "https://github.com/tldr-pages/tldr/issues/24931",
-      "age_days": 20,
-      "comments": 5,
-      "why": [
-        "new command, help wanted, let's document"
-      ]
-    },
-    {
-      "repo": "mlflow/mlflow",
-      "stars": 28897,
-      "language": "Python",
-      "merge_rate": 85,
-      "median_merge_days": 0.1,
-      "warnings": [],
-      "score": 65,
-      "good_first_issue": false,
-      "title": "[FR] MCP Gateway support — Proxy MCP tool calls through AI Gateway with governance and observability",
-      "url": "https://github.com/mlflow/mlflow/issues/27127",
-      "age_days": 24,
-      "comments": 4,
-      "why": [
-        "enhancement, area/docs, area/uiux"
-      ]
-    },
-    {
-      "repo": "mlflow/mlflow",
-      "stars": 28897,
-      "language": "Python",
-      "merge_rate": 85,
-      "median_merge_days": 0.1,
-      "warnings": [],
-      "score": 65,
-      "good_first_issue": false,
-      "title": "[FR] Agreement statistics between LLM judges and human labels (kappa, alpha, confusion matrix)",
-      "url": "https://github.com/mlflow/mlflow/issues/27117",
-      "age_days": 24,
-      "comments": 4,
-      "why": [
-        "enhancement, area/docs, area/evaluation"
-      ]
-    },
-    {
-      "repo": "mlflow/mlflow",
-      "stars": 28897,
-      "language": "Python",
-      "merge_rate": 85,
-      "median_merge_days": 0.1,
-      "warnings": [],
-      "score": 65,
-      "good_first_issue": false,
-      "title": "[FR] compare_evaluations: non-regression gate and multiple-comparison correction",
-      "url": "https://github.com/mlflow/mlflow/issues/27116",
-      "age_days": 24,
-      "comments": 5,
-      "why": [
-        "enhancement, area/docs, area/evaluation"
-      ]
-    },
-    {
-      "repo": "OthmanAdi/planning-with-files",
-      "stars": 28140,
-      "language": "Shell",
-      "merge_rate": 86,
-      "median_merge_days": 2.4,
-      "warnings": [],
-      "score": 65,
-      "good_first_issue": false,
-      "title": "evals: contribute pinned Hermes CLI file-only recovery receipts",
-      "url": "https://github.com/OthmanAdi/planning-with-files/issues/371",
-      "age_days": 11,
-      "comments": 0,
-      "why": [
-        "help wanted"
-      ]
-    },
-    {
-      "repo": "CherryHQ/cherry-studio",
-      "stars": 53658,
-      "language": "TypeScript",
-      "merge_rate": 75,
-      "median_merge_days": 0.0,
-      "warnings": [],
-      "score": 63,
-      "good_first_issue": false,
       "title": "[Discussion]: About the numerous sections and layout issues in \"Settings\"",
       "url": "https://github.com/CherryHQ/cherry-studio/issues/24706",
-      "age_days": 2,
+      "age_days": 3,
       "comments": 1,
       "why": [
         "p3, help wanted, discussion",
@@ -436,16 +149,16 @@
     },
     {
       "repo": "CherryHQ/cherry-studio",
-      "stars": 53658,
+      "stars": 53692,
       "language": "TypeScript",
-      "merge_rate": 75,
-      "median_merge_days": 0.0,
+      "merge_rate": 86,
+      "median_merge_days": 2.3,
       "warnings": [],
-      "score": 63,
+      "score": 67,
       "good_first_issue": false,
       "title": "[Discussion]: Why does version 2.x feel like a third-rate product compared with version 1.x?",
       "url": "https://github.com/CherryHQ/cherry-studio/issues/24578",
-      "age_days": 4,
+      "age_days": 5,
       "comments": 1,
       "why": [
         "help wanted, discussion, needs-info",
@@ -453,635 +166,390 @@
       ]
     },
     {
-      "repo": "CherryHQ/cherry-studio",
-      "stars": 53658,
-      "language": "TypeScript",
-      "merge_rate": 75,
-      "median_merge_days": 0.0,
+      "repo": "iovisor/bcc",
+      "stars": 22751,
+      "language": "C",
+      "merge_rate": 80,
+      "median_merge_days": 10.9,
       "warnings": [],
-      "score": 63,
+      "score": 66,
       "good_first_issue": false,
-      "title": "[Discussion]: 智能体在回复的时候感觉不是实时直播的，智能体在回复的时候感觉设计的不太好",
-      "url": "https://github.com/CherryHQ/cherry-studio/issues/24265",
-      "age_days": 7,
-      "comments": 1,
-      "why": [
-        "help wanted, discussion, ui-ux",
-        "this week"
-      ]
-    },
-    {
-      "repo": "THU-MAIC/OpenMAIC",
-      "stars": 43947,
-      "language": "TypeScript",
-      "merge_rate": 62,
-      "median_merge_days": 0.0,
-      "warnings": [
-        "has AI policy - read CONTRIBUTING"
-      ],
-      "score": 62,
-      "good_first_issue": false,
-      "title": "MiniMax: voice cloning and voice management",
-      "url": "https://github.com/THU-MAIC/OpenMAIC/issues/2334",
-      "age_days": 1,
+      "title": "Broken links detected in LINKS.md",
+      "url": "https://github.com/iovisor/bcc/issues/5581",
+      "age_days": 19,
       "comments": 0,
       "why": [
-        "enhancement, help wanted, area:providers",
+        "documentation",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "mlflow/mlflow",
+      "stars": 28909,
+      "language": "Python",
+      "merge_rate": 88,
+      "median_merge_days": 0.0,
+      "warnings": [],
+      "score": 66,
+      "good_first_issue": false,
+      "title": "[FR] MCP Gateway support — Proxy MCP tool calls through AI Gateway with governance and observability",
+      "url": "https://github.com/mlflow/mlflow/issues/27127",
+      "age_days": 25,
+      "comments": 4,
+      "why": [
+        "enhancement, area/docs, area/uiux"
+      ]
+    },
+    {
+      "repo": "mlflow/mlflow",
+      "stars": 28909,
+      "language": "Python",
+      "merge_rate": 88,
+      "median_merge_days": 0.0,
+      "warnings": [],
+      "score": 66,
+      "good_first_issue": false,
+      "title": "[FR] Agreement statistics between LLM judges and human labels (kappa, alpha, confusion matrix)",
+      "url": "https://github.com/mlflow/mlflow/issues/27117",
+      "age_days": 25,
+      "comments": 4,
+      "why": [
+        "enhancement, area/docs, area/evaluation"
+      ]
+    },
+    {
+      "repo": "mlflow/mlflow",
+      "stars": 28909,
+      "language": "Python",
+      "merge_rate": 88,
+      "median_merge_days": 0.0,
+      "warnings": [],
+      "score": 66,
+      "good_first_issue": false,
+      "title": "[FR] compare_evaluations: non-regression gate and multiple-comparison correction",
+      "url": "https://github.com/mlflow/mlflow/issues/27116",
+      "age_days": 25,
+      "comments": 5,
+      "why": [
+        "enhancement, area/docs, area/evaluation"
+      ]
+    },
+    {
+      "repo": "scikit-learn/scikit-learn",
+      "stars": 68269,
+      "language": "Python",
+      "merge_rate": 60,
+      "median_merge_days": 11.0,
+      "warnings": [],
+      "score": 66,
+      "good_first_issue": false,
+      "title": "Example on how to use array API to accelerate a complex pipeline on a GPU",
+      "url": "https://github.com/scikit-learn/scikit-learn/issues/35420",
+      "age_days": 4,
+      "comments": 5,
+      "why": [
+        "Documentation, Needs Decision, Array API",
+        "docs/typo-type task",
         "this week"
       ]
     },
     {
-      "repo": "THU-MAIC/OpenMAIC",
-      "stars": 43947,
-      "language": "TypeScript",
-      "merge_rate": 62,
-      "median_merge_days": 0.0,
-      "warnings": [
-        "has AI policy - read CONTRIBUTING"
-      ],
-      "score": 62,
+      "repo": "filamentphp/filament",
+      "stars": 32538,
+      "language": "PHP",
+      "merge_rate": 76,
+      "median_merge_days": 0.1,
+      "warnings": [],
+      "score": 65,
       "good_first_issue": false,
-      "title": "ElevenLabs: voice cloning and voice management",
-      "url": "https://github.com/THU-MAIC/OpenMAIC/issues/2333",
-      "age_days": 1,
+      "title": "Document composable record pages better / improve API",
+      "url": "https://github.com/filamentphp/filament/issues/20958",
+      "age_days": 15,
       "comments": 0,
       "why": [
-        "enhancement, help wanted, area:providers",
-        "this week"
+        "documentation"
       ]
     },
     {
       "repo": "CherryHQ/cherry-studio",
-      "stars": 53658,
+      "stars": 53692,
       "language": "TypeScript",
-      "merge_rate": 75,
-      "median_merge_days": 0.0,
+      "merge_rate": 86,
+      "median_merge_days": 2.3,
       "warnings": [],
-      "score": 61,
+      "score": 65,
       "good_first_issue": false,
       "title": "[Feature]: Document the MCP tool-approval guarantees (exact arguments, no auto-retry) as a contract",
       "url": "https://github.com/CherryHQ/cherry-studio/issues/23157",
-      "age_days": 20,
+      "age_days": 21,
       "comments": 2,
       "why": [
         "p3, docs, mcp"
       ]
     },
     {
-      "repo": "tangency-labs/solidcraft",
-      "stars": 17219,
-      "language": "Rust",
-      "merge_rate": 71,
-      "median_merge_days": 0.4,
-      "warnings": [],
-      "score": 60,
-      "good_first_issue": false,
-      "title": "Closed-form constructions store delta + eps on their edges, so the local-operation gate can enforce invariant 9 (moves goldens)",
-      "url": "https://github.com/tangency-labs/solidcraft/issues/13621",
-      "age_days": 10,
-      "comments": 0,
-      "why": [
-        "help wanted, needs-triage"
-      ]
-    },
-    {
-      "repo": "tangency-labs/solidcraft",
-      "stars": 17219,
-      "language": "Rust",
-      "merge_rate": 71,
-      "median_merge_days": 0.4,
-      "warnings": [],
-      "score": 60,
-      "good_first_issue": false,
-      "title": "Local operation: the soundness gate decides on certified bounds only",
-      "url": "https://github.com/tangency-labs/solidcraft/issues/13728",
-      "age_days": 12,
-      "comments": 0,
-      "why": [
-        "help wanted, needs-triage"
-      ]
-    },
-    {
-      "repo": "openai/openai-agents-python",
-      "stars": 30770,
+      "repo": "ungoogled-software/ungoogled-chromium",
+      "stars": 28301,
       "language": "Python",
-      "merge_rate": 68,
-      "median_merge_days": 0.4,
+      "merge_rate": 76,
+      "median_merge_days": 2.3,
       "warnings": [],
-      "score": 59,
+      "score": 62,
       "good_first_issue": false,
-      "title": "List Sprites as a hosted sandbox platform",
-      "url": "https://github.com/openai/openai-agents-python/issues/5498",
-      "age_days": 15,
-      "comments": 1,
+      "title": "Restore functionality of the removed flag \"#devtools-project-settings\"",
+      "url": "https://github.com/ungoogled-software/ungoogled-chromium/issues/4049",
+      "age_days": 8,
+      "comments": 0,
       "why": [
-        "documentation, feature:sandboxes"
+        "enhancement, help wanted"
       ]
     },
     {
       "repo": "CherryHQ/cherry-studio",
-      "stars": 53658,
+      "stars": 53692,
       "language": "TypeScript",
-      "merge_rate": 75,
-      "median_merge_days": 0.0,
+      "merge_rate": 86,
+      "median_merge_days": 2.3,
       "warnings": [],
-      "score": 58,
+      "score": 62,
+      "good_first_issue": false,
+      "title": "[Discussion]: 智能体在回复的时候感觉不是实时直播的，智能体在回复的时候感觉设计的不太好",
+      "url": "https://github.com/CherryHQ/cherry-studio/issues/24265",
+      "age_days": 8,
+      "comments": 1,
+      "why": [
+        "help wanted, discussion, ui-ux"
+      ]
+    },
+    {
+      "repo": "CherryHQ/cherry-studio",
+      "stars": 53692,
+      "language": "TypeScript",
+      "merge_rate": 86,
+      "median_merge_days": 2.3,
+      "warnings": [],
+      "score": 62,
       "good_first_issue": false,
       "title": "[Task]: Strengthen low-signal tests and prevent false coverage in agent-authored tests",
       "url": "https://github.com/CherryHQ/cherry-studio/issues/24205",
-      "age_days": 8,
+      "age_days": 9,
       "comments": 1,
       "why": [
         "help wanted, Dev Team, internal-team"
       ]
     },
     {
-      "repo": "tldr-pages/tldr",
-      "stars": 64255,
-      "language": "Markdown",
-      "merge_rate": 88,
-      "median_merge_days": 0.7,
-      "warnings": [
-        "has AI policy - read CONTRIBUTING"
-      ],
-      "score": 58,
-      "good_first_issue": false,
-      "title": "Page request: runc",
-      "url": "https://github.com/tldr-pages/tldr/issues/24949",
-      "age_days": 19,
-      "comments": 4,
-      "why": [
-        "new command, help wanted"
-      ]
-    },
-    {
-      "repo": "brave/brave-browser",
-      "stars": 24254,
-      "language": "",
-      "merge_rate": 76,
-      "median_merge_days": 0.0,
+      "repo": "Genesis-Embodied-AI/genesis-world",
+      "stars": 30273,
+      "language": "Python",
+      "merge_rate": 50,
+      "median_merge_days": 41.4,
       "warnings": [],
-      "score": 57,
+      "score": 60,
       "good_first_issue": false,
-      "title": "Keyboard input in Excel Online is ignored for the first two key presses on Wayland (KDE Plasma, openSUSE)",
-      "url": "https://github.com/brave/brave-browser/issues/60183",
-      "age_days": 23,
+      "title": "[Docs]: Panda finger units change after `set_dofs_kp`, and a strong closing force jams the fingers",
+      "url": "https://github.com/Genesis-Embodied-AI/genesis-world/issues/3895",
+      "age_days": 0,
       "comments": 0,
       "why": [
-        "help wanted, OS/Linux, OS/Desktop"
+        "documentation",
+        "docs/typo-type task",
+        "this week"
       ]
     },
     {
-      "repo": "tangency-labs/solidcraft",
-      "stars": 17219,
-      "language": "Rust",
-      "merge_rate": 71,
-      "median_merge_days": 0.4,
+      "repo": "Genesis-Embodied-AI/genesis-world",
+      "stars": 30273,
+      "language": "Python",
+      "merge_rate": 50,
+      "median_merge_days": 41.4,
       "warnings": [],
-      "score": 57,
+      "score": 60,
       "good_first_issue": false,
-      "title": "Local operation: provenance of faces and edges through the extended offset's merge, so the gate can compare failures per entity",
-      "url": "https://github.com/tangency-labs/solidcraft/issues/13631",
-      "age_days": 11,
-      "comments": 1,
+      "title": "[Docs]: Under the default pyramidal cone, a grasped object slips far below `mu * N`",
+      "url": "https://github.com/Genesis-Embodied-AI/genesis-world/issues/3893",
+      "age_days": 0,
+      "comments": 0,
       "why": [
-        "help wanted, area:kernel, needs-triage"
-      ]
-    },
-    {
-      "repo": "tangency-labs/solidcraft",
-      "stars": 17219,
-      "language": "Rust",
-      "merge_rate": 71,
-      "median_merge_days": 0.4,
-      "warnings": [],
-      "score": 57,
-      "good_first_issue": false,
-      "title": "Local operation: the four-face vertex split is the only path",
-      "url": "https://github.com/tangency-labs/solidcraft/issues/13719",
-      "age_days": 12,
-      "comments": 1,
-      "why": [
-        "help wanted, needs-triage"
-      ]
-    },
-    {
-      "repo": "tangency-labs/solidcraft",
-      "stars": 17219,
-      "language": "Rust",
-      "merge_rate": 71,
-      "median_merge_days": 0.4,
-      "warnings": [],
-      "score": 57,
-      "good_first_issue": false,
-      "title": "Local operation: a face given a coaxial cylinder of another radius keeps UV loops in the old parametrisation",
-      "url": "https://github.com/tangency-labs/solidcraft/issues/13721",
-      "age_days": 12,
-      "comments": 2,
-      "why": [
-        "help wanted, needs-triage"
-      ]
-    },
-    {
-      "repo": "tangency-labs/solidcraft",
-      "stars": 17219,
-      "language": "Rust",
-      "merge_rate": 71,
-      "median_merge_days": 0.4,
-      "warnings": [],
-      "score": 57,
-      "good_first_issue": false,
-      "title": "Stitch: certify each closed gap and report the tolerance growth it applies",
-      "url": "https://github.com/tangency-labs/solidcraft/issues/13724",
-      "age_days": 12,
-      "comments": 3,
-      "why": [
-        "help wanted, needs-triage"
-      ]
-    },
-    {
-      "repo": "tangency-labs/solidcraft",
-      "stars": 17219,
-      "language": "Rust",
-      "merge_rate": 71,
-      "median_merge_days": 0.4,
-      "warnings": [],
-      "score": 57,
-      "good_first_issue": false,
-      "title": "Local operation gate: refuse tolerance growth beyond a certified bound",
-      "url": "https://github.com/tangency-labs/solidcraft/issues/13725",
-      "age_days": 12,
-      "comments": 1,
-      "why": [
-        "help wanted, needs-triage"
+        "documentation",
+        "docs/typo-type task",
+        "this week"
       ]
     },
     {
       "repo": "CherryHQ/cherry-studio",
-      "stars": 53658,
+      "stars": 53692,
       "language": "TypeScript",
-      "merge_rate": 75,
-      "median_merge_days": 0.0,
+      "merge_rate": 86,
+      "median_merge_days": 2.3,
       "warnings": [],
-      "score": 56,
+      "score": 60,
       "good_first_issue": false,
       "title": "[Task]: Own the follow-up queue in main-process memory so delivery does not depend on an open window",
       "url": "https://github.com/CherryHQ/cherry-studio/issues/22824",
-      "age_days": 23,
+      "age_days": 24,
       "comments": 0,
       "why": [
         "help wanted, Dev Team, agent"
       ]
     },
     {
-      "repo": "OrchestratorInc/agent-orchestrator",
-      "stars": 14921,
-      "language": "TypeScript",
-      "merge_rate": 62,
-      "median_merge_days": 30.5,
+      "repo": "ungoogled-software/ungoogled-chromium",
+      "stars": 28301,
+      "language": "Python",
+      "merge_rate": 76,
+      "median_merge_days": 2.3,
       "warnings": [],
-      "score": 55,
+      "score": 57,
       "good_first_issue": false,
-      "title": "Proposal: document a disposable worktree conflict recovery check",
-      "url": "https://github.com/OrchestratorInc/agent-orchestrator/issues/8269",
-      "age_days": 6,
+      "title": "Feature Request(flag): Spoofing date and time to UTC",
+      "url": "https://github.com/ungoogled-software/ungoogled-chromium/issues/4033",
+      "age_days": 18,
       "comments": 0,
       "why": [
-        "documentation, comp/docs-site, area:docs-skills-localization",
+        "enhancement, help wanted"
+      ]
+    },
+    {
+      "repo": "keycloak/keycloak",
+      "stars": 37982,
+      "language": "Java",
+      "merge_rate": 55,
+      "median_merge_days": 4.6,
+      "warnings": [
+        "has AI policy - read CONTRIBUTING"
+      ],
+      "score": 57,
+      "good_first_issue": false,
+      "title": "Document time synchronization requirements for clustered Keycloak",
+      "url": "https://github.com/keycloak/keycloak/issues/54962",
+      "age_days": 10,
+      "comments": 0,
+      "why": [
+        "area/docs, kind/task"
+      ]
+    },
+    {
+      "repo": "kubernetes/minikube",
+      "stars": 32261,
+      "language": "Go",
+      "merge_rate": 55,
+      "median_merge_days": 1.4,
+      "warnings": [],
+      "score": 56,
+      "good_first_issue": false,
+      "title": "ssh/none driver: older clusters still get the docker runtime after upgrade",
+      "url": "https://github.com/kubernetes/minikube/issues/24070",
+      "age_days": 3,
+      "comments": 1,
+      "why": [
+        "help wanted, co/none-driver, co/ssh-driver",
         "this week"
       ]
     },
     {
-      "repo": "tangency-labs/solidcraft",
-      "stars": 17219,
-      "language": "Rust",
-      "merge_rate": 71,
-      "median_merge_days": 0.4,
+      "repo": "MHSanaei/3x-ui",
+      "stars": 50253,
+      "language": "Go",
+      "merge_rate": 75,
+      "median_merge_days": 6.0,
       "warnings": [],
-      "score": 52,
+      "score": 56,
       "good_first_issue": false,
-      "title": "STEP: delete step-import, step-brep and step-export",
-      "url": "https://github.com/tangency-labs/solidcraft/issues/13791",
-      "age_days": 15,
+      "title": "[Bug]: Remote panel update via mTLS node fails with HTTP 403 error",
+      "url": "https://github.com/MHSanaei/3x-ui/issues/6953",
+      "age_days": 25,
       "comments": 3,
       "why": [
-        "help wanted, area:kernel, needs-triage"
+        "documentation"
       ]
     },
     {
-      "repo": "tangency-labs/solidcraft",
-      "stars": 17219,
-      "language": "Rust",
-      "merge_rate": 71,
-      "median_merge_days": 0.4,
+      "repo": "super-productivity/super-productivity",
+      "stars": 23878,
+      "language": "TypeScript",
+      "merge_rate": 67,
+      "median_merge_days": 6.5,
       "warnings": [],
-      "score": 52,
+      "score": 53,
       "good_first_issue": false,
-      "title": "STEP export: SolidCraft's export of nist_ctc_01 does not re-import",
-      "url": "https://github.com/tangency-labs/solidcraft/issues/13792",
-      "age_days": 15,
-      "comments": 3,
-      "why": [
-        "help wanted, area:io, needs-triage"
-      ]
-    },
-    {
-      "repo": "tangency-labs/solidcraft",
-      "stars": 17219,
-      "language": "Rust",
-      "merge_rate": 71,
-      "median_merge_days": 0.4,
-      "warnings": [],
-      "score": 52,
-      "good_first_issue": false,
-      "title": "STEP build: build the topology first when a face's pcurves fail",
-      "url": "https://github.com/tangency-labs/solidcraft/issues/13793",
-      "age_days": 15,
-      "comments": 3,
-      "why": [
-        "help wanted, area:io, needs-triage"
-      ]
-    },
-    {
-      "repo": "tangency-labs/solidcraft",
-      "stars": 17219,
-      "language": "Rust",
-      "merge_rate": 71,
-      "median_merge_days": 0.4,
-      "warnings": [],
-      "score": 52,
-      "good_first_issue": false,
-      "title": "STEP reader: Part 21 short names, a whole-file dangling-reference report, and the file's PCURVEs as an option",
-      "url": "https://github.com/tangency-labs/solidcraft/issues/13794",
-      "age_days": 15,
-      "comments": 3,
-      "why": [
-        "help wanted, area:io, needs-triage"
-      ]
-    },
-    {
-      "repo": "tangency-labs/solidcraft",
-      "stars": 17219,
-      "language": "Rust",
-      "merge_rate": 71,
-      "median_merge_days": 0.4,
-      "warnings": [],
-      "score": 52,
-      "good_first_issue": false,
-      "title": "STEP reader: FACETED_BREP / POLY_LOOP, and loose faces outside any shell",
-      "url": "https://github.com/tangency-labs/solidcraft/issues/13795",
-      "age_days": 15,
-      "comments": 3,
-      "why": [
-        "help wanted, area:kernel, needs-triage"
-      ]
-    },
-    {
-      "repo": "tangency-labs/solidcraft",
-      "stars": 17219,
-      "language": "Rust",
-      "merge_rate": 71,
-      "median_merge_days": 0.4,
-      "warnings": [],
-      "score": 52,
-      "good_first_issue": false,
-      "title": "STEP reader: faces that wind round a torus or sphere, multi-winding loops, loopless faces, edges across a closed curve",
-      "url": "https://github.com/tangency-labs/solidcraft/issues/13796",
-      "age_days": 15,
-      "comments": 1,
-      "why": [
-        "help wanted, area:io, needs-triage"
-      ]
-    },
-    {
-      "repo": "qbittorrent/qBittorrent",
-      "stars": 41745,
-      "language": "C++",
-      "merge_rate": 60,
-      "median_merge_days": 12.4,
-      "warnings": [],
-      "score": 49,
-      "good_first_issue": false,
-      "title": "Broken microsoft link https://github.com/qbittorrent/qBittorrent/wiki/Frequently-Asked-Questions#user-content-Low_performance_despite_high_or_100_disk_usage_on_Windows_also_with_external_drives",
-      "url": "https://github.com/qbittorrent/qBittorrent/issues/25134",
-      "age_days": 26,
+      "title": "Android: background reminders for recurring tasks from other devices and for Dropbox/OneDrive sync",
+      "url": "https://github.com/super-productivity/super-productivity/issues/11637",
+      "age_days": 10,
       "comments": 0,
       "why": [
-        "Documentation"
+        "help wanted"
       ]
     },
     {
-      "repo": "qbittorrent/qBittorrent",
-      "stars": 41745,
-      "language": "C++",
-      "merge_rate": 60,
-      "median_merge_days": 12.4,
-      "warnings": [],
+      "repo": "keycloak/keycloak",
+      "stars": 37982,
+      "language": "Java",
+      "merge_rate": 55,
+      "median_merge_days": 4.6,
+      "warnings": [
+        "has AI policy - read CONTRIBUTING"
+      ],
+      "score": 52,
+      "good_first_issue": false,
+      "title": "Validate and document encrypted Keycloak clustering with Istio STRICT mTLS",
+      "url": "https://github.com/keycloak/keycloak/issues/54495",
+      "age_days": 20,
+      "comments": 0,
+      "why": [
+        "kind/enhancement, area/docs, area/infinispan"
+      ]
+    },
+    {
+      "repo": "keycloak/keycloak",
+      "stars": 37982,
+      "language": "Java",
+      "merge_rate": 55,
+      "median_merge_days": 4.6,
+      "warnings": [
+        "has AI policy - read CONTRIBUTING"
+      ],
       "score": 46,
       "good_first_issue": false,
-      "title": "Update FAQ for correct settings folder (Win only?)",
-      "url": "https://github.com/qbittorrent/qBittorrent/issues/25127",
-      "age_days": 27,
-      "comments": 4,
+      "title": "[Keycloak 26.8.2] Admin Console login fails with Invalid parameter: redirect_uri on fresh Windows installation",
+      "url": "https://github.com/keycloak/keycloak/issues/55076",
+      "age_days": 8,
+      "comments": 3,
       "why": [
-        "Documentation"
+        "kind/bug, area/admin/ui, help wanted"
+      ]
+    },
+    {
+      "repo": "keycloak/keycloak",
+      "stars": 37982,
+      "language": "Java",
+      "merge_rate": 55,
+      "median_merge_days": 4.6,
+      "warnings": [
+        "has AI policy - read CONTRIBUTING"
+      ],
+      "score": 46,
+      "good_first_issue": false,
+      "title": "persian language is missing font and styling",
+      "url": "https://github.com/keycloak/keycloak/issues/55023",
+      "age_days": 9,
+      "comments": 1,
+      "why": [
+        "kind/enhancement, area/translations, help wanted"
       ]
     }
   ],
   "readme_typos": [
     {
-      "repo": "PRQL/prql",
-      "stars": 10949,
-      "language": "Rust",
-      "merge_rate": 100,
-      "median_merge_days": 0.1,
-      "warnings": [],
-      "score": 50,
-      "typos": [
-        {
-          "line": 20,
-          "word": "uery",
-          "fix": "query, very"
-        },
-        {
-          "line": 20,
-          "word": "anguage",
-          "fix": "language"
-        }
-      ]
-    },
-    {
-      "repo": "katspaugh/wavesurfer.js",
-      "stars": 10482,
-      "language": "TypeScript",
-      "merge_rate": 100,
-      "median_merge_days": 2.0,
-      "warnings": [],
-      "score": 50,
-      "typos": [
-        {
-          "line": 87,
-          "word": "timestmap",
-          "fix": "timestamp"
-        },
-        {
-          "line": 187,
-          "word": "nothign",
-          "fix": "nothing"
-        }
-      ]
-    },
-    {
-      "repo": "lint-staged/lint-staged",
-      "stars": 14765,
-      "language": "JavaScript",
-      "merge_rate": 100,
-      "median_merge_days": 1.0,
-      "warnings": [],
-      "score": 50,
-      "typos": [
-        {
-          "line": 291,
-          "word": "parallely",
-          "fix": "parallelly"
-        }
-      ]
-    },
-    {
-      "repo": "electron/minimal-repro",
-      "stars": 11429,
-      "language": "JavaScript",
-      "merge_rate": 97,
-      "median_merge_days": 0.2,
-      "warnings": [],
-      "score": 49,
-      "typos": [
-        {
-          "line": 6,
-          "word": "boostrap",
-          "fix": "bootstrap"
-        }
-      ]
-    },
-    {
-      "repo": "ghostty-org/ghostty",
-      "stars": 64247,
-      "language": "Zig",
-      "merge_rate": 91,
-      "median_merge_days": 0.0,
-      "warnings": [],
-      "score": 47,
-      "typos": [
-        {
-          "line": 108,
-          "word": "iTerm",
-          "fix": "term, item, intern"
-        }
-      ]
-    },
-    {
-      "repo": "didi/DoKit",
-      "stars": 20421,
-      "language": "Java",
-      "merge_rate": 90,
-      "median_merge_days": 0.0,
-      "warnings": [],
-      "score": 46,
-      "typos": [
-        {
-          "line": 27,
-          "word": "didi",
-          "fix": "did"
-        },
-        {
-          "line": 146,
-          "word": "didi",
-          "fix": "did"
-        },
-        {
-          "line": 154,
-          "word": "didi",
-          "fix": "did"
-        },
-        {
-          "line": 297,
-          "word": "didi",
-          "fix": "did"
-        },
-        {
-          "line": 299,
-          "word": "didi",
-          "fix": "did"
-        },
-        {
-          "line": 301,
-          "word": "didi",
-          "fix": "did"
-        },
-        {
-          "line": 303,
-          "word": "didi",
-          "fix": "did"
-        },
-        {
-          "line": 305,
-          "word": "didi",
-          "fix": "did"
-        }
-      ]
-    },
-    {
-      "repo": "podman-container-tools/podman",
-      "stars": 33336,
-      "language": "Go",
-      "merge_rate": 90,
-      "median_merge_days": 1.5,
-      "warnings": [],
-      "score": 46,
-      "typos": [
-        {
-          "line": 108,
-          "word": "passt",
-          "fix": "past, passed"
-        },
-        {
-          "line": 108,
-          "word": "passt",
-          "fix": "past, passed"
-        }
-      ]
-    },
-    {
-      "repo": "spencermountain/compromise",
-      "stars": 12176,
-      "language": "JavaScript",
-      "merge_rate": 89,
-      "median_merge_days": 0.5,
-      "warnings": [],
-      "score": 46,
-      "typos": [
-        {
-          "line": 894,
-          "word": "Suh",
-          "fix": "Such"
-        },
-        {
-          "line": 988,
-          "word": "ouput",
-          "fix": "output"
-        }
-      ]
-    },
-    {
       "repo": "ppy/osu",
-      "stars": 19485,
+      "stars": 19494,
       "language": "C#",
-      "merge_rate": 86,
-      "median_merge_days": 1.0,
+      "merge_rate": 100,
+      "median_merge_days": 0.3,
       "warnings": [
         "has AI policy - read CONTRIBUTING"
       ],
-      "score": 45,
+      "score": 50,
       "typos": [
         {
           "line": 2,
@@ -1101,300 +569,355 @@
       ]
     },
     {
-      "repo": "MatrixTM/MHDDoS",
-      "stars": 17039,
-      "language": "Python",
-      "merge_rate": 85,
-      "median_merge_days": 0.3,
+      "repo": "authelia/authelia",
+      "stars": 29688,
+      "language": "Go",
+      "merge_rate": 97,
+      "median_merge_days": 0.1,
       "warnings": [],
-      "score": 45,
+      "score": 49,
       "typos": [
         {
-          "line": 90,
-          "word": "uupload",
-          "fix": "upload"
-        }
-      ]
-    },
-    {
-      "repo": "sass/sass",
-      "stars": 15374,
-      "language": "TypeScript",
-      "merge_rate": 87,
-      "median_merge_days": 1.0,
-      "warnings": [
-        "has AI policy - read CONTRIBUTING"
-      ],
-      "score": 45,
-      "typos": [
-        {
-          "line": 104,
-          "word": "implementor",
-          "fix": "implementer"
-        }
-      ]
-    },
-    {
-      "repo": "windmill-labs/windmill",
-      "stars": 18640,
-      "language": "Rust",
-      "merge_rate": 86,
-      "median_merge_days": 1.4,
-      "warnings": [],
-      "score": 45,
-      "typos": [
-        {
-          "line": 305,
-          "word": "overriden",
-          "fix": "overridden"
-        }
-      ]
-    },
-    {
-      "repo": "sogou/workflow",
-      "stars": 14428,
-      "language": "C++",
-      "merge_rate": 87,
-      "median_merge_days": 0.2,
-      "warnings": [],
-      "score": 45,
-      "typos": [
-        {
-          "line": 114,
-          "word": "build-in",
-          "fix": "built-in"
-        }
-      ]
-    },
-    {
-      "repo": "apache/dubbo",
-      "stars": 41568,
-      "language": "Java",
-      "merge_rate": 82,
-      "median_merge_days": 2.6,
-      "warnings": [],
-      "score": 44,
-      "typos": [
-        {
-          "line": 33,
-          "word": "mannual",
-          "fix": "manual"
+          "line": 389,
+          "word": "FO",
+          "fix": "OF, FOR, TO, DO, GO"
         },
         {
-          "line": 44,
-          "word": "mannual",
-          "fix": "manual"
+          "line": 389,
+          "word": "FO",
+          "fix": "OF, FOR, TO, DO, GO"
         }
       ]
     },
     {
-      "repo": "offa/android-foss",
-      "stars": 11730,
-      "language": "Python",
-      "merge_rate": 79,
-      "median_merge_days": 0.6,
+      "repo": "goreleaser/goreleaser",
+      "stars": 16151,
+      "language": "Go",
+      "merge_rate": 96,
+      "median_merge_days": 1.3,
       "warnings": [],
-      "score": 43,
+      "score": 49,
       "typos": [
         {
-          "line": 495,
-          "word": "Discreet",
-          "fix": "Discrete"
+          "line": 94,
+          "word": "conet",
+          "fix": "connect"
         },
         {
-          "line": 623,
-          "word": "noice",
-          "fix": "noise, nice, notice"
-        },
-        {
-          "line": 623,
-          "word": "noice",
-          "fix": "noise, nice, notice"
-        },
-        {
-          "line": 898,
-          "word": "seemless",
-          "fix": "seamless"
+          "line": 94,
+          "word": "conet",
+          "fix": "connect"
         }
       ]
     },
     {
-      "repo": "serverless/serverless",
-      "stars": 46934,
-      "language": "JavaScript",
-      "merge_rate": 80,
-      "median_merge_days": 0.2,
-      "warnings": [],
-      "score": 43,
-      "typos": [
-        {
-          "line": 176,
-          "word": "recieving",
-          "fix": "receiving"
-        },
-        {
-          "line": 398,
-          "word": "capabilites",
-          "fix": "capabilities"
-        }
-      ]
-    },
-    {
-      "repo": "dwmkerr/hacker-laws",
-      "stars": 27359,
-      "language": "HTML",
-      "merge_rate": 81,
+      "repo": "JetBrains/compose-multiplatform",
+      "stars": 19490,
+      "language": "Kotlin",
+      "merge_rate": 96,
       "median_merge_days": 0.5,
       "warnings": [],
-      "score": 43,
+      "score": 48,
       "typos": [
         {
-          "line": 407,
-          "word": "trough",
-          "fix": "through"
+          "line": 82,
+          "word": "Contibution",
+          "fix": "Contribution"
+        }
+      ]
+    },
+    {
+      "repo": "leandromoreira/digital_video_introduction",
+      "stars": 16404,
+      "language": "Jupyter Notebook",
+      "merge_rate": 93,
+      "median_merge_days": 0.4,
+      "warnings": [],
+      "score": 48,
+      "typos": [
+        {
+          "line": 700,
+          "word": "ue",
+          "fix": "use, due"
         },
         {
-          "line": 445,
-          "word": "Wirth",
-          "fix": "With, Worth"
+          "line": 701,
+          "word": "ue",
+          "fix": "use, due"
         },
         {
-          "line": 851,
-          "word": "Wil",
-          "fix": "Will, Well"
+          "line": 703,
+          "word": "ue",
+          "fix": "use, due"
         },
         {
-          "line": 1011,
-          "word": "implementors",
-          "fix": "implementers"
+          "line": 798,
+          "word": "intelectual",
+          "fix": "intellectual"
+        }
+      ]
+    },
+    {
+      "repo": "m3y54m/Embedded-Engineering-Roadmap",
+      "stars": 13957,
+      "language": "JavaScript",
+      "merge_rate": 90,
+      "median_merge_days": 0.5,
+      "warnings": [],
+      "score": 47,
+      "typos": [
+        {
+          "line": 1024,
+          "word": "FRAM",
+          "fix": "FRAME, GRAM, DRAM, CRAM"
+        }
+      ]
+    },
+    {
+      "repo": "OpenAPITools/openapi-generator",
+      "stars": 26864,
+      "language": "Java",
+      "merge_rate": 93,
+      "median_merge_days": 1.6,
+      "warnings": [],
+      "score": 47,
+      "typos": [
+        {
+          "line": 103,
+          "word": "Vertx",
+          "fix": "Vertex"
         },
         {
-          "line": 1194,
-          "word": "appliation",
-          "fix": "application"
+          "line": 712,
+          "word": "freee",
+          "fix": "free"
         },
         {
-          "line": 1207,
-          "word": "electical",
-          "fix": "electrical"
+          "line": 712,
+          "word": "freee",
+          "fix": "free"
+        },
+        {
+          "line": 906,
+          "word": "Laso",
+          "fix": "Also, Lasso"
+        },
+        {
+          "line": 922,
+          "word": "Laso",
+          "fix": "Also, Lasso"
+        },
+        {
+          "line": 1076,
+          "word": "Vertx",
+          "fix": "Vertex"
+        },
+        {
+          "line": 1180,
+          "word": "Vertx",
+          "fix": "Vertex"
+        }
+      ]
+    },
+    {
+      "repo": "ghostty-org/ghostty",
+      "stars": 64273,
+      "language": "Zig",
+      "merge_rate": 86,
+      "median_merge_days": 0.1,
+      "warnings": [],
+      "score": 45,
+      "typos": [
+        {
+          "line": 108,
+          "word": "iTerm",
+          "fix": "term, item, intern"
+        }
+      ]
+    },
+    {
+      "repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "stars": 16303,
+      "language": "C#",
+      "merge_rate": 100,
+      "median_merge_days": 3.2,
+      "warnings": [],
+      "score": 45,
+      "typos": [
+        {
+          "line": 142,
+          "word": "Pallete",
+          "fix": "Palette"
+        },
+        {
+          "line": 142,
+          "word": "pallete",
+          "fix": "palette"
+        }
+      ]
+    },
+    {
+      "repo": "ccxt/ccxt",
+      "stars": 44930,
+      "language": "Python",
+      "merge_rate": 85,
+      "median_merge_days": 0.9,
+      "warnings": [],
+      "score": 45,
+      "typos": [
+        {
+          "line": 1113,
+          "word": "varibales",
+          "fix": "variables"
         }
       ]
     },
     {
       "repo": "timqian/chinese-independent-blogs",
-      "stars": 24528,
+      "stars": 24533,
       "language": "JavaScript",
-      "merge_rate": 90,
-      "median_merge_days": 4.2,
+      "merge_rate": 83,
+      "median_merge_days": 0.9,
       "warnings": [],
-      "score": 42,
+      "score": 44,
       "typos": [
         {
-          "line": 124,
+          "line": 33,
+          "word": "dfine",
+          "fix": "define"
+        },
+        {
+          "line": 33,
+          "word": "dfine",
+          "fix": "define"
+        },
+        {
+          "line": 149,
           "word": "GISer",
           "fix": "geyser"
         },
         {
-          "line": 438,
-          "word": "dfine",
-          "fix": "define"
-        },
-        {
-          "line": 438,
-          "word": "dfine",
-          "fix": "define"
-        },
-        {
-          "line": 1314,
+          "line": 1313,
           "word": "ofo",
           "fix": "of"
         },
         {
-          "line": 1454,
+          "line": 1453,
           "word": "chancel",
           "fix": "cancel"
         },
         {
-          "line": 1528,
+          "line": 1527,
           "word": "Personel",
           "fix": "Personnel, Personal"
         }
       ]
     },
     {
-      "repo": "heroiclabs/nakama",
-      "stars": 13750,
-      "language": "Go",
-      "merge_rate": 78,
-      "median_merge_days": 1.3,
-      "warnings": [],
-      "score": 42,
+      "repo": "pipecat-ai/pipecat",
+      "stars": 17360,
+      "language": "Python",
+      "merge_rate": 82,
+      "median_merge_days": 2.2,
+      "warnings": [
+        "has AI policy - read CONTRIBUTING"
+      ],
+      "score": 44,
       "typos": [
         {
-          "line": 120,
-          "word": "maintainance",
-          "fix": "maintenance"
+          "line": 93,
+          "word": "Rime",
+          "fix": "Rhyme"
+        },
+        {
+          "line": 93,
+          "word": "rime",
+          "fix": "rhyme"
+        },
+        {
+          "line": 95,
+          "word": "Rime",
+          "fix": "Rhyme"
+        },
+        {
+          "line": 95,
+          "word": "rime",
+          "fix": "rhyme"
+        },
+        {
+          "line": 96,
+          "word": "Rime",
+          "fix": "Rhyme"
+        },
+        {
+          "line": 96,
+          "word": "rime",
+          "fix": "rhyme"
         }
       ]
     },
     {
-      "repo": "fullstorydev/grpcurl",
-      "stars": 12887,
-      "language": "Go",
-      "merge_rate": 78,
-      "median_merge_days": 0.5,
+      "repo": "Jackett/Jackett",
+      "stars": 16391,
+      "language": "C#",
+      "merge_rate": 83,
+      "median_merge_days": 0.1,
       "warnings": [],
-      "score": 42,
+      "score": 44,
       "typos": [
         {
-          "line": 243,
-          "word": "re-use",
-          "fix": "reuse"
+          "line": 410,
+          "word": "HDA",
+          "fix": "HAD"
+        },
+        {
+          "line": 618,
+          "word": "TE",
+          "fix": "THE, BE, WE, TO"
+        },
+        {
+          "line": 642,
+          "word": "TORK",
+          "fix": "TORQUE"
         }
       ]
     },
     {
-      "repo": "SaschaWillems/Vulkan",
-      "stars": 12216,
-      "language": "GLSL",
-      "merge_rate": 88,
-      "median_merge_days": 4.5,
+      "repo": "pikvm/pikvm",
+      "stars": 10485,
+      "language": "",
+      "merge_rate": 82,
+      "median_merge_days": 0.1,
       "warnings": [],
-      "score": 41,
+      "score": 44,
       "typos": [
         {
-          "line": 309,
-          "word": "LOD",
-          "fix": "LOAD, LOUD, LODE"
-        }
-      ]
-    },
-    {
-      "repo": "GitoxideLabs/gitoxide",
-      "stars": 12156,
-      "language": "Rust",
-      "merge_rate": 75,
-      "median_merge_days": 0.3,
-      "warnings": [],
-      "score": 41,
-      "typos": [
+          "line": 448,
+          "word": "Shold",
+          "fix": "Should, Hold, Sold"
+        },
         {
-          "line": 355,
-          "word": "paricularly",
-          "fix": "particularly"
+          "line": 598,
+          "word": "Hadler",
+          "fix": "Handler"
+        },
+        {
+          "line": 892,
+          "word": "Udo",
+          "fix": "Undo, Sudo, Judo, Ado, Udon, Ufo"
         }
       ]
     },
     {
       "repo": "ggml-org/whisper.cpp",
-      "stars": 55329,
+      "stars": 55367,
       "language": "C++",
-      "merge_rate": 71,
-      "median_merge_days": 2.7,
+      "merge_rate": 81,
+      "median_merge_days": 2.8,
       "warnings": [
         "has AI policy - read CONTRIBUTING"
       ],
-      "score": 40,
+      "score": 43,
       "typos": [
         {
           "line": 180,
@@ -1429,108 +952,171 @@
       ]
     },
     {
-      "repo": "tangency-labs/solidcraft",
-      "stars": 17219,
+      "repo": "Droid-Deck/DroidDeck",
+      "stars": 21024,
+      "language": "Kotlin",
+      "merge_rate": 79,
+      "median_merge_days": 0.1,
+      "warnings": [],
+      "score": 42,
+      "typos": [
+        {
+          "line": 83,
+          "word": "Zink",
+          "fix": "Zinc"
+        }
+      ]
+    },
+    {
+      "repo": "jsdom/jsdom",
+      "stars": 21761,
+      "language": "JavaScript",
+      "merge_rate": 73,
+      "median_merge_days": 2.3,
+      "warnings": [],
+      "score": 41,
+      "typos": [
+        {
+          "line": 58,
+          "word": "unparseable",
+          "fix": "unparsable"
+        }
+      ]
+    },
+    {
+      "repo": "Y2Z/monolith",
+      "stars": 15614,
       "language": "Rust",
-      "merge_rate": 71,
+      "merge_rate": 75,
       "median_merge_days": 0.4,
       "warnings": [],
-      "score": 40,
+      "score": 41,
       "typos": [
         {
-          "line": 116,
-          "word": "WIT",
-          "fix": "WITH"
+          "line": 4,
+          "word": "fpr",
+          "fix": "for, far, fps"
+        },
+        {
+          "line": 237,
+          "word": "fpr",
+          "fix": "for, far, fps"
+        },
+        {
+          "line": 239,
+          "word": "fpr",
+          "fix": "for, far, fps"
+        },
+        {
+          "line": 239,
+          "word": "fpr",
+          "fix": "for, far, fps"
         }
       ]
     },
     {
-      "repo": "ccxt/ccxt",
-      "stars": 44922,
-      "language": "Python",
+      "repo": "sandboxie-plus/Sandboxie",
+      "stars": 20025,
+      "language": "C++",
+      "merge_rate": 72,
+      "median_merge_days": 0.3,
+      "warnings": [],
+      "score": 40,
+      "typos": [
+        {
+          "line": 137,
+          "word": "typpos",
+          "fix": "typos"
+        }
+      ]
+    },
+    {
+      "repo": "nezhahq/nezha",
+      "stars": 10419,
+      "language": "Go",
       "merge_rate": 71,
-      "median_merge_days": 0.9,
+      "median_merge_days": 0.8,
       "warnings": [],
       "score": 40,
       "typos": [
         {
-          "line": 1113,
-          "word": "varibales",
-          "fix": "variables"
+          "line": 87,
+          "word": "Wel",
+          "fix": "Well"
+        },
+        {
+          "line": 87,
+          "word": "Wel",
+          "fix": "Well"
         }
       ]
     },
     {
-      "repo": "oxnr/awesome-bigdata",
-      "stars": 14743,
-      "language": "",
-      "merge_rate": 83,
-      "median_merge_days": 5.7,
-      "warnings": [],
-      "score": 39,
-      "typos": [
-        {
-          "line": 295,
-          "word": "witho",
-          "fix": "with"
-        },
-        {
-          "line": 429,
-          "word": "persistance",
-          "fix": "persistence"
-        },
-        {
-          "line": 683,
-          "word": "anlytics",
-          "fix": "analytics"
-        },
-        {
-          "line": 837,
-          "word": "Simplied",
-          "fix": "Simplified, Implied"
-        }
-      ]
-    },
-    {
-      "repo": "storytold/pdfcraft",
-      "stars": 21208,
-      "language": "Rust",
-      "merge_rate": 65,
-      "median_merge_days": 0.1,
+      "repo": "sub-store-org/Sub-Store",
+      "stars": 10952,
+      "language": "JavaScript",
+      "merge_rate": 67,
+      "median_merge_days": 0.0,
       "warnings": [],
       "score": 38,
       "typos": [
         {
-          "line": 368,
-          "word": "Flate",
-          "fix": "Flat"
+          "line": 106,
+          "word": "GOST",
+          "fix": "GHOST"
         }
       ]
     },
     {
-      "repo": "postcss/postcss",
-      "stars": 28976,
-      "language": "TypeScript",
-      "merge_rate": 62,
-      "median_merge_days": 0.6,
+      "repo": "cameron314/concurrentqueue",
+      "stars": 12540,
+      "language": "C++",
+      "merge_rate": 67,
+      "median_merge_days": 1.8,
       "warnings": [],
-      "score": 37,
+      "score": 38,
       "typos": [
         {
-          "line": 360,
-          "word": "Brunch",
-          "fix": "Branch"
+          "line": 50,
+          "word": "co-ordinate",
+          "fix": "coordinate"
+        },
+        {
+          "line": 56,
+          "word": "re-use",
+          "fix": "reuse"
+        },
+        {
+          "line": 287,
+          "word": "re-used",
+          "fix": "reused"
+        }
+      ]
+    },
+    {
+      "repo": "simplex-chat/simplex-chat",
+      "stars": 19731,
+      "language": "Haskell",
+      "merge_rate": 66,
+      "median_merge_days": 0.3,
+      "warnings": [],
+      "score": 38,
+      "typos": [
+        {
+          "line": 378,
+          "word": "re-using",
+          "fix": "reusing"
         }
       ]
     },
     {
       "repo": "DeusData/codebase-memory-mcp",
-      "stars": 48868,
+      "stars": 48915,
       "language": "C",
-      "merge_rate": 75,
-      "median_merge_days": 4.3,
+      "merge_rate": 77,
+      "median_merge_days": 3.6,
       "warnings": [],
-      "score": 36,
+      "score": 37,
       "typos": [
         {
           "line": 1142,
@@ -1540,115 +1126,162 @@
       ]
     },
     {
-      "repo": "prisma/orm",
-      "stars": 47693,
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 37380,
+      "language": "",
+      "merge_rate": 73,
+      "median_merge_days": 6.3,
+      "warnings": [],
+      "score": 36,
+      "typos": [
+        {
+          "line": 229,
+          "word": "TestNG",
+          "fix": "testing"
+        },
+        {
+          "line": 1245,
+          "word": "SOM",
+          "fix": "SOME"
+        },
+        {
+          "line": 1874,
+          "word": "Chisle",
+          "fix": "Chisel"
+        }
+      ]
+    },
+    {
+      "repo": "antvis/G6",
+      "stars": 12398,
       "language": "TypeScript",
-      "merge_rate": 60,
-      "median_merge_days": 2.9,
+      "merge_rate": 72,
+      "median_merge_days": 6.8,
+      "warnings": [],
+      "score": 35,
+      "typos": [
+        {
+          "line": 106,
+          "word": "Graphin",
+          "fix": "Graphing, Graphic, Graph in"
+        }
+      ]
+    },
+    {
+      "repo": "sunface/rust-course",
+      "stars": 31138,
+      "language": "Rust",
+      "merge_rate": 87,
+      "median_merge_days": 24.8,
+      "warnings": [],
+      "score": 35,
+      "typos": [
+        {
+          "line": 17,
+          "word": "ines",
+          "fix": "lines"
+        }
+      ]
+    },
+    {
+      "repo": "Mintplex-Labs/anything-llm",
+      "stars": 68464,
+      "language": "JavaScript",
+      "merge_rate": 48,
+      "median_merge_days": 0.4,
       "warnings": [
         "has AI policy - read CONTRIBUTING"
       ],
-      "score": 36,
+      "score": 32,
       "typos": [
         {
-          "line": 113,
-          "word": "pris",
-          "fix": "prise, prism"
-        },
-        {
-          "line": 115,
-          "word": "pris",
-          "fix": "prise, prism"
-        },
-        {
-          "line": 116,
-          "word": "pris",
-          "fix": "prise, prism"
+          "line": 283,
+          "word": "expierence",
+          "fix": "experience"
         }
       ]
     },
     {
-      "repo": "intel/intel-one-mono",
-      "stars": 10262,
+      "repo": "ianyh/Amethyst",
+      "stars": 16332,
+      "language": "Swift",
+      "merge_rate": 78,
+      "median_merge_days": 14.2,
+      "warnings": [],
+      "score": 32,
+      "typos": [
+        {
+          "line": 27,
+          "word": "Accessibilty",
+          "fix": "Accessibility"
+        }
+      ]
+    },
+    {
+      "repo": "milanm/DevOps-Roadmap",
+      "stars": 21010,
       "language": "",
-      "merge_rate": 60,
-      "median_merge_days": 0.0,
+      "merge_rate": 46,
+      "median_merge_days": 0.1,
       "warnings": [],
-      "score": 36,
+      "score": 31,
       "typos": [
         {
-          "line": 80,
-          "word": "accomodate",
-          "fix": "accommodate"
+          "line": 307,
+          "word": "Whats",
+          "fix": "What's"
+        },
+        {
+          "line": 408,
+          "word": "Skelton",
+          "fix": "Skeleton"
         }
       ]
     },
     {
-      "repo": "cvat-ai/cvat",
-      "stars": 17171,
-      "language": "Python",
-      "merge_rate": 55,
-      "median_merge_days": 0.6,
+      "repo": "veggiemonk/awesome-docker",
+      "stars": 37273,
+      "language": "",
+      "merge_rate": 59,
+      "median_merge_days": 9.1,
       "warnings": [],
-      "score": 34,
+      "score": 31,
       "typos": [
         {
-          "line": 144,
-          "word": "MOT",
-          "fix": "NOT"
-        }
-      ]
-    },
-    {
-      "repo": "TecharoHQ/anubis",
-      "stars": 24273,
-      "language": "Go",
-      "merge_rate": 50,
-      "median_merge_days": 0.9,
-      "warnings": [],
-      "score": 32,
-      "typos": [
-        {
-          "line": 83,
-          "word": "embeDD",
-          "fix": "embed"
-        }
-      ]
-    },
-    {
-      "repo": "optiscaler/OptiScaler",
-      "stars": 12786,
-      "language": "C++",
-      "merge_rate": 48,
-      "median_merge_days": 1.1,
-      "warnings": [],
-      "score": 32,
-      "typos": [
-        {
-          "line": 76,
-          "word": "UE",
-          "fix": "USE, DUE"
+          "line": 128,
+          "word": "theres",
+          "fix": "there's"
         },
         {
-          "line": 175,
-          "word": "continous",
-          "fix": "continuous"
+          "line": 312,
+          "word": "offen",
+          "fix": "often"
         },
         {
-          "line": 176,
-          "word": "continous",
-          "fix": "continuous"
+          "line": 404,
+          "word": "beatiful",
+          "fix": "beautiful"
         },
         {
-          "line": 177,
-          "word": "continous",
-          "fix": "continuous"
+          "line": 474,
+          "word": "Continous",
+          "fix": "Continuous"
+        },
+        {
+          "line": 510,
+          "word": "livecycle",
+          "fix": "lifecycle"
+        },
+        {
+          "line": 624,
+          "word": "Offical",
+          "fix": "Official"
         }
       ]
     },
     {
       "repo": "RVC-Boss/GPT-SoVITS",
-      "stars": 64495,
+      "stars": 64140,
       "language": "Python",
       "merge_rate": 57,
       "median_merge_days": 4.5,
@@ -1664,7 +1297,7 @@
     },
     {
       "repo": "javascript-obfuscator/javascript-obfuscator",
-      "stars": 16336,
+      "stars": 16339,
       "language": "TypeScript",
       "merge_rate": 42,
       "median_merge_days": 4.3,
@@ -1684,159 +1317,34 @@
       ]
     },
     {
-      "repo": "matteocrippa/awesome-swift",
-      "stars": 26390,
-      "language": "Ruby",
-      "merge_rate": 50,
-      "median_merge_days": 16.4,
+      "repo": "freemocap/freemocap",
+      "stars": 10861,
+      "language": "TypeScript",
+      "merge_rate": 40,
+      "median_merge_days": 3.1,
       "warnings": [],
-      "score": 22,
+      "score": 24,
       "typos": [
         {
-          "line": 251,
-          "word": "softwares",
-          "fix": "software"
-        },
-        {
-          "line": 363,
-          "word": "sequencially",
-          "fix": "sequentially"
-        },
-        {
-          "line": 467,
-          "word": "AppPear",
-          "fix": "appear"
-        },
-        {
-          "line": 1540,
-          "word": "Ameba",
-          "fix": "Amoebae"
-        },
-        {
-          "line": 1661,
-          "word": "withing",
-          "fix": "within"
-        },
-        {
-          "line": 1831,
-          "word": "implementating",
-          "fix": "implementing"
+          "line": 197,
+          "word": "documenation",
+          "fix": "documentation"
         }
       ]
     },
     {
-      "repo": "poteto/hiring-without-whiteboards",
-      "stars": 53452,
-      "language": "JavaScript",
-      "merge_rate": 58,
-      "median_merge_days": 90.2,
+      "repo": "aseprite/aseprite",
+      "stars": 41052,
+      "language": "C++",
+      "merge_rate": 45,
+      "median_merge_days": 11.8,
       "warnings": [],
-      "score": 20,
+      "score": 21,
       "typos": [
         {
-          "line": 154,
-          "word": "Woking",
-          "fix": "Working, Waking"
-        },
-        {
-          "line": 190,
-          "word": "Nast",
-          "fix": "Nest, Mast, Nasty"
-        },
-        {
-          "line": 231,
-          "word": "bund",
-          "fix": "bind, bound"
-        },
-        {
-          "line": 330,
-          "word": "Carmel",
-          "fix": "Caramel"
-        },
-        {
-          "line": 380,
-          "word": "Produktion",
-          "fix": "Production"
-        },
-        {
-          "line": 524,
-          "word": "numer",
-          "fix": "number"
-        },
-        {
-          "line": 524,
-          "word": "numer",
-          "fix": "number"
-        }
-      ]
-    },
-    {
-      "repo": "QuentinFuxa/WhisperLiveKit",
-      "stars": 11265,
-      "language": "Python",
-      "merge_rate": 50,
-      "median_merge_days": 30.7,
-      "warnings": [],
-      "score": 18,
-      "typos": [
-        {
-          "line": 30,
-          "word": "Simulatenous",
-          "fix": "Simultaneous"
-        }
-      ]
-    },
-    {
-      "repo": "coollabsio/coolify",
-      "stars": 66262,
-      "language": "PHP",
-      "merge_rate": 50,
-      "median_merge_days": 65.9,
-      "warnings": [
-        "has AI policy - read CONTRIBUTING"
-      ],
-      "score": 18,
-      "typos": [
-        {
-          "line": 172,
-          "word": "Comit",
-          "fix": "Commit"
-        },
-        {
-          "line": 172,
-          "word": "comit",
-          "fix": "commit"
-        },
-        {
-          "line": 223,
-          "word": "Puls",
-          "fix": "Pulse, Plus"
-        }
-      ]
-    },
-    {
-      "repo": "wilsonfreitas/awesome-quant",
-      "stars": 30728,
-      "language": "Python",
-      "merge_rate": 48,
-      "median_merge_days": 36.0,
-      "warnings": [],
-      "score": 17,
-      "typos": [
-        {
-          "line": 142,
-          "word": "Addin",
-          "fix": "Adding, Add in, Add-on"
-        },
-        {
-          "line": 302,
-          "word": "platfrom",
-          "fix": "platform"
-        },
-        {
-          "line": 649,
-          "word": "theses",
-          "fix": "these, thesis"
+          "line": 23,
+          "word": "automatize",
+          "fix": "automate"
         }
       ]
     }
