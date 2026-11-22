@@ -1,44 +1,202 @@
 {
   "issues": [
     {
-      "repo": "eclipse-theia/theia",
-      "stars": 21779,
-      "language": "TypeScript",
-      "merge_rate": 85,
-      "median_merge_days": 7.1,
+      "repo": "Gathin23/cleanyourtv",
+      "stars": 60226,
+      "language": "Python",
+      "merge_rate": 83,
+      "median_merge_days": 0.8,
       "warnings": [],
-      "score": 85,
+      "score": 94,
       "good_first_issue": true,
-      "title": "Quick Open matches recent files against directories outside the workspace",
-      "url": "https://github.com/eclipse-theia/theia/issues/18347",
-      "age_days": 11,
-      "comments": 1,
+      "title": "examples/sony-kd-55xf7596: add 43-inch KD-43XF7596BAEP unit, HOME priority fix & Google debloat",
+      "url": "https://github.com/Gathin23/cleanyourtv/issues/3346",
+      "age_days": 16,
+      "comments": 3,
       "why": [
-        "bug, good first issue, file search"
+        "good first issue, tv-list, help wanted",
+        "docs/typo-type task"
       ]
     },
     {
-      "repo": "dotnet/orleans",
-      "stars": 10929,
-      "language": "C#",
-      "merge_rate": 100,
-      "median_merge_days": 2.7,
-      "warnings": [],
-      "score": 93,
-      "good_first_issue": false,
-      "title": "docs: compiled snippets fail to build (DefaultAzureCredential ambiguous between Azure.Core 1.62 and Azure.Identity 1.18)",
-      "url": "https://github.com/dotnet/orleans/issues/11718",
-      "age_days": 3,
-      "comments": 0,
+      "repo": "uutils/coreutils",
+      "stars": 24423,
+      "language": "Rust",
+      "merge_rate": 92,
+      "median_merge_days": 3.1,
+      "warnings": [
+        "has AI policy - read CONTRIBUTING"
+      ],
+      "score": 92,
+      "good_first_issue": true,
+      "title": "ls, du, chmod, chown, chgrp: an entry removed during traversal is reported as an error",
+      "url": "https://github.com/uutils/coreutils/issues/16644",
+      "age_days": 4,
+      "comments": 1,
       "why": [
-        "documentation",
-        "docs/typo-type task",
+        "U - du, U - ls, U - chown",
         "this week"
       ]
     },
     {
+      "repo": "Gathin23/cleanyourtv",
+      "stars": 60226,
+      "language": "Python",
+      "merge_rate": 83,
+      "median_merge_days": 0.8,
+      "warnings": [],
+      "score": 89,
+      "good_first_issue": true,
+      "title": "tools: adb-closed.py says \"network ADB is on\" for any open port, and can never report \"closed\" on Philips TPM191E",
+      "url": "https://github.com/Gathin23/cleanyourtv/issues/3890",
+      "age_days": 8,
+      "comments": 1,
+      "why": [
+        "good first issue, scripts, help wanted"
+      ]
+    },
+    {
+      "repo": "Gathin23/cleanyourtv",
+      "stars": 60226,
+      "language": "Python",
+      "merge_rate": 83,
+      "median_merge_days": 0.8,
+      "warnings": [],
+      "score": 89,
+      "good_first_issue": true,
+      "title": "[TV] TCL G03 US / BeyondTV4 (Google TV / Android 11, AR37) - stable after two weeks",
+      "url": "https://github.com/Gathin23/cleanyourtv/issues/3876",
+      "age_days": 8,
+      "comments": 1,
+      "why": [
+        "good first issue, tv-list, help wanted"
+      ]
+    },
+    {
+      "repo": "Gathin23/cleanyourtv",
+      "stars": 60226,
+      "language": "Python",
+      "merge_rate": 83,
+      "median_merge_days": 0.8,
+      "warnings": [],
+      "score": 89,
+      "good_first_issue": true,
+      "title": "Device report: XGIMI MoGo Pro — Android TV 9 — launcher working",
+      "url": "https://github.com/Gathin23/cleanyourtv/issues/3813",
+      "age_days": 9,
+      "comments": 1,
+      "why": [
+        "good first issue, tv-list, help wanted"
+      ]
+    },
+    {
+      "repo": "Gathin23/cleanyourtv",
+      "stars": 60226,
+      "language": "Python",
+      "merge_rate": 83,
+      "median_merge_days": 0.8,
+      "warnings": [],
+      "score": 89,
+      "good_first_issue": true,
+      "title": "[TV] Impex 4K (Google TV 11)",
+      "url": "https://github.com/Gathin23/cleanyourtv/issues/3794",
+      "age_days": 10,
+      "comments": 1,
+      "why": [
+        "good first issue, tv-list, help wanted"
+      ]
+    },
+    {
+      "repo": "Gathin23/cleanyourtv",
+      "stars": 60226,
+      "language": "Python",
+      "merge_rate": 83,
+      "median_merge_days": 0.8,
+      "warnings": [],
+      "score": 89,
+      "good_first_issue": true,
+      "title": "[TV] Sony BRAVIA 2015 (Android 7.0) KDL-43W807C",
+      "url": "https://github.com/Gathin23/cleanyourtv/issues/3504",
+      "age_days": 14,
+      "comments": 3,
+      "why": [
+        "good first issue, tv-list, help wanted"
+      ]
+    },
+    {
+      "repo": "uutils/coreutils",
+      "stars": 24423,
+      "language": "Rust",
+      "merge_rate": 92,
+      "median_merge_days": 3.1,
+      "warnings": [
+        "has AI policy - read CONTRIBUTING"
+      ],
+      "score": 87,
+      "good_first_issue": true,
+      "title": "mktemp: strip OS error from error messages",
+      "url": "https://github.com/uutils/coreutils/issues/16349",
+      "age_days": 11,
+      "comments": 1,
+      "why": [
+        "U - mktemp, good first issue"
+      ]
+    },
+    {
+      "repo": "organicmaps/organicmaps",
+      "stars": 16079,
+      "language": "C++",
+      "merge_rate": 69,
+      "median_merge_days": 4.4,
+      "warnings": [],
+      "score": 84,
+      "good_first_issue": true,
+      "title": "Move the route save button away from the start navigation button",
+      "url": "https://github.com/organicmaps/organicmaps/issues/14332",
+      "age_days": 0,
+      "comments": 2,
+      "why": [
+        "Good first issue, Android, iOS",
+        "this week"
+      ]
+    },
+    {
+      "repo": "Gathin23/cleanyourtv",
+      "stars": 60226,
+      "language": "Python",
+      "merge_rate": 83,
+      "median_merge_days": 0.8,
+      "warnings": [],
+      "score": 84,
+      "good_first_issue": true,
+      "title": "[Xiaomi MiTV-MFFU1 / HyperOS 3] Home redirect unavailable after reboot; helper absent from enabled services",
+      "url": "https://github.com/Gathin23/cleanyourtv/issues/3313",
+      "age_days": 17,
+      "comments": 3,
+      "why": [
+        "bug, good first issue, docs"
+      ]
+    },
+    {
+      "repo": "Gathin23/cleanyourtv",
+      "stars": 60226,
+      "language": "Python",
+      "merge_rate": 83,
+      "median_merge_days": 0.8,
+      "warnings": [],
+      "score": 84,
+      "good_first_issue": true,
+      "title": "[TV] TCL 85QM8B (Google TV, Android 14)",
+      "url": "https://github.com/Gathin23/cleanyourtv/issues/2613",
+      "age_days": 23,
+      "comments": 2,
+      "why": [
+        "good first issue, tv-list, help wanted"
+      ]
+    },
+    {
       "repo": "upstash/context7",
-      "stars": 65223,
+      "stars": 65272,
       "language": "TypeScript",
       "merge_rate": 77,
       "median_merge_days": 0.8,
@@ -47,54 +205,17 @@
       "good_first_issue": false,
       "title": "[Docs]: Website score 3 below threshold 9",
       "url": "https://github.com/upstash/context7/issues/3857",
-      "age_days": 3,
+      "age_days": 4,
       "comments": 0,
       "why": [
         "documentation",
         "docs/typo-type task",
         "this week"
-      ]
-    },
-    {
-      "repo": "sveltejs/kit",
-      "stars": 20924,
-      "language": "JavaScript",
-      "merge_rate": 78,
-      "median_merge_days": 3.0,
-      "warnings": [],
-      "score": 80,
-      "good_first_issue": false,
-      "title": "Ship the docs in the @sveltejs/kit package",
-      "url": "https://github.com/sveltejs/kit/issues/17775",
-      "age_days": 6,
-      "comments": 0,
-      "why": [
-        "documentation",
-        "docs/typo-type task",
-        "this week"
-      ]
-    },
-    {
-      "repo": "CopilotKit/CopilotKit",
-      "stars": 38858,
-      "language": "TypeScript",
-      "merge_rate": 87,
-      "median_merge_days": 0.1,
-      "warnings": [],
-      "score": 80,
-      "good_first_issue": false,
-      "title": "📚 Documentation: Self-hosting docs name \"Team Self-hosted\", which the public pricing page doesn't list",
-      "url": "https://github.com/CopilotKit/CopilotKit/issues/8283",
-      "age_days": 11,
-      "comments": 1,
-      "why": [
-        "documentation",
-        "docs/typo-type task"
       ]
     },
     {
       "repo": "upstash/context7",
-      "stars": 65223,
+      "stars": 65272,
       "language": "TypeScript",
       "merge_rate": 77,
       "median_merge_days": 0.8,
@@ -103,7 +224,7 @@
       "good_first_issue": false,
       "title": "[Docs]: Autodesk Vault is failing and keeping other versions from being indexed",
       "url": "https://github.com/upstash/context7/issues/3799",
-      "age_days": 8,
+      "age_days": 9,
       "comments": 0,
       "why": [
         "documentation",
@@ -111,36 +232,54 @@
       ]
     },
     {
-      "repo": "tldr-pages/tldr",
-      "stars": 64265,
-      "language": "Markdown",
-      "merge_rate": 89,
-      "median_merge_days": 2.3,
-      "warnings": [
-        "has AI policy - read CONTRIBUTING"
-      ],
-      "score": 69,
+      "repo": "CopilotKit/CopilotKit",
+      "stars": 38878,
+      "language": "TypeScript",
+      "merge_rate": 80,
+      "median_merge_days": 0.0,
+      "warnings": [],
+      "score": 78,
       "good_first_issue": false,
-      "title": "Let's document: flatpak",
-      "url": "https://github.com/tldr-pages/tldr/issues/24946",
-      "age_days": 21,
+      "title": "📚 Documentation: Self-hosting docs name \"Team Self-hosted\", which the public pricing page doesn't list",
+      "url": "https://github.com/CopilotKit/CopilotKit/issues/8283",
+      "age_days": 12,
+      "comments": 1,
+      "why": [
+        "documentation",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "tabler/tabler",
+      "stars": 42114,
+      "language": "TypeScript",
+      "merge_rate": 78,
+      "median_merge_days": 22.6,
+      "warnings": [],
+      "score": 75,
+      "good_first_issue": false,
+      "title": "[BUG] High level page layout html structure of preview site different from sample layout in docs",
+      "url": "https://github.com/tabler/tabler/issues/3606",
+      "age_days": 5,
       "comments": 0,
       "why": [
-        "new command, help wanted, let's document"
+        "support request, documentation, preview",
+        "docs/typo-type task",
+        "this week"
       ]
     },
     {
       "repo": "scikit-learn/scikit-learn",
-      "stars": 68277,
+      "stars": 68290,
       "language": "Python",
-      "merge_rate": 50,
-      "median_merge_days": 7.2,
+      "merge_rate": 60,
+      "median_merge_days": 5.3,
       "warnings": [],
-      "score": 68,
+      "score": 71,
       "good_first_issue": false,
       "title": "Example on how to use array API to accelerate a complex pipeline on a GPU",
       "url": "https://github.com/scikit-learn/scikit-learn/issues/35420",
-      "age_days": 5,
+      "age_days": 6,
       "comments": 5,
       "why": [
         "Documentation, Needs Decision, Array API",
@@ -149,89 +288,122 @@
       ]
     },
     {
-      "repo": "tldr-pages/tldr",
-      "stars": 64265,
-      "language": "Markdown",
-      "merge_rate": 89,
-      "median_merge_days": 2.3,
-      "warnings": [
-        "has AI policy - read CONTRIBUTING"
-      ],
-      "score": 66,
+      "repo": "Gathin23/cleanyourtv",
+      "stars": 60226,
+      "language": "Python",
+      "merge_rate": 83,
+      "median_merge_days": 0.8,
+      "warnings": [],
+      "score": 69,
       "good_first_issue": false,
-      "title": "Let's document: PeaZip",
-      "url": "https://github.com/tldr-pages/tldr/issues/24931",
-      "age_days": 22,
-      "comments": 5,
+      "title": "MiTV-MOEU0: setupwraith re-enabled with launcherx off, then a reboot, ended in a factory reset",
+      "url": "https://github.com/Gathin23/cleanyourtv/issues/3578",
+      "age_days": 13,
+      "comments": 3,
       "why": [
-        "new command, help wanted, let's document"
+        "scripts, docs"
       ]
     },
     {
-      "repo": "hluk/CopyQ",
-      "stars": 12677,
-      "language": "C++",
-      "merge_rate": 83,
-      "median_merge_days": 1.6,
+      "repo": "iovisor/bcc",
+      "stars": 22754,
+      "language": "C",
+      "merge_rate": 80,
+      "median_merge_days": 10.9,
       "warnings": [],
-      "score": 64,
+      "score": 66,
       "good_first_issue": false,
-      "title": "macOS 27.2: crash (EXC_BREAKPOINT) in QImage::toCGImage when hovering the toolbar handle (Qt 6.11.1, QTBUG-147602)",
-      "url": "https://github.com/hluk/CopyQ/issues/3785",
+      "title": "Broken links detected in LINKS.md",
+      "url": "https://github.com/iovisor/bcc/issues/5581",
+      "age_days": 21,
+      "comments": 0,
+      "why": [
+        "documentation",
+        "docs/typo-type task"
+      ]
+    },
+    {
+      "repo": "filamentphp/filament",
+      "stars": 32540,
+      "language": "PHP",
+      "merge_rate": 79,
+      "median_merge_days": 0.1,
+      "warnings": [],
+      "score": 66,
+      "good_first_issue": false,
+      "title": "Document composable record pages better / improve API",
+      "url": "https://github.com/filamentphp/filament/issues/20958",
+      "age_days": 17,
+      "comments": 0,
+      "why": [
+        "documentation"
+      ]
+    },
+    {
+      "repo": "ungoogled-software/ungoogled-chromium",
+      "stars": 28315,
+      "language": "Python",
+      "merge_rate": 76,
+      "median_merge_days": 2.0,
+      "warnings": [],
+      "score": 62,
+      "good_first_issue": false,
+      "title": "Restore functionality of the removed flag \"#devtools-project-settings\"",
+      "url": "https://github.com/ungoogled-software/ungoogled-chromium/issues/4049",
       "age_days": 10,
       "comments": 0,
       "why": [
-        "bug, macOS, help wanted"
+        "enhancement, help wanted"
       ]
     },
     {
-      "repo": "codewhale-hq/Codewhale",
-      "stars": 41193,
-      "language": "Rust",
-      "merge_rate": 82,
-      "median_merge_days": 0.4,
+      "repo": "laurent22/joplin",
+      "stars": 57297,
+      "language": "TypeScript",
+      "merge_rate": 44,
+      "median_merge_days": 0.2,
       "warnings": [],
-      "score": 64,
+      "score": 61,
       "good_first_issue": false,
-      "title": "0.10.3 release tracking",
-      "url": "https://github.com/codewhale-hq/Codewhale/issues/7284",
-      "age_days": 11,
-      "comments": 0,
+      "title": "Provide info for Pull request titles for translations",
+      "url": "https://github.com/laurent22/joplin/issues/17157",
+      "age_days": 1,
+      "comments": 2,
       "why": [
-        "help wanted, pinned, area:install"
+        "documentation, medium",
+        "this week"
       ]
     },
     {
-      "repo": "keycloak/keycloak",
-      "stars": 37994,
-      "language": "Java",
-      "merge_rate": 58,
-      "median_merge_days": 2.0,
-      "warnings": [
-        "has AI policy - read CONTRIBUTING"
-      ],
-      "score": 63,
+      "repo": "xerj-org/xerj",
+      "stars": 19362,
+      "language": "Rust",
+      "merge_rate": 50,
+      "median_merge_days": 8.5,
+      "warnings": [],
+      "score": 60,
       "good_first_issue": false,
-      "title": "Document time synchronization requirements for clustered Keycloak",
-      "url": "https://github.com/keycloak/keycloak/issues/54962",
-      "age_days": 11,
+      "title": "Xerj Packs 9/9: docs, xerj tools list, and site/SEO pages",
+      "url": "https://github.com/xerj-org/xerj/issues/2768",
+      "age_days": 22,
       "comments": 0,
       "why": [
-        "area/docs, kind/task"
+        "documentation, roadmap",
+        "docs/typo-type task"
       ]
     },
     {
       "repo": "CherryHQ/cherry-studio",
-      "stars": 53719,
+      "stars": 53745,
       "language": "TypeScript",
-      "merge_rate": 100,
-      "median_merge_days": 10.8,
+      "merge_rate": 94,
+      "median_merge_days": 15.5,
       "warnings": [],
-      "score": 62,
+      "score": 60,
       "good_first_issue": false,
       "title": "[Discussion]: About the numerous sections and layout issues in \"Settings\"",
       "url": "https://github.com/CherryHQ/cherry-studio/issues/24706",
-      "age_days": 4,
+      "age_days": 5,
       "comments": 1,
       "why": [
         "p3, help wanted, discussion",
@@ -240,16 +412,16 @@
     },
     {
       "repo": "CherryHQ/cherry-studio",
-      "stars": 53719,
+      "stars": 53745,
       "language": "TypeScript",
-      "merge_rate": 100,
-      "median_merge_days": 10.8,
+      "merge_rate": 94,
+      "median_merge_days": 15.5,
       "warnings": [],
-      "score": 62,
+      "score": 60,
       "good_first_issue": false,
       "title": "[Discussion]: Why does version 2.x feel like a third-rate product compared with version 1.x?",
       "url": "https://github.com/CherryHQ/cherry-studio/issues/24578",
-      "age_days": 6,
+      "age_days": 7,
       "comments": 1,
       "why": [
         "help wanted, discussion, needs-info",
@@ -258,71 +430,188 @@
     },
     {
       "repo": "CherryHQ/cherry-studio",
-      "stars": 53719,
+      "stars": 53745,
       "language": "TypeScript",
-      "merge_rate": 100,
-      "median_merge_days": 10.8,
+      "merge_rate": 94,
+      "median_merge_days": 15.5,
       "warnings": [],
-      "score": 60,
+      "score": 58,
       "good_first_issue": false,
       "title": "[Feature]: Document the MCP tool-approval guarantees (exact arguments, no auto-retry) as a contract",
       "url": "https://github.com/CherryHQ/cherry-studio/issues/23157",
-      "age_days": 22,
+      "age_days": 23,
       "comments": 2,
       "why": [
         "p3, docs, mcp"
       ]
     },
     {
-      "repo": "tldr-pages/tldr",
-      "stars": 64265,
-      "language": "Markdown",
-      "merge_rate": 89,
-      "median_merge_days": 2.3,
-      "warnings": [
-        "has AI policy - read CONTRIBUTING"
-      ],
-      "score": 58,
+      "repo": "ungoogled-software/ungoogled-chromium",
+      "stars": 28315,
+      "language": "Python",
+      "merge_rate": 76,
+      "median_merge_days": 2.0,
+      "warnings": [],
+      "score": 57,
       "good_first_issue": false,
-      "title": "Page request: runc",
-      "url": "https://github.com/tldr-pages/tldr/issues/24949",
-      "age_days": 21,
-      "comments": 4,
+      "title": "Feature Request(flag): Spoofing date and time to UTC",
+      "url": "https://github.com/ungoogled-software/ungoogled-chromium/issues/4033",
+      "age_days": 20,
+      "comments": 0,
       "why": [
-        "new command, help wanted"
+        "enhancement, help wanted"
       ]
     },
     {
-      "repo": "keycloak/keycloak",
-      "stars": 37994,
-      "language": "Java",
-      "merge_rate": 58,
-      "median_merge_days": 2.0,
+      "repo": "tldr-pages/tldr",
+      "stars": 64274,
+      "language": "Markdown",
+      "merge_rate": 67,
+      "median_merge_days": 5.1,
       "warnings": [
         "has AI policy - read CONTRIBUTING"
       ],
-      "score": 58,
+      "score": 56,
       "good_first_issue": false,
-      "title": "Validate and document encrypted Keycloak clustering with Istio STRICT mTLS",
-      "url": "https://github.com/keycloak/keycloak/issues/54495",
-      "age_days": 21,
+      "title": "Let's document: flatpak",
+      "url": "https://github.com/tldr-pages/tldr/issues/24946",
+      "age_days": 22,
       "comments": 0,
       "why": [
-        "kind/enhancement, area/docs, area/infinispan"
+        "new command, help wanted, let's document"
+      ]
+    },
+    {
+      "repo": "Gathin23/cleanyourtv",
+      "stars": 60226,
+      "language": "Python",
+      "merge_rate": 83,
+      "median_merge_days": 0.8,
+      "warnings": [],
+      "score": 56,
+      "good_first_issue": false,
+      "title": "Launcher: TCL 55P78E returns to stock Home after reboot; installation and theme observations",
+      "url": "https://github.com/Gathin23/cleanyourtv/issues/3478",
+      "age_days": 15,
+      "comments": 4,
+      "why": [
+        "tv-list, help wanted"
+      ]
+    },
+    {
+      "repo": "Gathin23/cleanyourtv",
+      "stars": 60226,
+      "language": "Python",
+      "merge_rate": 83,
+      "median_merge_days": 0.8,
+      "warnings": [],
+      "score": 56,
+      "good_first_issue": false,
+      "title": "Code: 1. || Error: The main screen is, an unknown standard launcher for the app",
+      "url": "https://github.com/Gathin23/cleanyourtv/issues/3471",
+      "age_days": 15,
+      "comments": 6,
+      "why": [
+        "bug, scripts, help wanted"
+      ]
+    },
+    {
+      "repo": "Gathin23/cleanyourtv",
+      "stars": 60226,
+      "language": "Python",
+      "merge_rate": 83,
+      "median_merge_days": 0.8,
+      "warnings": [],
+      "score": 56,
+      "good_first_issue": false,
+      "title": "Launcher: on KTC m7332 boards the remote is dead after boot until com.ktc.tvplayer's RootActivity has run once",
+      "url": "https://github.com/Gathin23/cleanyourtv/issues/3287",
+      "age_days": 17,
+      "comments": 2,
+      "why": [
+        "bug, launcher, needs-test"
+      ]
+    },
+    {
+      "repo": "Gathin23/cleanyourtv",
+      "stars": 60226,
+      "language": "Python",
+      "merge_rate": 83,
+      "median_merge_days": 0.8,
+      "warnings": [],
+      "score": 56,
+      "good_first_issue": false,
+      "title": "Launcher: Bluetooth Pair screen ignores OK while HomeKeyService is bound (Polaroid AI PONT, Android TV 11)",
+      "url": "https://github.com/Gathin23/cleanyourtv/issues/3155",
+      "age_days": 19,
+      "comments": 2,
+      "why": [
+        "launcher, needs-test, help wanted"
+      ]
+    },
+    {
+      "repo": "Gathin23/cleanyourtv",
+      "stars": 60226,
+      "language": "Python",
+      "merge_rate": 83,
+      "median_merge_days": 0.8,
+      "warnings": [],
+      "score": 56,
+      "good_first_issue": false,
+      "title": "Launcher: stock_home_redirect closes launcherx screens opened over its home (profile chooser), and its Home-key fallback needs key_filter",
+      "url": "https://github.com/Gathin23/cleanyourtv/issues/2779",
+      "age_days": 22,
+      "comments": 4,
+      "why": [
+        "launcher, needs-test, help wanted"
+      ]
+    },
+    {
+      "repo": "Gathin23/cleanyourtv",
+      "stars": 60226,
+      "language": "Python",
+      "merge_rate": 83,
+      "median_merge_days": 0.8,
+      "warnings": [],
+      "score": 56,
+      "good_first_issue": false,
+      "title": "Soft Brick NOVA 32\" CVTE Hi3751V350, Android 14  stuck on boot logo after disabling com.cvte.tv.launcher.space + power outage",
+      "url": "https://github.com/Gathin23/cleanyourtv/issues/2516",
+      "age_days": 24,
+      "comments": 5,
+      "why": [
+        "bug, help wanted"
+      ]
+    },
+    {
+      "repo": "Gathin23/cleanyourtv",
+      "stars": 60226,
+      "language": "Python",
+      "merge_rate": 83,
+      "median_merge_days": 0.8,
+      "warnings": [],
+      "score": 56,
+      "good_first_issue": false,
+      "title": "TV support: eSTREAM4K Orion",
+      "url": "https://github.com/Gathin23/cleanyourtv/issues/2312",
+      "age_days": 25,
+      "comments": 4,
+      "why": [
+        "tv-list, tv-support, help wanted"
       ]
     },
     {
       "repo": "CherryHQ/cherry-studio",
-      "stars": 53719,
+      "stars": 53745,
       "language": "TypeScript",
-      "merge_rate": 100,
-      "median_merge_days": 10.8,
+      "merge_rate": 94,
+      "median_merge_days": 15.5,
       "warnings": [],
-      "score": 57,
+      "score": 55,
       "good_first_issue": false,
       "title": "[Discussion]: 智能体在回复的时候感觉不是实时直播的，智能体在回复的时候感觉设计的不太好",
       "url": "https://github.com/CherryHQ/cherry-studio/issues/24265",
-      "age_days": 9,
+      "age_days": 10,
       "comments": 1,
       "why": [
         "help wanted, discussion, ui-ux"
@@ -330,282 +619,143 @@
     },
     {
       "repo": "CherryHQ/cherry-studio",
-      "stars": 53719,
+      "stars": 53745,
       "language": "TypeScript",
-      "merge_rate": 100,
-      "median_merge_days": 10.8,
+      "merge_rate": 94,
+      "median_merge_days": 15.5,
       "warnings": [],
-      "score": 57,
+      "score": 55,
       "good_first_issue": false,
       "title": "[Task]: Strengthen low-signal tests and prevent false coverage in agent-authored tests",
       "url": "https://github.com/CherryHQ/cherry-studio/issues/24205",
-      "age_days": 10,
+      "age_days": 11,
       "comments": 1,
       "why": [
         "help wanted, Dev Team, internal-team"
       ]
     },
     {
-      "repo": "MHSanaei/3x-ui",
-      "stars": 50301,
-      "language": "Go",
-      "merge_rate": 75,
-      "median_merge_days": 6.0,
-      "warnings": [],
-      "score": 56,
+      "repo": "tldr-pages/tldr",
+      "stars": 64274,
+      "language": "Markdown",
+      "merge_rate": 67,
+      "median_merge_days": 5.1,
+      "warnings": [
+        "has AI policy - read CONTRIBUTING"
+      ],
+      "score": 53,
       "good_first_issue": false,
-      "title": "[Bug]: Remote panel update via mTLS node fails with HTTP 403 error",
-      "url": "https://github.com/MHSanaei/3x-ui/issues/6953",
-      "age_days": 26,
-      "comments": 3,
+      "title": "Let's document: PeaZip",
+      "url": "https://github.com/tldr-pages/tldr/issues/24931",
+      "age_days": 23,
+      "comments": 5,
       "why": [
-        "documentation"
+        "new command, help wanted, let's document"
       ]
     },
     {
       "repo": "CherryHQ/cherry-studio",
-      "stars": 53719,
+      "stars": 53745,
       "language": "TypeScript",
-      "merge_rate": 100,
-      "median_merge_days": 10.8,
+      "merge_rate": 94,
+      "median_merge_days": 15.5,
       "warnings": [],
-      "score": 55,
+      "score": 53,
       "good_first_issue": false,
       "title": "[Task]: Own the follow-up queue in main-process memory so delivery does not depend on an open window",
       "url": "https://github.com/CherryHQ/cherry-studio/issues/22824",
-      "age_days": 25,
+      "age_days": 26,
       "comments": 0,
       "why": [
         "help wanted, Dev Team, agent"
       ]
     },
     {
-      "repo": "openai/openai-agents-python",
-      "stars": 30796,
-      "language": "Python",
-      "merge_rate": 55,
-      "median_merge_days": 0.4,
-      "warnings": [],
-      "score": 54,
-      "good_first_issue": false,
-      "title": "List Sprites as a hosted sandbox platform",
-      "url": "https://github.com/openai/openai-agents-python/issues/5498",
-      "age_days": 17,
-      "comments": 1,
-      "why": [
-        "documentation, feature:sandboxes"
-      ]
-    },
-    {
-      "repo": "adobe/react-spectrum",
-      "stars": 16057,
-      "language": "TypeScript",
-      "merge_rate": 42,
-      "median_merge_days": 4.0,
-      "warnings": [],
-      "score": 53,
-      "good_first_issue": false,
-      "title": "Ship the React Aria agent skill inside the react-aria-components npm package",
-      "url": "https://github.com/adobe/react-spectrum/issues/10959",
-      "age_days": 8,
-      "comments": 0,
-      "why": [
-        "documentation"
-      ]
-    },
-    {
-      "repo": "pydantic/pydantic-ai",
-      "stars": 21326,
-      "language": "Python",
-      "merge_rate": 48,
-      "median_merge_days": 0.1,
-      "warnings": [],
-      "score": 52,
-      "good_first_issue": false,
-      "title": "`building-pydantic-ai-agents` skill: gaps found reviewing a production codebase",
-      "url": "https://github.com/pydantic/pydantic-ai/issues/11382",
-      "age_days": 25,
-      "comments": 3,
-      "why": [
-        "docs"
-      ]
-    },
-    {
-      "repo": "eclipse-theia/theia",
-      "stars": 21779,
-      "language": "TypeScript",
-      "merge_rate": 85,
-      "median_merge_days": 7.1,
-      "warnings": [],
-      "score": 52,
-      "good_first_issue": false,
-      "title": "Add command command:workbench.action.quit",
-      "url": "https://github.com/eclipse-theia/theia/issues/18295",
-      "age_days": 19,
-      "comments": 1,
-      "why": [
-        "enhancement, help wanted, vscode"
-      ]
-    },
-    {
-      "repo": "keycloak/keycloak",
-      "stars": 37994,
-      "language": "Java",
-      "merge_rate": 58,
-      "median_merge_days": 2.0,
+      "repo": "tldr-pages/tldr",
+      "stars": 64274,
+      "language": "Markdown",
+      "merge_rate": 67,
+      "median_merge_days": 5.1,
       "warnings": [
         "has AI policy - read CONTRIBUTING"
       ],
-      "score": 52,
+      "score": 45,
       "good_first_issue": false,
-      "title": "[Keycloak 26.8.2] Admin Console login fails with Invalid parameter: redirect_uri on fresh Windows installation",
-      "url": "https://github.com/keycloak/keycloak/issues/55076",
-      "age_days": 9,
-      "comments": 3,
+      "title": "Page request: runc",
+      "url": "https://github.com/tldr-pages/tldr/issues/24949",
+      "age_days": 22,
+      "comments": 4,
       "why": [
-        "kind/bug, area/admin/ui, help wanted"
-      ]
-    },
-    {
-      "repo": "keycloak/keycloak",
-      "stars": 37994,
-      "language": "Java",
-      "merge_rate": 58,
-      "median_merge_days": 2.0,
-      "warnings": [
-        "has AI policy - read CONTRIBUTING"
-      ],
-      "score": 52,
-      "good_first_issue": false,
-      "title": "persian language is missing font and styling",
-      "url": "https://github.com/keycloak/keycloak/issues/55023",
-      "age_days": 10,
-      "comments": 1,
-      "why": [
-        "kind/enhancement, area/translations, help wanted"
-      ]
-    },
-    {
-      "repo": "invertase/react-native-firebase",
-      "stars": 12328,
-      "language": "TypeScript",
-      "merge_rate": 41,
-      "median_merge_days": 3.7,
-      "warnings": [],
-      "score": 49,
-      "good_first_issue": false,
-      "title": "[🐛] iOS build fails with duplicate FirebaseCore frameworks when using ImageNotification extension with Expo 57",
-      "url": "https://github.com/invertase/react-native-firebase/issues/9445",
-      "age_days": 14,
-      "comments": 2,
-      "why": [
-        "platform: ios, Workflow: Waiting for User Response, plugin: messaging"
-      ]
-    },
-    {
-      "repo": "invertase/react-native-firebase",
-      "stars": 12328,
-      "language": "TypeScript",
-      "merge_rate": 41,
-      "median_merge_days": 3.7,
-      "warnings": [],
-      "score": 44,
-      "good_first_issue": false,
-      "title": "[📚] migrating-to-v27: Android fails on Expo SDK 58 (Kotlin 2.2) — document the BoM 34.19.0 override",
-      "url": "https://github.com/invertase/react-native-firebase/issues/9418",
-      "age_days": 21,
-      "comments": 2,
-      "why": [
-        "platform: android, plugin: app-core, platform: expo"
-      ]
-    },
-    {
-      "repo": "super-productivity/super-productivity",
-      "stars": 23906,
-      "language": "TypeScript",
-      "merge_rate": 50,
-      "median_merge_days": 6.1,
-      "warnings": [],
-      "score": 44,
-      "good_first_issue": false,
-      "title": "Android: background reminders for recurring tasks from other devices and for Dropbox/OneDrive sync",
-      "url": "https://github.com/super-productivity/super-productivity/issues/11637",
-      "age_days": 11,
-      "comments": 1,
-      "why": [
-        "help wanted"
+        "new command, help wanted"
       ]
     }
   ],
   "readme_typos": [
     {
-      "repo": "jianchang512/pyvideotrans",
-      "stars": 19790,
-      "language": "Python",
+      "repo": "ppy/osu",
+      "stars": 19503,
+      "language": "C#",
       "merge_rate": 100,
-      "median_merge_days": 0.1,
-      "warnings": [],
-      "score": 50,
-      "typos": [
-        {
-          "line": 203,
-          "word": "therefrom",
-          "fix": "there from"
-        }
-      ]
-    },
-    {
-      "repo": "spmallick/learnopencv",
-      "stars": 23256,
-      "language": "Jupyter Notebook",
-      "merge_rate": 100,
-      "median_merge_days": 0.0,
-      "warnings": [],
-      "score": 50,
-      "typos": [
-        {
-          "line": 200,
-          "word": "Sratch",
-          "fix": "Scratch, Snatch, Starch"
-        },
-        {
-          "line": 237,
-          "word": "fo",
-          "fix": "of, for, to, do, go"
-        }
-      ]
-    },
-    {
-      "repo": "Imbad0202/academic-research-skills",
-      "stars": 57954,
-      "language": "Python",
-      "merge_rate": 100,
-      "median_merge_days": 0.9,
+      "median_merge_days": 0.3,
       "warnings": [
         "has AI policy - read CONTRIBUTING"
       ],
       "score": 50,
       "typos": [
         {
-          "line": 31,
-          "word": "FPR",
-          "fix": "FOR, FAR, FPS"
+          "line": 2,
+          "word": "lazer",
+          "fix": "laser"
         },
         {
-          "line": 35,
-          "word": "FPR",
-          "fix": "FOR, FAR, FPS"
+          "line": 15,
+          "word": "lazer",
+          "fix": "laser"
         },
         {
-          "line": 385,
-          "word": "STARD",
-          "fix": "START"
+          "line": 23,
+          "word": "lazer",
+          "fix": "laser"
+        }
+      ]
+    },
+    {
+      "repo": "eigent-ai/eigent",
+      "stars": 15867,
+      "language": "TypeScript",
+      "merge_rate": 100,
+      "median_merge_days": 0.1,
+      "warnings": [
+        "has AI policy - read CONTRIBUTING"
+      ],
+      "score": 50,
+      "typos": [
+        {
+          "line": 358,
+          "word": "seperator",
+          "fix": "separator"
+        }
+      ]
+    },
+    {
+      "repo": "lint-staged/lint-staged",
+      "stars": 14766,
+      "language": "JavaScript",
+      "merge_rate": 100,
+      "median_merge_days": 0.6,
+      "warnings": [],
+      "score": 50,
+      "typos": [
+        {
+          "line": 291,
+          "word": "parallely",
+          "fix": "parallelly"
         }
       ]
     },
     {
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 58509,
+      "stars": 58573,
       "language": "Python",
       "merge_rate": 100,
       "median_merge_days": 0.0,
@@ -620,72 +770,180 @@
       ]
     },
     {
-      "repo": "emqx/emqx",
-      "stars": 16926,
-      "language": "Erlang",
-      "merge_rate": 100,
-      "median_merge_days": 0.9,
+      "repo": "be5invis/Iosevka",
+      "stars": 23313,
+      "language": "JavaScript",
+      "merge_rate": 97,
+      "median_merge_days": 0.5,
       "warnings": [],
-      "score": 50,
+      "score": 49,
       "typos": [
         {
-          "line": 237,
-          "word": "planed",
-          "fix": "planned"
+          "line": 52,
+          "word": "punctuations",
+          "fix": "punctuation, punctuation's"
+        },
+        {
+          "line": 61,
+          "word": "Vai",
+          "fix": "Via, Vie"
         }
       ]
     },
     {
-      "repo": "arendst/Tasmota",
-      "stars": 25008,
-      "language": "C",
-      "merge_rate": 92,
-      "median_merge_days": 0.6,
+      "repo": "timschneeb/awesome-shizuku",
+      "stars": 10972,
+      "language": "Python",
+      "merge_rate": 97,
+      "median_merge_days": 0.4,
+      "warnings": [],
+      "score": 49,
+      "typos": [
+        {
+          "line": 625,
+          "word": "HiLight",
+          "fix": "highlight"
+        }
+      ]
+    },
+    {
+      "repo": "nestjs/awesome-nestjs",
+      "stars": 13206,
+      "language": "",
+      "merge_rate": 93,
+      "median_merge_days": 0.1,
+      "warnings": [],
+      "score": 48,
+      "typos": [
+        {
+          "line": 137,
+          "word": "functionnal",
+          "fix": "functional"
+        },
+        {
+          "line": 238,
+          "word": "ALS",
+          "fix": "ALSO"
+        },
+        {
+          "line": 297,
+          "word": "ntegral",
+          "fix": "integral"
+        },
+        {
+          "line": 297,
+          "word": "ntegral",
+          "fix": "integral"
+        },
+        {
+          "line": 379,
+          "word": "trasports",
+          "fix": "transports"
+        }
+      ]
+    },
+    {
+      "repo": "Droid-Deck/DroidDeck",
+      "stars": 21296,
+      "language": "Kotlin",
+      "merge_rate": 93,
+      "median_merge_days": 0.1,
       "warnings": [],
       "score": 47,
       "typos": [
         {
-          "line": 92,
-          "word": "DOUT",
-          "fix": "DOUBT"
+          "line": 83,
+          "word": "Zink",
+          "fix": "Zinc"
         }
       ]
     },
     {
-      "repo": "Dao-AILab/flash-attention",
-      "stars": 25330,
-      "language": "Python",
-      "merge_rate": 88,
-      "median_merge_days": 2.5,
+      "repo": "didi/DoKit",
+      "stars": 20420,
+      "language": "Java",
+      "merge_rate": 90,
+      "median_merge_days": 0.0,
       "warnings": [],
       "score": 46,
       "typos": [
         {
-          "line": 205,
-          "word": "Alternativly",
-          "fix": "Alternatively"
+          "line": 27,
+          "word": "didi",
+          "fix": "did"
+        },
+        {
+          "line": 146,
+          "word": "didi",
+          "fix": "did"
+        },
+        {
+          "line": 154,
+          "word": "didi",
+          "fix": "did"
+        },
+        {
+          "line": 297,
+          "word": "didi",
+          "fix": "did"
+        },
+        {
+          "line": 299,
+          "word": "didi",
+          "fix": "did"
+        },
+        {
+          "line": 301,
+          "word": "didi",
+          "fix": "did"
+        },
+        {
+          "line": 303,
+          "word": "didi",
+          "fix": "did"
+        },
+        {
+          "line": 305,
+          "word": "didi",
+          "fix": "did"
         }
       ]
     },
     {
-      "repo": "JustVugg/colibri",
-      "stars": 52605,
-      "language": "C",
+      "repo": "bpftrace/bpftrace",
+      "stars": 10439,
+      "language": "C++",
+      "merge_rate": 90,
+      "median_merge_days": 1.0,
+      "warnings": [],
+      "score": 46,
+      "typos": [
+        {
+          "line": 18,
+          "word": "respository",
+          "fix": "repository"
+        }
+      ]
+    },
+    {
+      "repo": "ghostty-org/ghostty",
+      "stars": 64342,
+      "language": "Zig",
       "merge_rate": 85,
-      "median_merge_days": 1.2,
+      "median_merge_days": 0.1,
       "warnings": [],
       "score": 45,
       "typos": [
         {
-          "line": 885,
-          "word": "ANS",
-          "fix": "AND"
+          "line": 108,
+          "word": "iTerm",
+          "fix": "term, item, intern"
         }
       ]
     },
     {
       "repo": "acidanthera/OpenCorePkg",
-      "stars": 15679,
+      "stars": 15683,
       "language": "C",
       "merge_rate": 87,
       "median_merge_days": 1.0,
@@ -705,8 +963,59 @@
       ]
     },
     {
+      "repo": "novuhq/novu",
+      "stars": 40408,
+      "language": "TypeScript",
+      "merge_rate": 87,
+      "median_merge_days": 0.0,
+      "warnings": [],
+      "score": 45,
+      "typos": [
+        {
+          "line": 71,
+          "word": "ACI",
+          "fix": "ACPI"
+        },
+        {
+          "line": 81,
+          "word": "ACI",
+          "fix": "ACPI"
+        },
+        {
+          "line": 99,
+          "word": "ACI",
+          "fix": "ACPI"
+        },
+        {
+          "line": 103,
+          "word": "ACI",
+          "fix": "ACPI"
+        },
+        {
+          "line": 114,
+          "word": "ACI",
+          "fix": "ACPI"
+        },
+        {
+          "line": 115,
+          "word": "ACI",
+          "fix": "ACPI"
+        },
+        {
+          "line": 184,
+          "word": "Eazy",
+          "fix": "Easy"
+        },
+        {
+          "line": 288,
+          "word": "beatiful",
+          "fix": "beautiful"
+        }
+      ]
+    },
+    {
       "repo": "axolotl-ai-cloud/axolotl",
-      "stars": 12742,
+      "stars": 12744,
       "language": "Python",
       "merge_rate": 100,
       "median_merge_days": 5.5,
@@ -726,332 +1035,91 @@
       ]
     },
     {
-      "repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
-      "stars": 16304,
-      "language": "C#",
-      "merge_rate": 100,
-      "median_merge_days": 3.2,
-      "warnings": [],
-      "score": 45,
-      "typos": [
-        {
-          "line": 142,
-          "word": "Pallete",
-          "fix": "Palette"
-        },
-        {
-          "line": 142,
-          "word": "pallete",
-          "fix": "palette"
-        }
-      ]
-    },
-    {
-      "repo": "analysis-tools-dev/static-analysis",
-      "stars": 14913,
-      "language": "Rust",
-      "merge_rate": 85,
-      "median_merge_days": 1.8,
-      "warnings": [
-        "has AI policy - read CONTRIBUTING"
-      ],
-      "score": 45,
-      "typos": [
-        {
-          "line": 760,
-          "word": "errorprone",
-          "fix": "error-prone"
-        },
-        {
-          "line": 778,
-          "word": "errorprone",
-          "fix": "error-prone"
-        },
-        {
-          "line": 1478,
-          "word": "checkin",
-          "fix": "checking, check in"
-        },
-        {
-          "line": 1905,
-          "word": "punctuations",
-          "fix": "punctuation, punctuation's"
-        },
-        {
-          "line": 1955,
-          "word": "Synopsys",
-          "fix": "Synopsis"
-        },
-        {
-          "line": 1983,
-          "word": "Fallow",
-          "fix": "Follow"
-        },
-        {
-          "line": 1983,
-          "word": "fallow",
-          "fix": "follow"
-        }
-      ]
-    },
-    {
-      "repo": "gristlabs/grist-core",
-      "stars": 12123,
-      "language": "TypeScript",
+      "repo": "jsdom/jsdom",
+      "stars": 21762,
+      "language": "JavaScript",
       "merge_rate": 83,
-      "median_merge_days": 0.0,
+      "median_merge_days": 2.7,
       "warnings": [],
       "score": 44,
       "typos": [
         {
-          "line": 11,
-          "word": "Territoires",
-          "fix": "Territories"
-        },
-        {
-          "line": 477,
-          "word": "langauages",
-          "fix": "languages"
-        },
-        {
-          "line": 503,
-          "word": "medias",
-          "fix": "media, mediums"
-        },
-        {
-          "line": 525,
-          "word": "authentification",
-          "fix": "authentication"
-        },
-        {
-          "line": 526,
-          "word": "authentification",
-          "fix": "authentication"
+          "line": 58,
+          "word": "unparseable",
+          "fix": "unparsable"
         }
       ]
     },
     {
-      "repo": "dwmkerr/hacker-laws",
-      "stars": 27358,
-      "language": "HTML",
-      "merge_rate": 81,
-      "median_merge_days": 0.5,
+      "repo": "OpenAPITools/openapi-generator",
+      "stars": 26868,
+      "language": "Java",
+      "merge_rate": 92,
+      "median_merge_days": 3.2,
       "warnings": [],
-      "score": 43,
+      "score": 42,
       "typos": [
         {
-          "line": 408,
-          "word": "trough",
-          "fix": "through"
+          "line": 103,
+          "word": "Vertx",
+          "fix": "Vertex"
         },
         {
-          "line": 446,
-          "word": "Wirth",
-          "fix": "With, Worth"
+          "line": 712,
+          "word": "freee",
+          "fix": "free"
         },
         {
-          "line": 852,
-          "word": "Wil",
-          "fix": "Will, Well"
+          "line": 712,
+          "word": "freee",
+          "fix": "free"
         },
         {
-          "line": 1012,
-          "word": "implementors",
-          "fix": "implementers"
+          "line": 906,
+          "word": "Laso",
+          "fix": "Also, Lasso"
         },
         {
-          "line": 1195,
-          "word": "appliation",
-          "fix": "application"
+          "line": 922,
+          "word": "Laso",
+          "fix": "Also, Lasso"
         },
         {
-          "line": 1208,
-          "word": "electical",
-          "fix": "electrical"
+          "line": 1076,
+          "word": "Vertx",
+          "fix": "Vertex"
+        },
+        {
+          "line": 1180,
+          "word": "Vertx",
+          "fix": "Vertex"
         }
       ]
     },
     {
-      "repo": "mltframework/shotcut",
-      "stars": 15748,
-      "language": "C++",
+      "repo": "ccxt/ccxt",
+      "stars": 44955,
+      "language": "Python",
       "merge_rate": 79,
-      "median_merge_days": 1.4,
-      "warnings": [],
-      "score": 43,
-      "typos": [
-        {
-          "line": 6,
-          "word": "Shotcut",
-          "fix": "Shortcut"
-        },
-        {
-          "line": 46,
-          "word": "Shotcut",
-          "fix": "Shortcut"
-        },
-        {
-          "line": 50,
-          "word": "Shotcut",
-          "fix": "Shortcut"
-        },
-        {
-          "line": 74,
-          "word": "Shotcut",
-          "fix": "Shortcut"
-        },
-        {
-          "line": 83,
-          "word": "Shotcut",
-          "fix": "Shortcut"
-        },
-        {
-          "line": 83,
-          "word": "shotcut",
-          "fix": "shortcut"
-        }
-      ]
-    },
-    {
-      "repo": "ggml-org/whisper.cpp",
-      "stars": 55393,
-      "language": "C++",
-      "merge_rate": 81,
-      "median_merge_days": 2.8,
-      "warnings": [
-        "has AI policy - read CONTRIBUTING"
-      ],
-      "score": 43,
-      "typos": [
-        {
-          "line": 180,
-          "word": "ANE",
-          "fix": "AND, ONE"
-        },
-        {
-          "line": 230,
-          "word": "ANE",
-          "fix": "AND, ONE"
-        },
-        {
-          "line": 489,
-          "word": "cann",
-          "fix": "can"
-        },
-        {
-          "line": 499,
-          "word": "cann",
-          "fix": "can"
-        },
-        {
-          "line": 501,
-          "word": "CANN",
-          "fix": "CAN"
-        },
-        {
-          "line": 516,
-          "word": "CANN",
-          "fix": "CAN"
-        }
-      ]
-    },
-    {
-      "repo": "Automattic/mongoose",
-      "stars": 27451,
-      "language": "JavaScript",
-      "merge_rate": 77,
-      "median_merge_days": 3.0,
+      "median_merge_days": 0.9,
       "warnings": [],
       "score": 42,
       "typos": [
         {
-          "line": 152,
-          "word": "statics",
-          "fix": "statistics"
-        }
-      ]
-    },
-    {
-      "repo": "itzg/docker-minecraft-server",
-      "stars": 14565,
-      "language": "Shell",
-      "merge_rate": 77,
-      "median_merge_days": 0.3,
-      "warnings": [],
-      "score": 42,
-      "typos": [
-        {
-          "line": 47,
-          "word": "preferrably",
-          "fix": "preferably"
-        }
-      ]
-    },
-    {
-      "repo": "x64dbg/x64dbg",
-      "stars": 50363,
-      "language": "C++",
-      "merge_rate": 74,
-      "median_merge_days": 1.1,
-      "warnings": [
-        "has AI policy - read CONTRIBUTING"
-      ],
-      "score": 41,
-      "typos": [
-        {
-          "line": 91,
-          "word": "Artic",
-          "fix": "Arctic"
-        },
-        {
-          "line": 122,
-          "word": "Artic",
-          "fix": "Arctic"
-        }
-      ]
-    },
-    {
-      "repo": "SaschaWillems/Vulkan",
-      "stars": 12219,
-      "language": "GLSL",
-      "merge_rate": 88,
-      "median_merge_days": 4.5,
-      "warnings": [],
-      "score": 41,
-      "typos": [
-        {
-          "line": 309,
-          "word": "LOD",
-          "fix": "LOAD, LOUD, LODE"
-        }
-      ]
-    },
-    {
-      "repo": "tracel-ai/burn",
-      "stars": 16317,
-      "language": "Rust",
-      "merge_rate": 89,
-      "median_merge_days": 3.4,
-      "warnings": [
-        "has AI policy - read CONTRIBUTING"
-      ],
-      "score": 41,
-      "typos": [
-        {
-          "line": 305,
-          "word": "ratatui",
-          "fix": "ratatouille"
+          "line": 1114,
+          "word": "varibales",
+          "fix": "variables"
         }
       ]
     },
     {
       "repo": "vanilla-extract-css/vanilla-extract",
-      "stars": 10454,
+      "stars": 10455,
       "language": "TypeScript",
-      "merge_rate": 71,
+      "merge_rate": 73,
       "median_merge_days": 0.0,
       "warnings": [],
-      "score": 40,
+      "score": 41,
       "typos": [
         {
           "line": 83,
@@ -1066,40 +1134,176 @@
       ]
     },
     {
-      "repo": "MaaAssistantArknights/MaaAssistantArknights",
-      "stars": 24696,
-      "language": "C++",
-      "merge_rate": 68,
-      "median_merge_days": 0.2,
+      "repo": "subframe7536/maple-font",
+      "stars": 29843,
+      "language": "Python",
+      "merge_rate": 71,
+      "median_merge_days": 0.0,
       "warnings": [],
-      "score": 39,
+      "score": 40,
       "typos": [
         {
-          "line": 184,
-          "word": "vie",
-          "fix": "via"
+          "line": 778,
+          "word": "Sponser",
+          "fix": "Sponsor"
         }
       ]
     },
     {
-      "repo": "camsong/You-Dont-Need-jQuery",
-      "stars": 20121,
-      "language": "JavaScript",
-      "merge_rate": 83,
-      "median_merge_days": 4.1,
+      "repo": "derailed/k9s",
+      "stars": 35024,
+      "language": "Go",
+      "merge_rate": 72,
+      "median_merge_days": 0.2,
+      "warnings": [],
+      "score": 40,
+      "typos": [
+        {
+          "line": 719,
+          "word": "pre-selects",
+          "fix": "preselects"
+        }
+      ]
+    },
+    {
+      "repo": "trycua/cua",
+      "stars": 32771,
+      "language": "Rust",
+      "merge_rate": 71,
+      "median_merge_days": 0.0,
+      "warnings": [],
+      "score": 40,
+      "typos": [
+        {
+          "line": 236,
+          "word": "som",
+          "fix": "some"
+        }
+      ]
+    },
+    {
+      "repo": "baomidou/mybatis-plus",
+      "stars": 17484,
+      "language": "Java",
+      "merge_rate": 69,
+      "median_merge_days": 0.5,
       "warnings": [],
       "score": 39,
       "typos": [
         {
-          "line": 33,
-          "word": "Nam",
-          "fix": "Name"
+          "line": 74,
+          "word": "Build-in",
+          "fix": "Built-in"
+        }
+      ]
+    },
+    {
+      "repo": "timqian/chinese-independent-blogs",
+      "stars": 24557,
+      "language": "JavaScript",
+      "merge_rate": 80,
+      "median_merge_days": 3.5,
+      "warnings": [],
+      "score": 38,
+      "typos": [
+        {
+          "line": 95,
+          "word": "dfine",
+          "fix": "define"
+        },
+        {
+          "line": 95,
+          "word": "dfine",
+          "fix": "define"
+        },
+        {
+          "line": 183,
+          "word": "GISer",
+          "fix": "geyser"
+        },
+        {
+          "line": 1315,
+          "word": "ofo",
+          "fix": "of"
+        },
+        {
+          "line": 1457,
+          "word": "chancel",
+          "fix": "cancel"
+        },
+        {
+          "line": 1531,
+          "word": "Personel",
+          "fix": "Personnel, Personal"
+        }
+      ]
+    },
+    {
+      "repo": "doitsujin/dxvk",
+      "stars": 18536,
+      "language": "C++",
+      "merge_rate": 64,
+      "median_merge_days": 1.8,
+      "warnings": [],
+      "score": 37,
+      "typos": [
+        {
+          "line": 95,
+          "word": "seperator",
+          "fix": "separator"
+        }
+      ]
+    },
+    {
+      "repo": "Vonng/ddia",
+      "stars": 23984,
+      "language": "Python",
+      "merge_rate": 63,
+      "median_merge_days": 0.9,
+      "warnings": [],
+      "score": 37,
+      "typos": [
+        {
+          "line": 245,
+          "word": "setences",
+          "fix": "sentences"
+        },
+        {
+          "line": 417,
+          "word": "quatation",
+          "fix": "quotation"
+        },
+        {
+          "line": 436,
+          "word": "typoes",
+          "fix": "typos, types"
+        },
+        {
+          "line": 487,
+          "word": "punctuations",
+          "fix": "punctuation, punctuation's"
+        }
+      ]
+    },
+    {
+      "repo": "shipshapecode/shepherd",
+      "stars": 13838,
+      "language": "JavaScript",
+      "merge_rate": 62,
+      "median_merge_days": 1.3,
+      "warnings": [],
+      "score": 37,
+      "typos": [
+        {
+          "line": 127,
+          "word": "interative",
+          "fix": "interactive, iterative"
         }
       ]
     },
     {
       "repo": "mlfoundations/open_clip",
-      "stars": 14278,
+      "stars": 14280,
       "language": "Python",
       "merge_rate": 62,
       "median_merge_days": 1.1,
@@ -1114,45 +1318,94 @@
       ]
     },
     {
-      "repo": "AnthonyCalandra/modern-cpp-features",
-      "stars": 21963,
-      "language": "",
-      "merge_rate": 62,
-      "median_merge_days": 2.7,
+      "repo": "DeusData/codebase-memory-mcp",
+      "stars": 49023,
+      "language": "C",
+      "merge_rate": 77,
+      "median_merge_days": 3.6,
       "warnings": [],
       "score": 37,
       "typos": [
         {
-          "line": 312,
-          "word": "inout",
-          "fix": "input, in out"
+          "line": 1142,
+          "word": "WIT",
+          "fix": "WITH"
         }
       ]
     },
     {
-      "repo": "huggingface/pytorch-image-models",
-      "stars": 37299,
-      "language": "Python",
-      "merge_rate": 59,
-      "median_merge_days": 0.9,
-      "warnings": [],
-      "score": 36,
+      "repo": "prisma/orm",
+      "stars": 47691,
+      "language": "TypeScript",
+      "merge_rate": 63,
+      "median_merge_days": 1.8,
+      "warnings": [
+        "has AI policy - read CONTRIBUTING"
+      ],
+      "score": 37,
       "typos": [
         {
-          "line": 195,
-          "word": "wee",
-          "fix": "we"
+          "line": 115,
+          "word": "pris",
+          "fix": "prise, prism"
         },
         {
-          "line": 223,
-          "word": "inherting",
-          "fix": "inheriting"
+          "line": 117,
+          "word": "pris",
+          "fix": "prise, prism"
+        },
+        {
+          "line": 118,
+          "word": "pris",
+          "fix": "prise, prism"
+        }
+      ]
+    },
+    {
+      "repo": "postcss/postcss",
+      "stars": 28977,
+      "language": "TypeScript",
+      "merge_rate": 62,
+      "median_merge_days": 0.6,
+      "warnings": [],
+      "score": 37,
+      "typos": [
+        {
+          "line": 360,
+          "word": "Brunch",
+          "fix": "Branch"
+        }
+      ]
+    },
+    {
+      "repo": "VoltAgent/awesome-openclaw-skills",
+      "stars": 53928,
+      "language": "",
+      "merge_rate": 77,
+      "median_merge_days": 4.5,
+      "warnings": [],
+      "score": 37,
+      "typos": [
+        {
+          "line": 765,
+          "word": "ceaser",
+          "fix": "caesar"
+        },
+        {
+          "line": 765,
+          "word": "Ceaser",
+          "fix": "Caesar"
+        },
+        {
+          "line": 825,
+          "word": "VOR",
+          "fix": "FOR"
         }
       ]
     },
     {
       "repo": "maboloshi/github-chinese",
-      "stars": 38999,
+      "stars": 39075,
       "language": "JavaScript",
       "merge_rate": 59,
       "median_merge_days": 0.3,
@@ -1172,56 +1425,77 @@
       ]
     },
     {
-      "repo": "antvis/G6",
-      "stars": 12398,
-      "language": "TypeScript",
-      "merge_rate": 72,
-      "median_merge_days": 6.8,
+      "repo": "MaaAssistantArknights/MaaAssistantArknights",
+      "stars": 24719,
+      "language": "C++",
+      "merge_rate": 57,
+      "median_merge_days": 0.1,
       "warnings": [],
       "score": 35,
       "typos": [
         {
-          "line": 106,
-          "word": "Graphin",
-          "fix": "Graphing, Graphic, Graph in"
+          "line": 184,
+          "word": "vie",
+          "fix": "via"
         }
       ]
     },
     {
-      "repo": "betaflight/betaflight",
-      "stars": 11814,
-      "language": "C",
-      "merge_rate": 69,
-      "median_merge_days": 5.5,
+      "repo": "carla-simulator/carla",
+      "stars": 14676,
+      "language": "C++",
+      "merge_rate": 53,
+      "median_merge_days": 0.3,
       "warnings": [],
       "score": 34,
       "typos": [
         {
-          "line": 25,
-          "word": "SITL",
-          "fix": "STILL"
+          "line": 20,
+          "word": "UE",
+          "fix": "USE, DUE"
+        },
+        {
+          "line": 20,
+          "word": "UE",
+          "fix": "USE, DUE"
         }
       ]
     },
     {
-      "repo": "TecharoHQ/anubis",
-      "stars": 24320,
-      "language": "Go",
+      "repo": "ellisonleao/magictools",
+      "stars": 17850,
+      "language": "Markdown",
       "merge_rate": 50,
-      "median_merge_days": 0.9,
+      "median_merge_days": 1.5,
       "warnings": [],
       "score": 32,
       "typos": [
         {
-          "line": 83,
-          "word": "embeDD",
-          "fix": "embed"
+          "line": 410,
+          "word": "javacript",
+          "fix": "javascript"
+        }
+      ]
+    },
+    {
+      "repo": "Tencent/WeKnora",
+      "stars": 37991,
+      "language": "Go",
+      "merge_rate": 48,
+      "median_merge_days": 0.4,
+      "warnings": [],
+      "score": 32,
+      "typos": [
+        {
+          "line": 328,
+          "word": "ROUGE",
+          "fix": "ROGUE"
         }
       ]
     },
     {
       "repo": "RVC-Boss/GPT-SoVITS",
-      "stars": 64161,
+      "stars": 64189,
       "language": "Python",
       "merge_rate": 57,
       "median_merge_days": 4.5,
@@ -1236,151 +1510,50 @@
       ]
     },
     {
-      "repo": "typesense/typesense",
-      "stars": 27165,
-      "language": "C++",
-      "merge_rate": 63,
-      "median_merge_days": 11.0,
-      "warnings": [],
-      "score": 27,
-      "typos": [
-        {
-          "line": 295,
-          "word": "scaleable",
-          "fix": "scalable"
-        }
-      ]
-    },
-    {
-      "repo": "invertase/react-native-firebase",
-      "stars": 12328,
-      "language": "TypeScript",
+      "repo": "swagger-api/swagger-codegen",
+      "stars": 17803,
+      "language": "Mustache",
       "merge_rate": 41,
-      "median_merge_days": 3.7,
+      "median_merge_days": 0.0,
       "warnings": [],
-      "score": 24,
+      "score": 29,
       "typos": [
         {
-          "line": 35,
-          "word": "re-using",
-          "fix": "reusing"
+          "line": 29,
+          "word": "Vertx",
+          "fix": "Vertex"
         }
       ]
     },
     {
-      "repo": "freemocap/freemocap",
-      "stars": 10867,
+      "repo": "amark/gun",
+      "stars": 19167,
+      "language": "JavaScript",
+      "merge_rate": 55,
+      "median_merge_days": 29.9,
+      "warnings": [],
+      "score": 24,
+      "typos": [
+        {
+          "line": 214,
+          "word": "brunch",
+          "fix": "branch"
+        }
+      ]
+    },
+    {
+      "repo": "JOYCEQL/magic-resume",
+      "stars": 11549,
       "language": "TypeScript",
-      "merge_rate": 40,
-      "median_merge_days": 3.1,
-      "warnings": [],
-      "score": 24,
-      "typos": [
-        {
-          "line": 197,
-          "word": "documenation",
-          "fix": "documentation"
-        }
-      ]
-    },
-    {
-      "repo": "google-research/timesfm",
-      "stars": 35653,
-      "language": "Python",
-      "merge_rate": 67,
-      "median_merge_days": 57.4,
-      "warnings": [],
-      "score": 23,
-      "typos": [
-        {
-          "line": 12,
-          "word": "Reseach",
-          "fix": "Research"
-        }
-      ]
-    },
-    {
-      "repo": "matteocrippa/awesome-swift",
-      "stars": 26394,
-      "language": "Ruby",
-      "merge_rate": 50,
-      "median_merge_days": 16.4,
-      "warnings": [],
-      "score": 22,
-      "typos": [
-        {
-          "line": 251,
-          "word": "softwares",
-          "fix": "software"
-        },
-        {
-          "line": 363,
-          "word": "sequencially",
-          "fix": "sequentially"
-        },
-        {
-          "line": 467,
-          "word": "AppPear",
-          "fix": "appear"
-        },
-        {
-          "line": 1540,
-          "word": "Ameba",
-          "fix": "Amoebae"
-        },
-        {
-          "line": 1661,
-          "word": "withing",
-          "fix": "within"
-        },
-        {
-          "line": 1831,
-          "word": "implementating",
-          "fix": "implementing"
-        }
-      ]
-    },
-    {
-      "repo": "coollabsio/coolify",
-      "stars": 66320,
-      "language": "PHP",
-      "merge_rate": 57,
-      "median_merge_days": 83.2,
-      "warnings": [
-        "has AI policy - read CONTRIBUTING"
-      ],
-      "score": 20,
-      "typos": [
-        {
-          "line": 172,
-          "word": "Comit",
-          "fix": "Commit"
-        },
-        {
-          "line": 172,
-          "word": "comit",
-          "fix": "commit"
-        },
-        {
-          "line": 223,
-          "word": "Puls",
-          "fix": "Pulse, Plus"
-        }
-      ]
-    },
-    {
-      "repo": "sirupsen/logrus",
-      "stars": 25775,
-      "language": "Go",
-      "merge_rate": 40,
-      "median_merge_days": 24.4,
+      "merge_rate": 54,
+      "median_merge_days": 31.9,
       "warnings": [],
       "score": 19,
       "typos": [
         {
-          "line": 203,
-          "word": "unparseable",
-          "fix": "unparsable"
+          "line": 19,
+          "word": "offerin",
+          "fix": "offering, offer in"
         }
       ]
     }
